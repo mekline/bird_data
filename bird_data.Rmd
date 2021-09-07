@@ -1,0 +1,130 @@
+---
+title: "bird_data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(here)
+library(tidyverse)
+```
+
+Load data
+
+```{r load_data}
+birds <- read_tsv(paste0(here(), '/bird_data.tsv'))
+```
+
+Extract & reshape data!
+
+```{r shape_data}
+correct_answers <- birds %>%
+  filter(Response == "Correct") %>%
+  select(-one_of(c('Response', "Bird Names"))) %>%
+  gather('bird', 'response') %>%
+  select(-response) %>%
+  mutate(normalized_correct = tolower(bird)) %>%
+  mutate(normalized_correct = str_replace_all(normalized_correct, ' ', '')) %>%
+  mutate(normalized_correct = str_replace_all(normalized_correct, '-', '')) 
+
+simple_answers <- birds %>%
+  filter(Response == "Simple_Correct") %>%
+  select(-one_of(c('Response', "Bird Names"))) %>%
+  gather('bird', 'response') %>%
+  mutate(normalized_simple = tolower(response)) %>%
+  mutate(normalized_simple = str_replace_all(normalized_simple, ' ', '')) %>%
+  mutate(normalized_simple = str_replace_all(normalized_simple, '-', '')) %>%
+  select(-response)
+
+confidence <- birds %>%
+  select(Response, `Bird Names`) %>%
+  rename(confidence = `Bird Names`) %>%
+  filter(!(Response %in% c("Correct", "Simple_Correct"))) %>%
+  rename(participant_label = Response)
+  
+
+bird_name_data <- birds %>%
+  select(-`Bird Names`) %>%
+  filter(!(Response %in% c("Correct", "Simple_Correct"))) %>%
+  gather('bird', 'response', - Response) %>%
+  mutate(normalized_answer  = tolower(response)) %>%
+  mutate(normalized_answer = str_replace_all(normalized_answer, ' ', '')) %>%
+  mutate(normalized_answer = str_replace_all(normalized_answer, '-', '')) %>%
+  rename(participant_label = Response)
+```
+
+Merge answers onto response data 
+
+```{r merge_answers}
+bird_name_data <- bird_name_data %>%
+  left_join(correct_answers) %>%
+  left_join(simple_answers)
+```
+
+Calculate correctness!
+
+```{r calc_answers}
+bird_name_data <- bird_name_data %>%
+  mutate(exact_correct = normalized_answer == normalized_correct) %>%
+  mutate(simple_correct = str_detect(normalized_answer, normalized_simple))
+```
+
+Start adding classifications to mis-identifications
+
+```{r add_wrong_cats}
+bird_name_data <- bird_name_data %>%
+  mutate(crow = str_detect(normalized_answer, 'crow')) %>%
+  mutate(raven = str_detect(normalized_answer, 'raven')) %>%
+  mutate(sparrow = str_detect(normalized_answer, 'sparrow')) %>%
+  mutate(blackbird = str_detect(normalized_answer, 'blackbird')) %>%
+  mutate(bluebird = str_detect(normalized_answer, 'bluebird')) %>%
+  mutate(chickadee = str_detect(normalized_answer, 'chickadee')) %>%
+  mutate(heron = str_detect(normalized_answer, 'heron')) %>%
+  mutate(robin = str_detect(normalized_answer, 'robin')) %>%
+  mutate(starling = str_detect(normalized_answer, 'starling')) %>%
+  mutate(nuthatch = str_detect(normalized_answer, 'nuthatch')) %>%
+  mutate(pigeon = str_detect(normalized_answer, 'pigeon')) %>%
+  mutate(gull = str_detect(normalized_answer, 'gull')) %>%
+  mutate(falcon = str_detect(normalized_answer, 'falcon')) %>%
+  mutate(finch = str_detect(normalized_answer, 'finch')) %>%
+  mutate(woodpecker = str_detect(normalized_answer, 'woodpecker')) %>%
+  mutate(pelican = str_detect(normalized_answer, 'pelican')) %>%
+  mutate(osprey = str_detect(normalized_answer, 'osprey')) %>%
+  mutate(stork = str_detect(normalized_answer, 'stork')) %>%
+  mutate(hummingbird = str_detect(normalized_answer, 'hummingbird')) %>%
+  mutate(grackle = str_detect(normalized_answer, 'grackle')) %>%
+  mutate(dove = str_detect(normalized_answer, 'dove')) %>%
+  mutate(plover = str_detect(normalized_answer, 'plover')) %>%
+  mutate(hawk = str_detect(normalized_answer, 'hawk')) %>%
+  mutate(magpie = str_detect(normalized_answer, 'magpie')) %>%
+  mutate(cardinal = str_detect(normalized_answer, 'cardinal')) %>%
+  mutate(wren = str_detect(normalized_answer, 'wren')) %>%
+  mutate(eagle = str_detect(normalized_answer, 'eagle')) %>%
+  mutate(goose = str_detect(normalized_answer, 'goose')) %>%
+  mutate(standard_label = crow|raven|sparrow|blackbird|bluebird|chickadee|heron|robin|starling|nuthatch|pigeon|gull|falcon|finch|woodpecker|pelican|osprey|stork|hummingbird|grackle|dove|plover|hawk|magpie|cardinal|wren|eagle|goose)
+  
+```
+
+Update individual items with alternate correct names!
+
+```{r give_exception}
+bird_name_data <- bird_name_data %>%
+  mutate(excepted_correct = FALSE) %>%
+  mutate(excepted_correct = if_else(normalized_simple == 'goldfinch' & finch, TRUE, excepted_correct)) %>%
+  mutate(excepted_correct = if_else(normalized_simple == 'pigeon' & dove, TRUE, excepted_correct)) %>%
+  mutate(excepted_correct = if_else(normalized_simple == 'dove' & pigeon, TRUE, excepted_correct)) %>%
+  mutate(excepted_correct = if_else(normalized_simple == 'herringgull' & gull, TRUE, excepted_correct)) 
+  
+```
+
+Check remaining wrong answers are really wrong:
+
+```{r check_wrong}
+wrong_answers <- bird_name_data %>%
+  filter(!exact_correct) %>%
+  filter(!simple_correct) %>%
+  filter(!excepted_correct) %>%
+  filter(!standard_label)
+  
+```
+
