@@ -20,7 +20,7 @@ For each bird, we then selected the first photo on that species' [Cornell Lab of
 
 ##### Method
 
-Survey administered on paper (B&W with color reference photos displayed nearby), with open-response line for each bird.  The instructions given were to "without consulting other peopel, give your best guess for the name of every bird ont he sheet. Even if you know it's not really the bird's name, put down what you would call it.
+Survey administered on paper (B&W with color reference photos displayed nearby), with open-response line for each bird.  The instructions given were to "without consulting other people, give your best guess for the name of every bird ont he sheet. Even if you know it's not really the bird's name, put down what you would call it."
 
 Survey available [here](https://docs.google.com/document/d/1K_GfLpS-JbVSd9DlX0YtBkTXxo-8M8PKtRsBUlxttTg/edit).
 
