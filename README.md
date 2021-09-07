@@ -31,6 +31,6 @@ A line for correct answers is also added, make sure not to include in the data a
 
 ##### Analysis
 
-`bird_data.R`: R script used to analyze the raw data! See that file for descriptions of specific analyses
+`bird_data.Rmd`: R script used to analyze the raw data! See that file for descriptions of specific analyses
 
 
