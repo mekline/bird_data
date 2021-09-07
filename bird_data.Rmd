@@ -125,6 +125,23 @@ wrong_answers <- bird_name_data %>%
   filter(!simple_correct) %>%
   filter(!excepted_correct) %>%
   filter(!standard_label)
-  
 ```
 
+Apply final scores
+
+```{r apply_correct}
+bird_name_data <- bird_name_data %>%
+  mutate(is_correct = exact_correct|simple_correct|excepted_correct)
+```
+
+Get some cross tabs!
+
+```{r xtabs}
+birds <- bird_name_data %>%
+  group_by(bird) %>%
+  summarize(n = n(), correct = sum(is_correct, na.rm = TRUE), incorrect = sum(!is_correct, na.rm = TRUE))
+
+responses <- bird_name_data %>%
+  group_by(participant_label) %>%
+  summarize(n = n(), correct = sum(is_correct, na.rm = TRUE), incorrect = sum(!is_correct, na.rm = TRUE))
+```
