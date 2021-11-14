@@ -1,8 +1,8 @@
 # bird_data
 Data about bird names!
+
 MKS & BKS
 
-test change
 This is the repository for a series of empirical explorations about birds and what they are called. 
 
 ### (1) Party activity - Birds
@@ -32,6 +32,8 @@ A line for correct answers is also added, make sure not to include in the data a
 
 ##### Analysis
 
-`bird_data.Rmd`: R script used to analyze the raw data! See that file for descriptions of specific analyses
+`bird_data.Rmd`: R script used to analyze the raw data! See that file for descriptions of specific analyses.
+
+[Google sheet](https://docs.google.com/spreadsheets/d/1ACGSQiWlWi2bF5oPHHNWBAwMSD3BWkk2vVyyXf_T8og/edit#gid=0) used to select especially good ideas people had for names of birds.
 
 
