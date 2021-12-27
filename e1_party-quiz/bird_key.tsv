@@ -1,0 +1,66 @@
+id	bird_full_name	correct_string_1	correct_string_2	experiment_1_stimulus	wingspan_cluster_exemplar	wingspan_category_sample	wingspan_category
+1	Blue Jay	bluejay		x	x	x	bluejay
+2	Ruby-throated Hummingbird	hummingbird		x	x	x	hummingbird
+3	Double-crested Cormorant	cormorant		x	x	x	cormorant
+4	Brown Pelican	pelican		x	x	x	pelican
+5	American Woodcock	woodcock		x	x	x	woodcock
+6	Downy Woodpecker	woodpecker		x	x	x	woodpecker
+7	Purple Martin	purplemartin	martin	x	x	x	purplemartin
+8	Northern Cardinal	cardinal		x	x	x	cardinal
+9	Northern Mockingbird	mockingbird		x	x	x	mockingbird
+10	Mourning Dove	dove		x	x	x	dove
+11	Wild Turkey	turkey		x	x	x	turkey
+12	Great Blue Heron	heron		x	x	x	heron
+13	Herring Gull	seagull	gull	x			Q
+14	Spotted Sandpiper	sandpiper		x	x	x	sandpiper
+15	Red-tailed Hawk	hawk		x	x	x	hawk
+16	Barred Owl	owl		x	x	x	owl
+17	American Robin	robin		x	x	x	robin
+18	Song Sparrow	sparrow		x	x	x	sparrow
+19	American Goldfinch	goldfinch	finch	x	x	x	goldfinch
+20	American Crow	crow		x	x	x	crow
+21	Mute Swan	swan		x		x	swan
+22	Canada Goose	goose		x		x	goose
+23	House Sparrow	sparrow		x			NA
+24	Rock Pigeon	pigeon	dove	x			NA
+25	European Starling	starling		x			NA
+26	Common Grackle	grackle		x	x	x	grackle
+27	Black-capped Chickadee	chickadee		x		x	sparrow
+28	Bald Eagle	eagle		x	x	x	eagle
+29	Cooper's Hawk	hawk		x		x	hawk
+30	Green Heron	heron		x		x	heron
+31	Tufted Titmouse	titmouse		x		x	sparrow
+32	Common Raven	raven		x		x	crow
+33	Mallard	mallard	duck	x	x	x	mallard
+34	Northern Flicker	flicker		x			woodpecker
+35	Turkey Vulture	vulture		x	x	x	vulture
+36	Gray Catbird	catbird		x		x	mockingbird
+37	Red-winged Blackbird	blackbird		x		x	grackle
+38	Dark-eyed Junco	junco		x		x	sparrow
+39	Carolina Wren	wren		x		x	sparrow
+40	Red-Bellied Woodpecker	woodpecker		x		x	woodpecker
+41	Chicken	chicken		x			NA
+42	House Finch	finch		x		x	sparrow
+43	Cedar Waxwing	waxwing		x		x	goldfinch
+44	Yellow-rumped Warbler	warbler		x		x	sparrow
+45	White-breasted Nuthatch	nuthatch		x		x	sparrow
+46	Western Meadowlark	meadowlark	lark			x	robin
+47	Black-Crowned Night Heron	nightheron	heron		x	x	gull
+48	Great Crested Flycatcher	flycatcher				x	goldfinch
+49	Horned Lark	lark				x	goldfinch
+50	Cassin's Sparrow	sparrow				x	sparrow
+51	Ruby-Crowned Kinglet	kinglet				x	sparrow
+52	House Wren	wren				x	sparrow
+53	Hermit Thrush	thrush				x	sparrow
+54	Sprague's Pipit	pipit				x	sparrow
+55	Osprey	osprey				x	hawk
+56	Mississippi Kite	kite				x	hawk
+57	Great Horned Owl	owl				x	owl
+58	American Avocet	avocet				x	sandpiper
+59	Yellow-Billed Cuckoo	cuckoo				x	mockingbird
+60	California Quail	quail				x	turkey
+61	Snowy Egret	egret				x	heron
+62	Eastern Bluebird	bluebird				x	bluejay
+63	Barn Swallow	swallow				x	martin
+65	Common Loon	loon				x	mallard
+66	Barrow's Goldeneye	goldeneye				x	mallard
