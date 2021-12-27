@@ -1,3 +1,5 @@
 /img/*
 img/*
 /data_ebird/all-stats-regional-2021.csv
+/env/*
+Env/*
