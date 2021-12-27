@@ -1,0 +1,97 @@
+---
+title: "Ebird frequency data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning =FALSE)
+library(here)
+library(tidyverse)
+```
+
+Using abundance data (I wonder how abundance is different from some other measure of how-many-birds?) downloaded from [ebirds](https://ebird.org/science/status-and-trends/download-data), let's find a list of the most common birds in the United States, for running silly mturk experiments about bird names.  
+
+The identified bird data will be combined with the bird key used in E1 to create a larger set of stimuli!
+
+Update - results for this data alone are weird enough that we conclude the 'abundance_mean' value is not useful. Instead, we'll use the prevalence estimates reported in [this paper](https://www.pnas.org/content/118/21/e2023170118), which also come from ebirds but with much more math. We'll use the ebirds list to filter to birds
+that are attested in the United States. 
+
+### Setup
+
+Load data
+
+```{r load_data, echo = FALSE, message = FALSE}
+
+birds_ebird <- read_csv(paste0(here(), '/data_ebird/all-stats-regional-2021.csv'))
+birds_pnas <- read_csv(paste0(here(), '/data_ebird/pnas.2023170118.sd01.csv'))
+bird_e1 <- read_tsv(paste0(here(), '/e1_party-quiz/bird_key.tsv'))
+```
+
+Filter ebirds data to US and make match-friendly names.
+
+```{r filter_data}
+birds_in_USA <- birds_ebird %>%
+  filter(region_code == "USA") %>% 
+  mutate(normalized_sci_name = tolower(str_remove(scientific_name, " "))) %>%
+  select(common_name, species_code, normalized_sci_name, abundance_mean, season_name) %>%
+  group_by(species_code) %>%
+  summarize(first_abundance = first(abundance_mean), sum_abundance_mean = sum(abundance_mean, na.rm = TRUE), normalized_sci_name = first(normalized_sci_name), common_name = first(common_name), year_present = any(season_name == "year_round")) %>%
+  ungroup()
+```
+
+Attempt merge
+
+```{r merge-birds}
+birds_merge <- birds_pnas %>%
+  mutate(normalized_sci_name = tolower(str_remove(`Scientific name`, " "))) %>%
+  left_join(birds_in_USA)
+```
+
+Filter combined birds to ones that are present in the ebirds USA data:
+
+```{r birds-merge}
+birds_prevalence_USA <- birds_merge %>%
+  filter(!is.na(species_code)) %>%
+  select("Common name", "Order", "Family", "Abundance estimate", "Scientific name", "normalized_sci_name", "species_code", "sum_abundance_mean") %>%
+  rename(common_name = `Common name`,
+         scientific_name = `Scientific name`,
+         order = Order,
+         family = Family,
+         abundance_estimate_pnas = `Abundance estimate`,
+         abundance_estimate_ebird = sum_abundance_mean) %>%
+  arrange(desc(abundance_estimate_pnas)) %>%
+  mutate(rank_overall = row_number()) %>%
+  group_by(order) %>%
+  mutate(rank_in_order = row_number()) %>%
+  ungroup() %>%
+  group_by(family) %>%
+  mutate(rank_in_family = row_number()) %>%
+  ungroup() 
+  
+
+#Nonsense lives here!
+birds_prevalence_USA <- birds_prevalence_USA %>%
+  mutate(not_in_usa = abundance_estimate_ebird < 0.0045) %>%
+  mutate(large_cluster_tail = ((rank_in_order >= 30) | (rank_in_family >=5))) %>%
+  mutate(rare_but_common_by_family = ((large_cluster_tail & (rank_in_family <= 2)))) %>%
+  mutate(rare_but_common_by_order = ((large_cluster_tail & (rank_in_order <= 2)))) %>%
+  mutate(too_many_sparrows = large_cluster_tail & !rare_but_common_by_order & !rare_but_common_by_family) %>%
+  mutate(rare_on_both = (abundance_estimate_ebird < median(abundance_estimate_ebird)) & (abundance_estimate_pnas < median(abundance_estimate_pnas)))
+
+View(filter(birds_prevalence_USA, too_many_sparrows))
+```
+
+```{r filter-birds}
+common_birds <- birds_prevalence_USA %>%
+  filter(!not_in_usa) %>%
+  filter(!too_many_sparrows) %>%
+  filter(!rare_on_both) %>%
+  arrange(rank_overall) 
+
+View(common_birds)
+```
+
+```{r printit}
+write_csv(common_birds, paste0(here(), '/data_ebird/common_birds_in_USA.csv'))
+```

@@ -1,0 +1,56 @@
+---
+title: "Ebird frequency data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning =FALSE)
+library(here)
+library(tidyverse)
+```
+
+Using abundance data (I wonder how abundance is different from some other measure of how-many-birds?) downloaded from [ebirds](https://ebird.org/science/status-and-trends/download-data), let's find a list of the most common birds in the United States, for running silly mturk experiments about bird names.  
+
+The identified bird data will be combined with the bird key used in E1 to create a larger set of stimuli!
+
+Update - results for this data alone are weird enough that we conclude the 'abundance_mean' value is not useful. Instead, we'll use the prevalence estimates reported in [this paper](https://www.pnas.org/content/118/21/e2023170118), which also come from ebirds but with much more math. We'll use the ebirds list to filter to birds
+that are attested in the United States. 
+
+### Setup
+
+Load data
+
+```{r load_data}
+
+birds_ebird <- read_csv(paste0(here(), '/data_ebird/all-stats-regional-2021.csv'))
+birds_pnas <- read_csv(paste0(here(), '/data_ebird/pnas.2023170118.sd01.csv'))
+bird_e1 <- read_tsv(paste0(here(), '/bird_key.tsv'))
+```
+
+Filter to US and calculate abundances from season data
+
+```{r filter_data}
+
+bird_freq <- birds %>%
+  filter(region_code == "USA") %>%
+  group_by(species_code) %>%
+  summarize(common_name = first(common_name), abundance_sum = sum(abundance_mean, na.rm = TRUE)) %>%
+  mutate(normalized_name = tolower(common_name)) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, ' ', '')) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, '-', '')) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, "'", ''))
+```
+
+Attempt merge
+
+```{r merge-birds}
+
+bird_key <- bird_key %>%
+  mutate(normalized_name = tolower(bird_full_name)) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, ' ', '')) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, '-', '')) %>%
+  mutate(normalized_name = str_replace_all(normalized_name, "'", '')) %>%
+  full_join(bird_freq) %>%
+  select(common_name, normalized_name, abundance_sum, correct_string_1, correct_string_2, experiment_1_stimulus, species_code)
+```

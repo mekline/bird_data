@@ -1,0 +1,126 @@
+common_name,order,family,abundance_estimate_pnas,scientific_name,normalized_sci_name,species_code,abundance_estimate_ebird,rank_overall,rank_in_order,rank_in_family,not_in_usa,large_cluster_tail,rare_but_common_by_family,rare_but_common_by_order,too_many_sparrows,rare_on_both
+House Sparrow,Passeriformes,Passeridae (Old World Sparrows),1618744682,Passer domesticus,passerdomesticus,houspa,0.9729,1,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+European Starling,Passeriformes,Sturnidae (Starlings),1288846040,Sturnus vulgaris,sturnusvulgaris,eursta,15.902000000000001,2,2,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ring-billed Gull,Charadriiformes,"Laridae (Gulls, Terns, and Skimmers)",1229072620,Larus delawarensis,larusdelawarensis,ribgul,2.0891,3,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Barn Swallow,Passeriformes,Hirundinidae (Swallows),1076122004,Hirundo rustica,hirundorustica,barswa,2.7344999999999997,4,3,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Glaucous Gull,Charadriiformes,"Laridae (Gulls, Terns, and Skimmers)",949879030,Larus hyperboreus,larushyperboreus,glagul,0.9257,5,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Alder Flycatcher,Passeriformes,Tyrannidae (Tyrant Flycatchers),896919155,Empidonax alnorum,empidonaxalnorum,aldfly,0.14759999999999998,6,4,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Horned Lark,Passeriformes,Alaudidae (Larks),770962832,Eremophila alpestris,eremophilaalpestris,horlar,4.2696,7,5,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Savannah Sparrow,Passeriformes,Passerellidae (New World Sparrows),599661514,Passerculus sandwichensis,passerculussandwichensis,savspa,1.8054,8,6,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+American Robin,Passeriformes,Turdidae (Thrushes and Allies),561290332,Turdus migratorius,turdusmigratorius,amerob,11.4983,9,7,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Blue-gray Gnatcatcher,Passeriformes,Polioptilidae (Gnatcatchers),542518652,Polioptila caerulea,polioptilacaerulea,buggna,0.9088,10,8,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-winged Blackbird,Passeriformes,Icteridae (Troupials and Allies),418284484,Agelaius phoeniceus,agelaiusphoeniceus,rewbla,41.2812,11,9,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Golden-crowned Kinglet,Passeriformes,Regulidae (Kinglets),303330127,Regulus satrapa,regulussatrapa,gockin,0.8433999999999999,13,11,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Swainson's Thrush,Passeriformes,Turdidae (Thrushes and Allies),301610196,Catharus ustulatus,catharusustulatus,swathr,0.4225,14,12,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Rock Pigeon,Columbiformes,Columbidae (Pigeons and Doves),285765338,Columba livia,columbalivia,rocpig,1.0023,15,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Dark-eyed Junco,Passeriformes,Passerellidae (New World Sparrows),277840118,Junco hyemalis,juncohyemalis,daejun,5.847,16,13,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Chipping Sparrow,Passeriformes,Passerellidae (New World Sparrows),274773823,Spizella passerina,spizellapasserina,chispa,2.2984999999999998,17,14,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Yellow-rumped Warbler,Passeriformes,Parulidae (New World Warblers),260880003,Setophaga coronata,setophagacoronata,yerwar,2.8294000000000006,18,15,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Redpoll,Passeriformes,"Fringillidae (Finches, Euphonias, and Allies)",255561375,Acanthis flammea,acanthisflammea,comred,1.6970999999999998,19,16,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Mourning Dove,Columbiformes,Columbidae (Pigeons and Doves),239547974,Zenaida macroura,zenaidamacroura,moudov,6.4628000000000005,20,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-throated Sparrow,Passeriformes,Passerellidae (New World Sparrows),217096172,Zonotrichia albicollis,zonotrichiaalbicollis,whtspa,1.6637,21,17,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Western Meadowlark,Passeriformes,Icteridae (Troupials and Allies),214156433,Sturnella neglecta,sturnellaneglecta,wesmea,2.1932,23,19,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+House Wren,Passeriformes,Troglodytidae (Wrens),207824996,Troglodytes aedon,troglodytesaedon,houwre,0.9129,24,20,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Northern Cardinal,Passeriformes,Cardinalidae (Cardinals and Allies),204034397,Cardinalis cardinalis,cardinaliscardinalis,norcar,1.4827,25,21,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Eurasian Collared-Dove,Columbiformes,Columbidae (Pigeons and Doves),203977979,Streptopelia decaocto,streptopeliadecaocto,eucdov,0.4111,26,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Grackle,Passeriformes,Icteridae (Troupials and Allies),187073093,Quiscalus quiscula,quiscalusquiscula,comgra,14.2627,27,22,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Brown-headed Cowbird,Passeriformes,Icteridae (Troupials and Allies),184678527,Molothrus ater,molothrusater,bnhcow,6.0407,28,23,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-winged Crossbill,Passeriformes,"Fringillidae (Finches, Euphonias, and Allies)",170978414,Loxia leucoptera,loxialeucoptera,whwcro,0.8599000000000001,29,24,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Mallard,Anseriformes,"Anatidae (Ducks, Geese, and Waterfowl)",167717060,Anas platyrhynchos,anasplatyrhynchos,mallar3,7.7996,30,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Cattle Egret,Pelecaniformes,"Ardeidae (Herons, Egrets, and Bitterns)",166208709,Bubulcus ibis,bubulcusibis,categr,1.2764,31,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Arctic Tern,Charadriiformes,"Laridae (Gulls, Terns, and Skimmers)",161798377,Sterna paradisaea,sternaparadisaea,arcter,0.0663,32,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Lapland Longspur,Passeriformes,Calcariidae (Longspurs and Snow Buntings),154820347,Calcarius lapponicus,calcariuslapponicus,laplon,2.2260999999999997,33,25,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-eyed Vireo,Passeriformes,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",137406741,Vireo olivaceus,vireoolivaceus,reevir1,0.7861,34,26,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ring-necked Pheasant,Galliformes,"Phasianidae (Pheasants, Grouse, and Allies)",129527900,Phasianus colchicus,phasianuscolchicus,rinphe,0.2905,35,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Northern Mockingbird,Passeriformes,Mimidae (Mockingbirds and Thrashers),124869634,Mimus polyglottos,mimuspolyglottos,normoc,1.2591999999999999,36,27,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Iceland Gull,Charadriiformes,"Laridae (Gulls, Terns, and Skimmers)",115337179,Larus glaucoides,larusglaucoides,y00478,0.0048000000000000004,37,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Black-capped Chickadee,Passeriformes,"Paridae (Tits, Chickadees, and Titmice)",112012778,Poecile atricapillus,poecileatricapillus,bkcchi,0.592,38,28,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Cliff Swallow,Passeriformes,Hirundinidae (Swallows),109528763,Petrochelidon pyrrhonota,petrochelidonpyrrhonota,cliswa,2.8091,39,29,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Yellow Warbler,Passeriformes,Parulidae (New World Warblers),105938206,Setophaga petechia,setophagapetechia,yelwar,0.9617,42,31,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Red-necked Phalarope,Charadriiformes,Scolopacidae (Sandpipers and Allies),101526658,Phalaropus lobatus,phalaropuslobatus,renpha,0.1185,43,6,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Northern Pintail,Anseriformes,"Anatidae (Ducks, Geese, and Waterfowl)",98587756,Anas acuta,anasacuta,norpin,2.2798,45,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Snow Bunting,Passeriformes,Calcariidae (Longspurs and Snow Buntings),98146299,Plectrophenax nivalis,plectrophenaxnivalis,snobun,0.6371,46,33,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+American Crow,Passeriformes,"Corvidae (Crows, Jays, and Magpies)",91840173,Corvus brachyrhynchos,corvusbrachyrhynchos,amecro,5.0036000000000005,49,36,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Ring-necked Duck,Anseriformes,"Anatidae (Ducks, Geese, and Waterfowl)",91130489,Aythya collaris,aythyacollaris,rinduc,0.6388,50,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-eyed Vireo,Passeriformes,"Vireonidae (Vireos, Shrike-Babblers, and Erpornis)",90305148,Vireo griseus,vireogriseus,whevir,0.5659000000000001,52,38,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Common Ground-Dove,Columbiformes,Columbidae (Pigeons and Doves),89936706,Columbina passerina,columbinapasserina,cogdov,0.0287,53,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Indigo Bunting,Passeriformes,Cardinalidae (Cardinals and Allies),87201014,Passerina cyanea,passerinacyanea,indbun,1.112,55,39,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Canada Goose,Anseriformes,"Anatidae (Ducks, Geese, and Waterfowl)",87184210,Branta canadensis,brantacanadensis,cangoo,18.2369,56,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-rumped Sandpiper,Charadriiformes,Scolopacidae (Sandpipers and Allies),84606359,Calidris fuscicollis,calidrisfuscicollis,whrsan,0.0506,57,8,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Arctic Warbler,Passeriformes,Phylloscopidae (Leaf Warblers),83250665,Phylloscopus borealis,phylloscopusborealis,arcwar1,0.018899999999999997,59,40,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Semipalmated Sandpiper,Charadriiformes,Scolopacidae (Sandpipers and Allies),78862750,Calidris pusilla,calidrispusilla,semsan,0.2583,63,9,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Dunlin,Charadriiformes,Scolopacidae (Sandpipers and Allies),74082180,Calidris alpina,calidrisalpina,dunlin,0.5384,66,10,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Black Vulture,Cathartiformes,Cathartidae (New World Vultures),73934521,Coragyps atratus,coragypsatratus,blkvul,0.5916,67,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Eastern Phoebe,Passeriformes,Tyrannidae (Tyrant Flycatchers),73428328,Sayornis phoebe,sayornisphoebe,easpho,0.8119000000000001,69,46,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Cedar Waxwing,Passeriformes,Bombycillidae (Waxwings),72905406,Bombycilla cedrorum,bombycillacedrorum,cedwax,2.718,71,48,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Turkey Vulture,Cathartiformes,Cathartidae (New World Vultures),70786507,Cathartes aura,cathartesaura,turvul,4.1744,73,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Myna,Passeriformes,Sturnidae (Starlings),59142818,Acridotheres tristis,acridotherestristis,commyn,0.0072,81,55,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+American Coot,Gruiformes,"Rallidae (Rails, Gallinules, and Coots)",58912804,Fulica americana,fulicaamericana,y00475,3.8284000000000002,83,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Great Egret,Pelecaniformes,"Ardeidae (Herons, Egrets, and Bitterns)",57358864,Ardea alba,ardeaalba,greegr,0.7893,86,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Pacific Golden-Plover,Charadriiformes,Charadriidae (Plovers and Lapwings),54842893,Pluvialis fulva,pluvialisfulva,pagplo,0.0132,88,15,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Black-bellied Plover,Charadriiformes,Charadriidae (Plovers and Lapwings),52525654,Pluvialis squatarola,pluvialissquatarola,bkbplo,0.08360000000000001,91,17,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Eurasian Tree Sparrow,Passeriformes,Passeridae (Old World Sparrows),47643490,Passer montanus,passermontanus,eutspa,0.0047,97,60,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Gray Catbird,Passeriformes,Mimidae (Mockingbirds and Thrashers),47471354,Dumetella carolinensis,dumetellacarolinensis,grycat,0.768,98,61,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Blue Jay,Passeriformes,"Corvidae (Crows, Jays, and Magpies)",47457226,Cyanocitta cristata,cyanocittacristata,blujay,3.3657999999999997,99,62,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Boreal Chickadee,Passeriformes,"Paridae (Tits, Chickadees, and Titmice)",46066459,Poecile hudsonicus,poecilehudsonicus,borchi2,0.0716,104,66,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Carolina Wren,Passeriformes,Troglodytidae (Wrens),45096063,Thryothorus ludovicianus,thryothorusludovicianus,carwre,0.532,106,68,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Black-necked Stilt,Charadriiformes,Recurvirostridae (Stilts and Avocets),42892040,Himantopus mexicanus,himantopusmexicanus,bknsti,0.35039999999999993,111,24,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Snowy Egret,Pelecaniformes,"Ardeidae (Herons, Egrets, and Bitterns)",42498759,Egretta thula,egrettathula,snoegr,0.262,112,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Long-tailed Jaeger,Charadriiformes,Stercorariidae (Skuas and Jaegers),40432451,Stercorarius longicaudus,stercorariuslongicaudus,lotjae,0.026,117,27,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Black-crowned Night-Heron,Pelecaniformes,"Ardeidae (Herons, Egrets, and Bitterns)",39581806,Nycticorax nycticorax,nycticoraxnycticorax,bcnher,0.0678,121,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Glossy Ibis,Pelecaniformes,Threskiornithidae (Ibises and Spoonbills),39547553,Plegadis falcinellus,plegadisfalcinellus,gloibi,0.07039999999999999,122,5,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Gallinule,Gruiformes,"Rallidae (Rails, Gallinules, and Coots)",38524783,Gallinula galeata,gallinulagaleata,comgal1,0.1188,127,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ruby-throated Hummingbird,Caprimulgiformes,Trochilidae (Hummingbirds),38146029,Archilochus colubris,archilochuscolubris,rthhum,0.29979999999999996,128,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-bellied Woodpecker,Piciformes,Picidae (Woodpeckers),35486803,Melanerpes carolinus,melanerpescarolinus,rebwoo,0.4932,135,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Eared Grebe,Podicipediformes,Podicipedidae (Grebes),34341639,Podiceps nigricollis,podicepsnigricollis,eargre,0.492,140,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bluethroat,Passeriformes,Muscicapidae (Old World Flycatchers),30584394,Luscinia svecica,lusciniasvecica,blueth,0.0073,157,87,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Red-breasted Nuthatch,Passeriformes,Sittidae (Nuthatches),29653605,Sitta canadensis,sittacanadensis,rebnut,0.6241,160,89,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Brown Pelican,Pelecaniformes,Pelecanidae (Pelicans),29369405,Pelecanus occidentalis,pelecanusoccidentalis,brnpel,0.402,164,6,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Downy Woodpecker,Piciformes,Picidae (Woodpeckers),28459924,Dryobates pubescens,dryobatespubescens,dowwoo,0.5156,168,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Magnificent Frigatebird,Suliformes,Fregatidae (Frigatebirds),26183427,Fregata magnificens,fregatamagnificens,magfri,0.0068000000000000005,181,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-faced Ibis,Pelecaniformes,Threskiornithidae (Ibises and Spoonbills),26169742,Plegadis chihi,plegadischihi,whfibi,0.8937999999999999,183,7,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Broad-winged Hawk,Accipitriformes,"Accipitridae (Hawks, Eagles, and Kites)",25187241,Buteo platypterus,buteoplatypterus,brwhaw,0.1913,188,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Willow Ptarmigan,Galliformes,"Phasianidae (Pheasants, Grouse, and Allies)",23709644,Lagopus lagopus,lagopuslagopus,wilpta,0.0262,199,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-throated Loon,Gaviiformes,Gaviidae (Loons),23610546,Gavia stellata,gaviastellata,retloo,0.0348,201,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-necked Grebe,Podicipediformes,Podicipedidae (Grebes),23110387,Podiceps grisegena,podicepsgrisegena,rengre,0.0189,206,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Northern Flicker,Piciformes,Picidae (Woodpeckers),20923123,Colaptes auratus,colaptesauratus,norfli,1.8814,218,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Anna's Hummingbird,Caprimulgiformes,Trochilidae (Hummingbirds),20616809,Calypte anna,calypteanna,annhum,0.09770000000000001,220,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+American White Pelican,Pelecaniformes,Pelecanidae (Pelicans),19858493,Pelecanus erythrorhynchos,pelecanuserythrorhynchos,amwpel,0.554,222,8,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-breasted Nuthatch,Passeriformes,Sittidae (Nuthatches),19483729,Sitta carolinensis,sittacarolinensis,whbnut,0.4134,225,112,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+American Kestrel,Falconiformes,Falconidae (Falcons and Caracaras),18475897,Falco sparverius,falcosparverius,amekes,0.6492,236,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White Ibis,Pelecaniformes,Threskiornithidae (Ibises and Spoonbills),18024425,Eudocimus albus,eudocimusalbus,whiibi,0.8965,241,9,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Sandhill Crane,Gruiformes,Gruidae (Cranes),17295706,Antigone canadensis,antigonecanadensis,sancra,7.337899999999999,243,3,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bohemian Waxwing,Passeriformes,Bombycillidae (Waxwings),17293522,Bombycilla garrulus,bombycillagarrulus,bohwax,0.0998,244,123,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Chimney Swift,Caprimulgiformes,Apodidae (Swifts),17068138,Chaetura pelagica,chaeturapelagica,chiswi,0.4506,245,3,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Pied-billed Grebe,Podicipediformes,Podicipedidae (Grebes),17024025,Podilymbus podiceps,podilymbuspodiceps,pibgre,0.1701,246,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+American Avocet,Charadriiformes,Recurvirostridae (Stilts and Avocets),16929127,Recurvirostra americana,recurvirostraamericana,ameavo,0.5922,249,57,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Hairy Woodpecker,Piciformes,Picidae (Woodpeckers),16835765,Dryobates villosus,dryobatesvillosus,haiwoo,0.2664,251,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Rufous Hummingbird,Caprimulgiformes,Trochilidae (Hummingbirds),16372838,Selasphorus rufus,selasphorusrufus,rufhum,0.048100000000000004,254,4,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+American Oystercatcher,Charadriiformes,Haematopodidae (Oystercatchers),16247615,Haematopus palliatus,haematopuspalliatus,ameoys,0.009899999999999999,256,60,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Loggerhead Shrike,Passeriformes,Laniidae (Shrikes),15767135,Lanius ludovicianus,laniusludovicianus,logshr,0.2755,258,126,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Short-eared Owl,Strigiformes,Strigidae (Owls),15555269,Asio flammeus,asioflammeus,sheowl,0.0538,260,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Eastern Yellow Wagtail,Passeriformes,Motacillidae (Wagtails and Pipits),15176416,Motacilla tschutschensis,motacillatschutschensis,eaywag,0.0142,263,129,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Horned Grebe,Podicipediformes,Podicipedidae (Grebes),13922298,Podiceps auritus,podicepsauritus,horgre,0.0453,272,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Yellow-breasted Chat,Passeriformes,Icteriidae (Yellow-breasted Chat),13725545,Icteria virens,icteriavirens,yebcha,0.2803,275,136,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Wood Stork,Ciconiiformes,Ciconiidae (Storks),13602379,Mycteria americana,mycteriaamericana,woosto,0.1225,277,1,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Great Horned Owl,Strigiformes,Strigidae (Owls),13153941,Bubo virginianus,bubovirginianus,grhowl,0.2786,281,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Yellow-billed Cuckoo,Cuculiformes,Cuculidae (Cuckoos),13010576,Coccyzus americanus,coccyzusamericanus,yebcuc,0.3597,284,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Allen's Hummingbird,Caprimulgiformes,Trochilidae (Hummingbirds),12995161,Selasphorus sasin,selasphorussasin,allhum,0.0073,285,5,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Burrowing Owl,Strigiformes,Strigidae (Owls),11573159,Athene cunicularia,athenecunicularia,burowl,0.044700000000000004,300,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Brown Creeper,Passeriformes,Certhiidae (Treecreepers),11257984,Certhia americana,certhiaamericana,brncre,0.2954,302,149,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Pacific Loon,Gaviiformes,Gaviidae (Loons),11177564,Gavia pacifica,gaviapacifica,pacloo,0.07469999999999999,304,2,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Chuck-will's-widow,Caprimulgiformes,Caprimulgidae (Nightjars and Allies),10273267,Antrostomus carolinensis,antrostomuscarolinensis,chwwid,0.07469999999999999,315,6,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+California Quail,Galliformes,Odontophoridae (New World Quail),10265045,Callipepla californica,callipeplacalifornica,calqua,0.1538,316,3,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Loon,Gaviiformes,Gaviidae (Loons),9682105,Gavia immer,gaviaimmer,comloo,0.08689999999999999,324,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bald Eagle,Accipitriformes,"Accipitridae (Hawks, Eagles, and Kites)",9140160,Haliaeetus leucocephalus,haliaeetusleucocephalus,baleag,0.4637,336,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Common Nighthawk,Caprimulgiformes,Caprimulgidae (Nightjars and Allies),8819444,Chordeiles minor,chordeilesminor,comnig,0.8119000000000001,343,9,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Red-tailed Hawk,Accipitriformes,"Accipitridae (Hawks, Eagles, and Kites)",8074880,Buteo jamaicensis,buteojamaicensis,rethaw,1.5722999999999998,348,4,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bushtit,Passeriformes,Aegithalidae (Long-tailed Tits),6581135,Psaltriparus minimus,psaltriparusminimus,bushti,0.2071,365,175,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Anhinga,Suliformes,Anhingidae (Anhingas),5806595,Anhinga anhinga,anhingaanhinga,anhing,0.0993,383,3,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Lesser Nighthawk,Caprimulgiformes,Caprimulgidae (Nightjars and Allies),5490142,Chordeiles acutipennis,chordeilesacutipennis,lesnig,0.1026,389,11,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+White-throated Swift,Caprimulgiformes,Apodidae (Swifts),3815132,Aeronautes saxatalis,aeronautessaxatalis,whtswi,0.1557,428,14,2,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Gambel's Quail,Galliformes,Odontophoridae (New World Quail),3749875,Callipepla gambelii,callipeplagambelii,gamqua,0.117,430,9,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Belted Kingfisher,Coraciiformes,Alcedinidae (Kingfishers),3699839,Megaceryle alcyon,megacerylealcyon,belkin1,0.2199,432,3,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Marbled Murrelet,Charadriiformes,"Alcidae (Auks, Murres, and Puffins)",3152711,Brachyramphus marmoratus,brachyramphusmarmoratus,marmur,0.0883,450,78,2,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE
+Northern Bobwhite,Galliformes,Odontophoridae (New World Quail),2466028,Colinus virginianus,colinusvirginianus,norbob,0.1834,473,10,4,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Vaux's Swift,Caprimulgiformes,Apodidae (Swifts),2170104,Chaetura vauxi,chaeturavauxi,vauswi,0.1121,481,15,3,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
