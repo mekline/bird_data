@@ -73,23 +73,24 @@ birds_prevalence_USA <- birds_merge %>%
 #Nonsense lives here!
 birds_prevalence_USA <- birds_prevalence_USA %>%
   mutate(not_in_usa = abundance_estimate_ebird < 0.0045) %>%
-  mutate(large_cluster_tail = ((rank_in_order >= 30) | (rank_in_family >=5))) %>%
-  mutate(rare_but_common_by_family = ((large_cluster_tail & (rank_in_family <= 2)))) %>%
-  mutate(rare_but_common_by_order = ((large_cluster_tail & (rank_in_order <= 2)))) %>%
-  mutate(too_many_sparrows = large_cluster_tail & !rare_but_common_by_order & !rare_but_common_by_family) %>%
-  mutate(rare_on_both = (abundance_estimate_ebird < median(abundance_estimate_ebird)) & (abundance_estimate_pnas < median(abundance_estimate_pnas)))
+  mutate(top_5_in_order = rank_in_order <=5) %>%
+  mutate(top_100_birds = rank_overall <=100)
+  #mutate(large_cluster_tail = ((rank_in_order >= 30) | (rank_in_family >=5))) %>%
+  #mutate(rare_but_common_by_family = ((large_cluster_tail & (rank_in_family <= 2)))) %>%
+  #mutate(rare_but_common_by_order = ((large_cluster_tail & (rank_in_order <= 2)))) %>%
+  #mutate(too_many_sparrows = large_cluster_tail & !rare_but_common_by_order & !rare_but_common_by_family) %>%
+  #mutate(rare_on_both = (abundance_estimate_ebird < median(abundance_estimate_ebird)) & (abundance_estimate_pnas < median(abundance_estimate_pnas)))
 
-View(filter(birds_prevalence_USA, too_many_sparrows))
+#View(filter(birds_prevalence_USA, too_many_sparrows))
 ```
 
 ```{r filter-birds}
 common_birds <- birds_prevalence_USA %>%
-  filter(!not_in_usa) %>%
-  filter(!too_many_sparrows) %>%
-  filter(!rare_on_both) %>%
-  arrange(rank_overall) 
+  arrange(rank_overall) %>%
+  filter(!not_in_usa)%>%
+  filter(top_100_birds | top_5_in_order)
 
-View(common_birds)
+#View(common_birds)
 ```
 
 ```{r printit}
