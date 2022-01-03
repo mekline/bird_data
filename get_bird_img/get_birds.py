@@ -8,10 +8,10 @@ import time
 import pandas as pd
 
 # Get list of bird codes from our selection process (data_ebirds)
-birds = pd.read_csv("data_ebird/common_birds_in_USA.csv")
+birds = pd.read_csv("data_ebird/selected_ebirds.csv")
 
 #Make little for testing!
-birds = birds[1:10]
+birds = birds[82:]
 
 # Set up Chrome driver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
