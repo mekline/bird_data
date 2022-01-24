@@ -4,6 +4,9 @@ library(tidyverse)
 
 birds <- read_tsv('~/Repositories/bird_data/e2_ebirds-qualtrics/qualtrics_images.csv', 
                   col_names = c("image","image_url")) %>%
+  group_by(image) %>%
+  slice(1) %>%
+  ungroup() %>%
   separate(image, into = c("species_code", "image_number"), extra = 'drop')
   
 birds <- birds %>%
