@@ -3,199 +3,302 @@ title: "What Are Birds?"
 output: html_document
 ---
 
+Add libraries!
+
 ```{r setup, include=FALSE}
 library(knitr)
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning =FALSE)
 library(here)
 library(tidyverse)
+library(kableExtra)
+
+#Custom function for nice tables
+
+kbl_mystyle = function(kable_input){
+  kable_styling(kable_input, full_width = TRUE, 
+                htmltable_class = "lightable_striped",
+                position = "left")
+}
+  
 ```
 
-### Setup/loading details
-Load data
+# Format the Data
+
+Load the original data, removing the preview entries and some Qualtrics formatting
 
 ```{r load_data}
-birds <- read_tsv(paste0(here(), '/e1_party-quiz/bird_data.tsv'))
+#Read in original data, with weird qualtrics column names...
+birds <- read_csv(paste0(here(), '/e2_ebirds-qualtrics/Ebirds Naming Experiment_June 5, 2022_16.34.csv')) %>%
+  tail(-2) %>%
+  filter(Status != "Survey Preview") #Immediately drop preview data!!
 ```
 
-Extract & reshape data!
+Do several manual steps to make the Qualtrics column names more informative, and save a new file containing the renamed variables (data dictionary.)
 
-```{r shape_data}
-answer_key <- birds %>%
-  filter(Response == "Correct") %>% #Choose the special column with correct answers
-  select(-one_of(c('Response', "Bird Names"))) %>%
-  gather('bird', 'response') %>%
-  select(-response) %>%
-  mutate(normalized_correct = tolower(bird)) %>%
+```{r make_better_colnames}
+
+#Make a table to hold the list of variable names
+birds_dict <- read_csv(paste0(here(), '/e2_ebirds-qualtrics/Ebirds Naming Experiment_February 4, 2022_14.21.csv'), n_max = 2) %>%
+  add_rownames() %>%
+  mutate(label = case_when(rowname == 1 ~ "question_text",
+                           rowname == 2 ~ "qualtrics_string", 
+                           TRUE ~ "")) %>%
+  select(-rowname)%>%
+  pivot_longer(cols = !all_of(c("label")), names_to = c("column_name")) %>%
+  pivot_wider(names_from = c("label"), values_from = c("value")) %>%
+  mutate(q_id = str_extract(column_name, "Q[0-9]+")) %>%
+  mutate(q_id = if_else(is.na(q_id), str_extract(column_name, "^[A-z]+"), q_id)) %>%
+  mutate(q_id = if_else(q_id == "Q23", column_name, q_id))%>%
+  mutate(bird_id = if_else(q_id == 'Q30', str_extract(question_text, "^[a-z0-9]+"), "")) %>%
+  add_rownames() %>%
+  mutate(item_id = str_extract(column_name, "^[0-9]+")) %>%
+  mutate(item_id = if_else(is.na(item_id), as.character(200 + as.numeric(rowname)), item_id))
+
+birds_dict_1 = birds_dict %>%
+  filter(q_id == "Q30") %>% #Slice off the critical questions, which have the bird name strings!
+  select(one_of("bird_id", "item_id"))
+
+birds_dict <- birds_dict %>%
+  select(-bird_id) %>%
+  left_join(birds_dict_1) %>%
+  mutate(column_prefix = case_when(q_id == "Q30" ~ "bird_name_guess",
+                                   q_id == "Q38" ~ "bird_seen_before",
+                                   TRUE ~ q_id)) %>%
+  mutate(new_column_name = if_else(is.na(bird_id), column_prefix, paste(column_prefix, bird_id, sep = '.')))%>%
+  select(-one_of("rowname", "q_id","item_id","column_prefix")) %>%
+  mutate(new_column_name = case_when(new_column_name == "Q21"~ 'generated_bird_list',
+                                     new_column_name == "Q22"~ 'neighborhood_type',
+                                     new_column_name == "Q24"~ 'comments',
+                                     new_column_name == "Q31"~ 'self_rate_bird_knowledge',
+                                     new_column_name == "Q32"~ 'state_province',
+                                     new_column_name == "Q39"~ 'prolific_id',
+                                     new_column_name == "Q40"~ 'attention_paid_to_birds',
+                                     new_column_name == "Q41"~ 'country',
+                                     TRUE ~ new_column_name))
+
+write_csv(birds_dict, paste0(here(), '/e2_ebirds-qualtrics/e2_data_dictionary.csv'))
+```
+
+Make a function for replacing uninformative original names with the better names we just made
+
+```{r renamewith-fun}
+#function for replacing bad names with good ones
+replace_names = function(mystring){
+  myrow = filter(birds_dict, column_name == mystring)
+  return(myrow$new_column_name)
+}
+```
+
+Apply that function to the dataset!
+
+```{r reshape_birds}
+birds <- birds %>%
+  rename_with(replace_names) 
+```
+ 
+# Examine dataset
+
+Start by splitting the participant-level data from the individual answers to bird questions, to make tables easier to look at. 
+ 
+```{r get-participant-birds}
+participant_level_birds <- birds %>%
+  select(-starts_with("bird_")) %>%
+  select(-starts_with("Recipient")) %>%
+  select(-starts_with("Location")) %>%
+  select(-starts_with("Q23")) %>%
+  select(-one_of("StartDate", "EndDate", "IPAddress", "ExternalReference","prolific_id", "UserLanguage","Q16"))
+```
+
+Get some frequency tables to understand details about our participants
+
+```{r freqtable}
+participant_level_birds <- participant_level_birds %>%
+  mutate(Duration = as.numeric(Duration),
+         self_rate_bird_knowledge = as.numeric(self_rate_bird_knowledge),
+         attention_paid_to_birds = as.numeric(attention_paid_to_birds),
+         attention_paid_to_birds = as.numeric(attention_paid_to_birds))
+  
+
+finished <- participant_level_birds %>%
+  group_by(Progress) %>%
+  summarize(n = n()) %>%
+  rename(percentage_finished = Progress)
+
+freq_prog <- participant_level_birds %>%
+  group_by(Progress) %>%
+  summarize(n = n())
+
+kable(finished) %>% kbl_mystyle()
+```
+
+
+```{r freqtable2}
+duration <- participant_level_birds %>%
+  mutate(Duration = Duration/60) %>% #Transform to minutes
+  summarize(mean = mean(Duration), median = median(Duration), min = min(Duration), max = max(Duration))
+
+kbl(duration, caption = "Time in minutes") %>%
+  kbl_mystyle()
+
+freq_dur <- participant_level_birds %>%
+  group_by(Duration) %>%
+  summarize(n = n())
+```
+
+```{r freqtable3}
+self_rate <- participant_level_birds %>%
+  filter(!is.na(self_rate_bird_knowledge)) %>%
+  summarize(mean = mean(self_rate_bird_knowledge), median = median(self_rate_bird_knowledge), min = min(self_rate_bird_knowledge), max = max(self_rate_bird_knowledge))
+
+kbl(self_rate, caption = "How much you know about birds, 0-100") %>%
+  kbl_mystyle()
+
+freq_rate <- participant_level_birds %>%
+  group_by(self_rate_bird_knowledge) %>%
+  summarize(n = n())
+```
+
+Option to view the dataset to explore other columns
+
+```{r viewtable}
+#View(participant_level_birds)
+```
+
+# Reshape data
+
+Take the item-specific data, and reformat to get 1 response per row.  Add some calculations to make sure we don't unintentionally drop/modify data
+```{r}
+participant_level_birds <- participant_level_birds %>%
+  mutate(Progress = as.numeric(Progress))
+
+nrow(participant_level_birds)
+```
+
+Total participants `r nrow(participant_level_birds)`
+
+```{r}
+birds_pre_reshape = birds
+birds <- birds_pre_reshape %>%
+  pivot_longer(starts_with("bird_"), names_to = "question", values_to = "response") %>%
+  separate(question, into = c("question_type","bird_id"), extra = "merge", sep = "\\.") %>%
+  select(one_of("ResponseId", "bird_id", "question_type", "response", "neigborhood_type","country","state_province", "self_rate_bird_knowledge","attention_paid_to_birds","comments", "Progress")) 
+
+birds_guessname <- birds %>%
+  filter(question_type == "bird_name_guess") 
+
+
+birds_seenbefore <- birds %>%
+  filter(question_type == "bird_seen_before") %>%
+  mutate(bird_seen_before = response) %>%
+  select(-one_of("question_type", "response"))
+
+birds_responses <- birds_guessname %>%
+  left_join(birds_seenbefore) %>%
+  mutate(participant_saw_bird = !is.na(response) | !is.na(bird_seen_before))
+
+guesses_per_bird <- birds_responses %>%
+  filter(!is.na(response)) %>%
+  group_by(ResponseId) %>%
+  summarize(n = n())
+```
+
+Total participants `r length(unique(birds$ResponseId))` (should see no change)
+
+
+
+# Add correct answers
+
+Use the names & IDs from Ebirds, and make both the real names and the response names easier to match (e.g. "Canada Goose" --> "canadagoose") 
+
+```{r answer_key}
+answer_key <- read_csv(paste0(here(), '/data_ebird/selected_ebirds.csv'))
+
+#Make strings matchable, and define 'short' correct as the last word in the bird's name
+answer_key <- answer_key %>%
+  mutate(normalized_correct = tolower(common_name)) %>%
   mutate(normalized_correct = str_replace_all(normalized_correct, ' ', '')) %>%
-  mutate(normalized_correct = str_replace_all(normalized_correct, '-', '')) 
+  mutate(normalized_correct = str_replace_all(normalized_correct, '-', '')) %>%
+  mutate(normalized_short_correct = tolower(str_extract(common_name, '[A-z]+$')))
 
-simplified_answer_key <- birds %>%
-  filter(Response == "Simple_Correct") %>% #Choose the special column with simplified correct answers
-  select(-one_of(c('Response', "Bird Names"))) %>%
-  gather('bird', 'response') %>%
-  mutate(normalized_correct_simple = tolower(response)) %>%
-  mutate(normalized_correct_simple = str_replace_all(normalized_correct_simple, ' ', '')) %>%
-  mutate(normalized_correct_simple = str_replace_all(normalized_correct_simple, '-', '')) %>%
-  select(-response)
+#Add the family list as a way to check if people guess something in the same family!
+answer_key <- answer_key %>%
+  mutate(family_list = str_extract(family, "\\(.+\\)")) %>%
+  mutate(family_list = tolower(family_list)) %>%
+  mutate(family_list = str_remove_all(family_list, " and allies")) %>%
+  mutate(family_list = str_replace_all(family_list, " and", ",")) %>%
+  mutate(family_list = str_remove_all(family_list, "[ \\(\\)]")) %>%
+  mutate(family_list = str_replace_all(family_list, ",,", ",")) %>%
+  mutate(family_list = str_remove_all(family_list, ",$"))
 
-#Replace some names with simpler ones so our label functions catch them later!
-simplified_answer_key <- simplified_answer_key %>%
-  mutate(normalized_correct_simple = case_when(normalized_correct_simple == 'seagull' ~ 'gull',
-                                       normalized_correct_simple == 'goldfinch' ~ 'finch',
-                                       normalized_correct_simple == 'mallard' ~ 'duck',
-                                       TRUE ~ normalized_correct_simple))
+#To add - alternate correct, e.g. duck/mallard, seagull/gull
+answer_key <- answer_key %>%
+  mutate(alternate_short_correct = case_when(normalized_short_correct == 'gull' ~ 'seagull',
+                                             normalized_short_correct == 'mallard' ~ 'duck',
+                                             normalized_short_correct == 'goldfinch' ~ 'finch',
+                                             normalized_short_correct == 'bluejay' ~ 'jay',
+                                             TRUE ~ ""))
 
-confidence <- birds %>%
-  select(Response, `Bird Names`) %>% #Weird meaningless column names due to wide form data. Fix them!
-  rename(overall_participant_confidence = `Bird Names`) %>%
-  filter(!(Response %in% c("Correct", "Simple_Correct"))) %>%
-  rename(participant_label = Response)
-
-
-bird_name_data <- birds %>%
-  select(-`Bird Names`) %>%
-  filter(!(Response %in% c("Correct", "Simple_Correct"))) %>% #Remove lines that aren't people/responses
-  gather('bird', 'response', - Response) %>%
-  mutate(normalized_answer  = tolower(response)) %>%
-  mutate(normalized_answer = str_replace_all(normalized_answer, ' ', '')) %>%
-  mutate(normalized_answer = str_replace_all(normalized_answer, '-', '')) %>%
-  rename(participant_label = Response)
+#normalize response data for matching!
+birds_guessname <- birds_guessname %>%
+  mutate(normalized_response = tolower(response)) %>%
+  mutate(normalized_response = str_replace_all(normalized_response, regex("\\W+"), "")) %>%
+  mutate(normalized_short_response = tolower(str_extract(response, '[A-z]+$')))
 ```
-
-Merge answers & confidence onto response data 
-
+Merge the tables...
 ```{r merge_answers}
-bird_name_data <- bird_name_data %>%
-  left_join(answer_key) %>%
-  left_join(simplified_answer_key) %>%
-  left_join(confidence)
+birds_guessname <- birds_guessname %>%
+  left_join(answer_key, by = c("bird_id" = "species_code")) 
 ```
 
-Calculate correctness
+
+... and calculate correctness!
 
 ```{r calc_answers}
-bird_name_data <- bird_name_data %>%
-  mutate(exact_correct = normalized_answer == normalized_correct) %>%
-  mutate(simple_correct = str_detect(normalized_answer, normalized_correct_simple))
+rightmost_columns = c("bird_id", "response", "normalized_response", "normalized_correct", "exact_correct", "normalized_short_correct", "relaxed_correct" )
+
+birds_guessname <- birds_guessname %>%
+  mutate(exact_correct = normalized_response == normalized_correct) %>%
+  mutate(exact_correct = if_else(is.na(exact_correct), FALSE, exact_correct))%>% 
+  mutate(relaxed_correct = str_detect(normalized_response, normalized_short_correct))%>% 
+  mutate(relaxed_correct = if_else(is.na(relaxed_correct), FALSE, relaxed_correct))%>% 
+  mutate(relaxed_correct = if_else(str_detect(normalized_response, alternate_short_correct), TRUE, relaxed_correct)) %>%
+  select(-one_of(rightmost_columns), all_of(rightmost_columns ))
 ```
 
-Start adding classifications to mis-identifications. When wrong, are you wrong to another known bird?
 
-```{r add_wrong_cats}
-bird_name_data <- bird_name_data %>%
-  mutate(crow = str_detect(normalized_answer, 'crow')) %>%
-  mutate(raven = str_detect(normalized_answer, 'raven')) %>%
-  mutate(sparrow = str_detect(normalized_answer, 'sparrow')) %>%
-  mutate(blackbird = str_detect(normalized_answer, 'blackbird')) %>%
-  mutate(bluebird = str_detect(normalized_answer, 'bluebird')) %>%
-  mutate(bluejay = str_detect(normalized_answer, 'bluejay')) %>%
-  mutate(chickadee = str_detect(normalized_answer, 'chickadee')) %>%
-  mutate(heron = str_detect(normalized_answer, 'heron')) %>%
-  mutate(robin = str_detect(normalized_answer, 'robin')) %>%
-  mutate(starling = str_detect(normalized_answer, 'starling')) %>%
-  mutate(nuthatch = str_detect(normalized_answer, 'nuthatch')) %>%
-  mutate(pigeon = str_detect(normalized_answer, 'pigeon')) %>%
-  mutate(gull = str_detect(normalized_answer, 'gull')) %>%
-  mutate(seagull = str_detect(normalized_answer, 'seagull')) %>%
-  mutate(herringgull = str_detect(normalized_answer, 'herringgull')) %>%
-  mutate(falcon = str_detect(normalized_answer, 'falcon')) %>%
-  mutate(finch = str_detect(normalized_answer, 'finch')) %>%
-  mutate(goldfinch = str_detect(normalized_answer, 'goldfinch')) %>%
-  mutate(woodpecker = str_detect(normalized_answer, 'woodpecker')) %>%
-  mutate(pelican = str_detect(normalized_answer, 'pelican')) %>%
-  mutate(osprey = str_detect(normalized_answer, 'osprey')) %>%
-  mutate(stork = str_detect(normalized_answer, 'stork')) %>%
-  mutate(hummingbird = str_detect(normalized_answer, 'hummingbird')) %>%
-  mutate(grackle = str_detect(normalized_answer, 'grackle')) %>%
-  mutate(dove = str_detect(normalized_answer, 'dove')) %>%
-  mutate(plover = str_detect(normalized_answer, 'plover')) %>%
-  mutate(hawk = str_detect(normalized_answer, 'hawk')) %>%
-  mutate(magpie = str_detect(normalized_answer, 'magpie')) %>%
-  mutate(cardinal = str_detect(normalized_answer, 'cardinal')) %>%
-  mutate(wren = str_detect(normalized_answer, 'wren')) %>%
-  mutate(eagle = str_detect(normalized_answer, 'eagle')) %>%
-  mutate(goose = str_detect(normalized_answer, 'goose')) %>%
-  mutate(owl = str_detect(normalized_answer, 'owl')) %>%
-  mutate(hummingbird = str_detect(normalized_answer, 'hummingbird')) %>%
-  mutate(swan = str_detect(normalized_answer, 'swan')) %>%
-  mutate(turkey = str_detect(normalized_answer, 'turkey')) %>%
-  mutate(duck = str_detect(normalized_answer, 'duck')) %>%
-  mutate(mallard = str_detect(normalized_answer, 'mallard')) %>%
-  mutate(chicken = str_detect(normalized_answer, 'chicken')) %>%
-  mutate(woodcock = str_detect(normalized_answer, 'woodcock')) %>%
-  mutate(waxwing = str_detect(normalized_answer, 'waxwing')) %>%
-  mutate(junco = str_detect(normalized_answer, 'junco')) %>%
-  mutate(cormorant = str_detect(normalized_answer, 'cormorant')) %>%
-  mutate(catbird = str_detect(normalized_answer, 'catbird')) %>%
-  mutate(flicker = str_detect(normalized_answer, 'flicker')) %>%
-  mutate(mockingbird = str_detect(normalized_answer, 'mockingbird')) %>%
-  mutate(martin = str_detect(normalized_answer, 'martin')) %>%
-  mutate(purplemartin = str_detect(normalized_answer, 'purplemartin')) %>%
-  mutate(sandpiper = str_detect(normalized_answer, 'sandpiper')) %>%
-  mutate(warbler = str_detect(normalized_answer, 'warbler')) %>%
-  mutate(titmouse = str_detect(normalized_answer, 'titmouse')) %>%
-  mutate(vulture = str_detect(normalized_answer, 'vulture')) %>%
-  mutate(rooster = str_detect(normalized_answer, 'rooster')) %>%
-  mutate(standard_label = crow|raven|sparrow|blackbird|bluebird|bluejay|chickadee|heron|robin|starling|nuthatch|pigeon|gull|herringgull|falcon|finch|goldfinch|woodpecker|pelican|osprey|stork|hummingbird|grackle|dove|plover|hawk|magpie|cardinal|wren|eagle|goose|owl|hummingbird|swan|turkey|duck|mallard|chicken|woodcock|waxwing|junco|cormorant|catbird|flicker|mockingbird|martin|purplemartin|sandpiper|warbler|titmouse|vulture|rooster)
-  
+Look at correct answers for sanity:
+```{r}
+correct <- birds_guessname %>%
+  filter(exact_correct)
+incorrect <- birds_guessname %>%
+  filter(!exact_correct)
 ```
 
-Update individual items with alternate correct names
+Look at additional 'relaxed' correct answers:
 
-```{r give_exception}
-bird_name_data <- bird_name_data %>%
-  mutate(alternate_correct = FALSE) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'finch' & goldfinch, TRUE, alternate_correct)) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'purplemartin' & martin, TRUE, alternate_correct)) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'gull' & seagull, TRUE, alternate_correct)) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'gull' & herringgull, TRUE, alternate_correct)) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'duck' & mallard, TRUE, alternate_correct)) %>%
-  mutate(alternate_correct = if_else(normalized_correct_simple == 'chicken' & rooster, TRUE, alternate_correct)) 
-  
+```{r}
+relaxed_correct <- birds_guessname %>%
+  filter(relaxed_correct != exact_correct)
 ```
 
-Some wrong answers defy categorization! 
+Some wrong answers defy categorization!
 
 ```{r check_wrong}
-wrong_answers <- bird_name_data %>%
+wrong_answers <- birds_guessname %>%
   filter(!exact_correct) %>%
-  filter(!simple_correct) %>%
-  filter(!alternate_correct) %>%
-  filter(!standard_label) %>%
-  select(bird, response) %>%
+  filter(!relaxed_correct) %>%
+  select(one_of("normalized_correct", "response")) %>%
   arrange(response)
 ```
 
-Examine the full list (`r nrow(wrong_answers)` un-categorized wrong answers) for anything that should actually be counted as either correct or confusion to another real bird (cleaning sections above).
+Make sure all answers are categorized!
 
-```{r kable-wrong-answers}
-kable(head(wrong_answers))
+```{r}
+nrow(wrong_answers) + nrow(relaxed_correct) + nrow(correct)
 ```
 
-<br>
-For fun, some real bird names that people volunteered, despite no bird with this name being present in the stimulus set: Canary,Condor,Crane,Egret,penguin,flamingo,grebe,ibis,kingfisher,Kite,loon,oriole,ostrich,peacock,peregrine,ptarmigan,quail,rooster,thrush
+# Old code below!
 
-(Ideally we'd add these to the labels list for more extensive confusion matrix)
-
-Apply final scores, with some debug functions for checking labels
-
-```{r apply_correct, include = TRUE}
-bird_name_data <- bird_name_data %>%
-  mutate(is_correct = exact_correct|simple_correct|alternate_correct)
-
-check_correct_answers <- bird_name_data %>%
-  filter(is_correct) %>%
-  group_by(normalized_correct, normalized_correct_simple, normalized_answer) %>%
-  slice(1) %>%
-  select(bird, normalized_correct, normalized_correct_simple, normalized_answer)
-
-check_incorrect_but_standard <- bird_name_data %>%
-  filter(standard_label) %>%
-  filter(!is_correct) %>%
-  group_by(normalized_correct, normalized_correct_simple, normalized_answer) %>%
-  slice(1) %>%
-  select(bird, normalized_correct, normalized_correct_simple, normalized_answer)
-```
 
 ## Results!
 
@@ -256,7 +359,7 @@ bird_name_data <- bird_name_data %>%
 ```{r confuse-who}
 confusing <- bird_name_data %>%
   group_by(bird) %>%
-  summarize(correct_entity = first(correct_entity), 
+  summarize(correct_entity = first(correct_entity),
             across(c("crow", "raven","sparrow","blackbird",
                               "bluebird","bluejay","chickadee","heron","robin","starling",
                               "nuthatch","pigeon", "falcon",
@@ -265,8 +368,8 @@ confusing <- bird_name_data %>%
                               "magpie","cardinal","wren","eagle","goose", "owl",
                               "hummingbird", "swan","turkey",
                               "woodcock","waxwing","junco","cormorant","catbird",
-                              "flicker","mockingbird", 
-                              "sandpiper", "warbler","titmouse","vulture", "duck_category", "gull_category", "chicken_category", "finch_category", "martin_category"), 
+                              "flicker","mockingbird",
+                              "sandpiper", "warbler","titmouse","vulture", "duck_category", "gull_category", "chicken_category", "finch_category", "martin_category"),
                             bool_sum, .names = "labeled_as_{.col}")) #%>%
   #rowwise() %>%
   #mutate(n_labels_used = sum(c_across(contains('labeled_as')) > 0))
@@ -286,7 +389,7 @@ confusion_mat <- confusing %>%
   #                                     given_label == 'rooster' & correct_label == 'chicken' ~ TRUE,
   #                                     given_label == 'goldfinch' & correct_label == 'finch' ~ TRUE,
   #                                     given_label == 'purplemartin' & correct_label == 'martin' ~ TRUE,
-  #                                     
+  #
   #   TRUE ~ is_correct_label)) %>%
   # mutate(given_label = case_when(given_label == 'seagull' & correct_label == 'gull' ~ 'gull',
   #                                     given_label == 'herringgull' & correct_label == 'gull' ~ 'gull',
@@ -294,14 +397,14 @@ confusion_mat <- confusing %>%
   #                                     given_label == 'rooster' & correct_label == 'chicken' ~ 'chicken',
   #                                     given_label == 'goldfinch' & correct_label == 'finch' ~ 'finch',
   #                                     given_label == 'purplemartin' & correct_label == 'martin' ~ 'martin',
-  #                                     
+  #
   #   TRUE ~ given_label)) %>%
   # group_by(correct_label, given_label) %>%
   # summarize(bird = first(bird), n_labels_used = first(n_labels_used), n_used_this_label = sum(n_used_this_label), is_correct_label = first(is_correct_label)) %>%
   # ungroup()
 ```
 
-And check that all items have exactly one 'correct' label entry now, and confirm some troublesome ones. 
+And check that all items have exactly one 'correct' label entry now, and confirm some troublesome ones.
 
 ```{r check-conf}
 check_labels <- confusion_mat %>%
@@ -335,7 +438,7 @@ kable(head(most_correct, 10), caption = "Birds identified correctly", col.names 
 
 
 <br>
-* What birds are most often mis-labeled, with any name? This is *different* from the least-correctly guessed birds, since people who give wrong answers don't always mistake it for another bird. 
+* What birds are most often mis-labeled, with any name? This is *different* from the least-correctly guessed birds, since people who give wrong answers don't always mistake it for another bird.
 
 ```{r report-confusion2}
 paste_values <- function(mylist){
@@ -348,7 +451,7 @@ most_incorrect <- confusion_mat %>%
   filter(n_used_this_label > 0) %>%
   ungroup() %>%
   group_by(bird) %>%
-  summarize(n_gave_wrong_label = sum(n_used_this_label), 
+  summarize(n_gave_wrong_label = sum(n_used_this_label),
             n_different_wrong_labels = length(unique(given_label)),
             given_labels = toString(given_label))%>%
   arrange(desc(n_gave_wrong_label))
@@ -357,7 +460,7 @@ kable(head(most_incorrect, 10), caption = "Birds mistaken for another bird", col
 ```
 
 <br>
-* What birds are most often mis-identified as another SPECIFIC bird? 
+* What birds are most often mis-identified as another SPECIFIC bird?
 
 ```{r report-confusion3}
 most_incorrect <- confusion_mat %>%
@@ -370,7 +473,7 @@ kable(head(most_incorrect, 10), caption = "Birds mistaken for another bird", col
 
 
 <br>
-* What bird name do people most like to guess across all birds when they don't actually know the answer? 
+* What bird name do people most like to guess across all birds when they don't actually know the answer?
 
 ```{r report-confusion4}
 most_incorrect <- confusion_mat %>%

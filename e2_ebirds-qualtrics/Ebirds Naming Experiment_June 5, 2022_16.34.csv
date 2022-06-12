@@ -1,0 +1,903 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Q39,Q16,Q31_5,Q40_5,Q22,Q41,Q32,Q23_First Click,Q23_Last Click,Q23_Page Submit,Q23_Click Count,Q21,11_Q30,11_Q38_19,12_Q30,12_Q38_19,13_Q30,13_Q38_19,14_Q30,14_Q38_19,15_Q30,15_Q38_19,16_Q30,16_Q38_19,17_Q30,17_Q38_19,18_Q30,18_Q38_19,19_Q30,19_Q38_19,20_Q30,20_Q38_19,21_Q30,21_Q38_19,22_Q30,22_Q38_19,23_Q30,23_Q38_19,24_Q30,24_Q38_19,25_Q30,25_Q38_19,26_Q30,26_Q38_19,27_Q30,27_Q38_19,28_Q30,28_Q38_19,29_Q30,29_Q38_19,30_Q30,30_Q38_19,31_Q30,31_Q38_19,32_Q30,32_Q38_19,33_Q30,33_Q38_19,34_Q30,34_Q38_19,35_Q30,35_Q38_19,36_Q30,36_Q38_19,37_Q30,37_Q38_19,38_Q30,38_Q38_19,39_Q30,39_Q38_19,40_Q30,40_Q38_19,41_Q30,41_Q38_19,42_Q30,42_Q38_19,43_Q30,43_Q38_19,44_Q30,44_Q38_19,45_Q30,45_Q38_19,46_Q30,46_Q38_19,47_Q30,47_Q38_19,48_Q30,48_Q38_19,49_Q30,49_Q38_19,50_Q30,50_Q38_19,51_Q30,51_Q38_19,52_Q30,52_Q38_19,53_Q30,53_Q38_19,54_Q30,54_Q38_19,55_Q30,55_Q38_19,56_Q30,56_Q38_19,57_Q30,57_Q38_19,58_Q30,58_Q38_19,59_Q30,59_Q38_19,60_Q30,60_Q38_19,61_Q30,61_Q38_19,62_Q30,62_Q38_19,63_Q30,63_Q38_19,64_Q30,64_Q38_19,65_Q30,65_Q38_19,66_Q30,66_Q38_19,67_Q30,67_Q38_19,68_Q30,68_Q38_19,69_Q30,69_Q38_19,70_Q30,70_Q38_19,71_Q30,71_Q38_19,72_Q30,72_Q38_19,73_Q30,73_Q38_19,74_Q30,74_Q38_19,75_Q30,75_Q38_19,76_Q30,76_Q38_19,77_Q30,77_Q38_19,78_Q30,78_Q38_19,79_Q30,79_Q38_19,80_Q30,80_Q38_19,81_Q30,81_Q38_19,82_Q30,82_Q38_19,83_Q30,83_Q38_19,84_Q30,84_Q38_19,85_Q30,85_Q38_19,86_Q30,86_Q38_19,87_Q30,87_Q38_19,88_Q30,88_Q38_19,89_Q30,89_Q38_19,90_Q30,90_Q38_19,91_Q30,91_Q38_19,92_Q30,92_Q38_19,93_Q30,93_Q38_19,94_Q30,94_Q38_19,95_Q30,95_Q38_19,96_Q30,96_Q38_19,97_Q30,97_Q38_19,98_Q30,98_Q38_19,99_Q30,99_Q38_19,100_Q30,100_Q38_19,101_Q30,101_Q38_19,102_Q30,102_Q38_19,103_Q30,103_Q38_19,104_Q30,104_Q38_19,Q24
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Paste your unique Prolific ID code below and click ""Next"" to go on to the survey","If you agree, please click the statement below, then hit next to move on.","To start, please tell us how much you think you know about wild birds: - .",How much do you pay attention to wild birds in your everyday life? - .,"Do you live in a city, a suburb, or a rural area?",What country do you live in?,What state or province do you live in?,Timing - First Click,Timing - Last Click,Timing - Page Submit,Timing - Click Count,"List as many wild bird names as you can in the next 30 seconds. Please list each bird on its own line, like this:
+Bird 1Bird 2Etc.",aldfly - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - aldfly - .,amecro - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - amecro - .,amegfi - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - amegfi - .,amekes - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - amekes - .,amered - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - amered - .,amerob - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - amerob - .,anhing - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - anhing - .,annhum - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - annhum - .,arcter - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - arcter - .,baleag - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - baleag - .,barswa - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - barswa - .,bcnher - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - bcnher - .,belkin1 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - belkin1 - .,bkbcuc - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - bkbcuc - .,bkcchi - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - bkcchi - .,bknsti - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - bknsti - .,blkvul - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - blkvul - .,blueth - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - blueth - .,blugrb1 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - blugrb1 - .,blujay - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - blujay - .,bnhcow - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - bnhcow - .,brebla - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - brebla - .,brnpel - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - brnpel - .,brwhaw - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - brwhaw - .,buggna - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - buggna - .,calqua - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - calqua - .,cangoo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - cangoo - .,categr - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - categr - .,cedwax - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - cedwax - .,comgal1 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - comgal1 - .,comgra - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - comgra - .,comloo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - comloo - .,comred - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - comred - .,daejun - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - daejun - .,doccor - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - doccor - .,dowwoo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - dowwoo - .,dunlin - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - dunlin - .,eargre - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - eargre - .,easblu - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - easblu - .,easkin - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - easkin - .,eursta - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - eursta - .,glagul - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - glagul - .,gloibi - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - gloibi - .,gnwtea - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - gnwtea - .,gockin - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - gockin - .,grbher3 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - grbher3 - .,greegr - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - greegr - .,grhowl - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - grhowl - .,grycat - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - grycat - .,gwfgoo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - gwfgoo - .,horlar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - horlar - .,houfin - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - houfin - .,houspa - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - houspa - .,houwre - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - houwre - .,indbun - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - indbun - .,magwar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - magwar - .,mallar3 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - mallar3 - .,moudov - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - moudov - .,mutswa - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - mutswa - .,norcar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - norcar - .,norfli - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - norfli - .,normoc - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - normoc - .,norpar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - norpar - .,norpin - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - norpin - .,orcori - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - orcori - .,pagplo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - pagplo - .,perfal - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - perfal - .,pingro - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - pingro - .,purmar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - purmar - .,rebnut - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rebnut - .,rebwoo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rebwoo - .,reevir1 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - reevir1 - .,renpha - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - renpha - .,rethaw - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rethaw - .,rewbla - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rewbla - .,ribgul - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - ribgul - .,rinphe - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rinphe - .,rocpig - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rocpig - .,rthhum - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - rthhum - .,sctfly - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - sctfly - .,sheowl - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - sheowl - .,snobun - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - snobun - .,snogoo - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - snogoo - .,sonspa - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - sonspa - .,turvul - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - turvul - .,varthr - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - varthr - .,wesmea - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - wesmea - .,whrsan - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - whrsan - .,whwcro - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - whwcro - .,wilpta - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - wilpta - .,y00475 - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - y00475 - .,yebcuc - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - yebcuc - .,yelwar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - yelwar - .,yerwar - What is the name of this bird?,Have you ever seen a live bird of this kind outside of a zoo/museum? - yerwar - .,Any comments or thoughts you'd like to share with us?
+"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}","{""ImportId"":""endDate"",""timeZone"":""America/Denver""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID43_TEXT""}","{""ImportId"":""QID20""}","{""ImportId"":""QID35_5""}","{""ImportId"":""QID44_5""}","{""ImportId"":""QID26""}","{""ImportId"":""QID45""}","{""ImportId"":""QID36_TEXT""}","{""ImportId"":""QID27_FIRST_CLICK""}","{""ImportId"":""QID27_LAST_CLICK""}","{""ImportId"":""QID27_PAGE_SUBMIT""}","{""ImportId"":""QID27_CLICK_COUNT""}","{""ImportId"":""QID25_TEXT""}","{""ImportId"":""11_QID34_TEXT""}","{""ImportId"":""11_QID42_19""}","{""ImportId"":""12_QID34_TEXT""}","{""ImportId"":""12_QID42_19""}","{""ImportId"":""13_QID34_TEXT""}","{""ImportId"":""13_QID42_19""}","{""ImportId"":""14_QID34_TEXT""}","{""ImportId"":""14_QID42_19""}","{""ImportId"":""15_QID34_TEXT""}","{""ImportId"":""15_QID42_19""}","{""ImportId"":""16_QID34_TEXT""}","{""ImportId"":""16_QID42_19""}","{""ImportId"":""17_QID34_TEXT""}","{""ImportId"":""17_QID42_19""}","{""ImportId"":""18_QID34_TEXT""}","{""ImportId"":""18_QID42_19""}","{""ImportId"":""19_QID34_TEXT""}","{""ImportId"":""19_QID42_19""}","{""ImportId"":""20_QID34_TEXT""}","{""ImportId"":""20_QID42_19""}","{""ImportId"":""21_QID34_TEXT""}","{""ImportId"":""21_QID42_19""}","{""ImportId"":""22_QID34_TEXT""}","{""ImportId"":""22_QID42_19""}","{""ImportId"":""23_QID34_TEXT""}","{""ImportId"":""23_QID42_19""}","{""ImportId"":""24_QID34_TEXT""}","{""ImportId"":""24_QID42_19""}","{""ImportId"":""25_QID34_TEXT""}","{""ImportId"":""25_QID42_19""}","{""ImportId"":""26_QID34_TEXT""}","{""ImportId"":""26_QID42_19""}","{""ImportId"":""27_QID34_TEXT""}","{""ImportId"":""27_QID42_19""}","{""ImportId"":""28_QID34_TEXT""}","{""ImportId"":""28_QID42_19""}","{""ImportId"":""29_QID34_TEXT""}","{""ImportId"":""29_QID42_19""}","{""ImportId"":""30_QID34_TEXT""}","{""ImportId"":""30_QID42_19""}","{""ImportId"":""31_QID34_TEXT""}","{""ImportId"":""31_QID42_19""}","{""ImportId"":""32_QID34_TEXT""}","{""ImportId"":""32_QID42_19""}","{""ImportId"":""33_QID34_TEXT""}","{""ImportId"":""33_QID42_19""}","{""ImportId"":""34_QID34_TEXT""}","{""ImportId"":""34_QID42_19""}","{""ImportId"":""35_QID34_TEXT""}","{""ImportId"":""35_QID42_19""}","{""ImportId"":""36_QID34_TEXT""}","{""ImportId"":""36_QID42_19""}","{""ImportId"":""37_QID34_TEXT""}","{""ImportId"":""37_QID42_19""}","{""ImportId"":""38_QID34_TEXT""}","{""ImportId"":""38_QID42_19""}","{""ImportId"":""39_QID34_TEXT""}","{""ImportId"":""39_QID42_19""}","{""ImportId"":""40_QID34_TEXT""}","{""ImportId"":""40_QID42_19""}","{""ImportId"":""41_QID34_TEXT""}","{""ImportId"":""41_QID42_19""}","{""ImportId"":""42_QID34_TEXT""}","{""ImportId"":""42_QID42_19""}","{""ImportId"":""43_QID34_TEXT""}","{""ImportId"":""43_QID42_19""}","{""ImportId"":""44_QID34_TEXT""}","{""ImportId"":""44_QID42_19""}","{""ImportId"":""45_QID34_TEXT""}","{""ImportId"":""45_QID42_19""}","{""ImportId"":""46_QID34_TEXT""}","{""ImportId"":""46_QID42_19""}","{""ImportId"":""47_QID34_TEXT""}","{""ImportId"":""47_QID42_19""}","{""ImportId"":""48_QID34_TEXT""}","{""ImportId"":""48_QID42_19""}","{""ImportId"":""49_QID34_TEXT""}","{""ImportId"":""49_QID42_19""}","{""ImportId"":""50_QID34_TEXT""}","{""ImportId"":""50_QID42_19""}","{""ImportId"":""51_QID34_TEXT""}","{""ImportId"":""51_QID42_19""}","{""ImportId"":""52_QID34_TEXT""}","{""ImportId"":""52_QID42_19""}","{""ImportId"":""53_QID34_TEXT""}","{""ImportId"":""53_QID42_19""}","{""ImportId"":""54_QID34_TEXT""}","{""ImportId"":""54_QID42_19""}","{""ImportId"":""55_QID34_TEXT""}","{""ImportId"":""55_QID42_19""}","{""ImportId"":""56_QID34_TEXT""}","{""ImportId"":""56_QID42_19""}","{""ImportId"":""57_QID34_TEXT""}","{""ImportId"":""57_QID42_19""}","{""ImportId"":""58_QID34_TEXT""}","{""ImportId"":""58_QID42_19""}","{""ImportId"":""59_QID34_TEXT""}","{""ImportId"":""59_QID42_19""}","{""ImportId"":""60_QID34_TEXT""}","{""ImportId"":""60_QID42_19""}","{""ImportId"":""61_QID34_TEXT""}","{""ImportId"":""61_QID42_19""}","{""ImportId"":""62_QID34_TEXT""}","{""ImportId"":""62_QID42_19""}","{""ImportId"":""63_QID34_TEXT""}","{""ImportId"":""63_QID42_19""}","{""ImportId"":""64_QID34_TEXT""}","{""ImportId"":""64_QID42_19""}","{""ImportId"":""65_QID34_TEXT""}","{""ImportId"":""65_QID42_19""}","{""ImportId"":""66_QID34_TEXT""}","{""ImportId"":""66_QID42_19""}","{""ImportId"":""67_QID34_TEXT""}","{""ImportId"":""67_QID42_19""}","{""ImportId"":""68_QID34_TEXT""}","{""ImportId"":""68_QID42_19""}","{""ImportId"":""69_QID34_TEXT""}","{""ImportId"":""69_QID42_19""}","{""ImportId"":""70_QID34_TEXT""}","{""ImportId"":""70_QID42_19""}","{""ImportId"":""71_QID34_TEXT""}","{""ImportId"":""71_QID42_19""}","{""ImportId"":""72_QID34_TEXT""}","{""ImportId"":""72_QID42_19""}","{""ImportId"":""73_QID34_TEXT""}","{""ImportId"":""73_QID42_19""}","{""ImportId"":""74_QID34_TEXT""}","{""ImportId"":""74_QID42_19""}","{""ImportId"":""75_QID34_TEXT""}","{""ImportId"":""75_QID42_19""}","{""ImportId"":""76_QID34_TEXT""}","{""ImportId"":""76_QID42_19""}","{""ImportId"":""77_QID34_TEXT""}","{""ImportId"":""77_QID42_19""}","{""ImportId"":""78_QID34_TEXT""}","{""ImportId"":""78_QID42_19""}","{""ImportId"":""79_QID34_TEXT""}","{""ImportId"":""79_QID42_19""}","{""ImportId"":""80_QID34_TEXT""}","{""ImportId"":""80_QID42_19""}","{""ImportId"":""81_QID34_TEXT""}","{""ImportId"":""81_QID42_19""}","{""ImportId"":""82_QID34_TEXT""}","{""ImportId"":""82_QID42_19""}","{""ImportId"":""83_QID34_TEXT""}","{""ImportId"":""83_QID42_19""}","{""ImportId"":""84_QID34_TEXT""}","{""ImportId"":""84_QID42_19""}","{""ImportId"":""85_QID34_TEXT""}","{""ImportId"":""85_QID42_19""}","{""ImportId"":""86_QID34_TEXT""}","{""ImportId"":""86_QID42_19""}","{""ImportId"":""87_QID34_TEXT""}","{""ImportId"":""87_QID42_19""}","{""ImportId"":""88_QID34_TEXT""}","{""ImportId"":""88_QID42_19""}","{""ImportId"":""89_QID34_TEXT""}","{""ImportId"":""89_QID42_19""}","{""ImportId"":""90_QID34_TEXT""}","{""ImportId"":""90_QID42_19""}","{""ImportId"":""91_QID34_TEXT""}","{""ImportId"":""91_QID42_19""}","{""ImportId"":""92_QID34_TEXT""}","{""ImportId"":""92_QID42_19""}","{""ImportId"":""93_QID34_TEXT""}","{""ImportId"":""93_QID42_19""}","{""ImportId"":""94_QID34_TEXT""}","{""ImportId"":""94_QID42_19""}","{""ImportId"":""95_QID34_TEXT""}","{""ImportId"":""95_QID42_19""}","{""ImportId"":""96_QID34_TEXT""}","{""ImportId"":""96_QID42_19""}","{""ImportId"":""97_QID34_TEXT""}","{""ImportId"":""97_QID42_19""}","{""ImportId"":""98_QID34_TEXT""}","{""ImportId"":""98_QID42_19""}","{""ImportId"":""99_QID34_TEXT""}","{""ImportId"":""99_QID42_19""}","{""ImportId"":""100_QID34_TEXT""}","{""ImportId"":""100_QID42_19""}","{""ImportId"":""101_QID34_TEXT""}","{""ImportId"":""101_QID42_19""}","{""ImportId"":""102_QID34_TEXT""}","{""ImportId"":""102_QID42_19""}","{""ImportId"":""103_QID34_TEXT""}","{""ImportId"":""103_QID42_19""}","{""ImportId"":""104_QID34_TEXT""}","{""ImportId"":""104_QID42_19""}","{""ImportId"":""QID28_TEXT""}"
+2022-01-03 10:27:29,2022-01-03 10:28:02,Survey Preview,*******,100,32,True,2022-01-03 10:28:03,R_2vf5hiVWHfE2ho9,*******,*******,*******,*******,*******,*******,preview,EN,,"I agree to participate and share my data, and I'm ready to start!",,,A suburb,,,5.662,9.619,16.445,4,This doesn't seem right!,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,asdsadf
+2022-01-03 10:35:38,2022-01-03 10:36:18,Survey Preview,*******,100,39,True,2022-01-03 10:36:18,R_XXiszLIOGv4leFj,*******,*******,*******,*******,*******,*******,preview,EN,,"I agree to participate and share my data, and I'm ready to start!",,,A rural area,,,4.814,6.431,10.114,2,"canoe
+sail",swan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,wow
+2022-01-04 15:27:17,2022-01-04 15:30:05,Survey Preview,*******,100,167,True,2022-01-04 15:30:05,R_1IMgqHFdkSG0Gkx,*******,*******,*******,*******,*******,*******,preview,EN,,"I agree to participate and share my data, and I'm ready to start!",67,30,A suburb,Canada,Maine,6.493,6.493,14.234,1,"grackle 
+swindle",swan,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-01-23 19:51:01,2022-01-23 19:55:08,Survey Preview,*******,100,246,True,2022-01-23 19:55:09,R_3ndOxixvmHjiCLi,*******,*******,*******,*******,*******,*******,preview,EN,,"I agree to participate and share my data, and I'm ready to start!",,,,,The Moon,0.539,0.539,30.013,1,"Killdeer
+Sparrow
+Red tailed hawk
+owl
+Pigeon
+Eagle
+vireo
+grebe
+duck
+chicken
+turkey
+",swan,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-01-23 19:56:49,2022-01-23 19:58:59,Survey Preview,*******,100,130,True,2022-01-23 19:59:00,R_xu9rKvjGa1yhL7b,*******,*******,*******,*******,*******,*******,preview,EN,,"I agree to participate and share my data, and I'm ready to start!",,44,,,,0,0,30.01,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-01-27 19:57:26,2022-01-27 20:32:57,IP Address,*******,100,2131,True,2022-01-27 20:32:57,R_1l5kjjl4d5OcZnj,*******,*******,*******,*******,*******,*******,anonymous,EN,613af1d83ec1a51d557b4dd2,"I agree to participate and share my data, and I'm ready to start!",0,100,A city,Mexico,Hidalgo,4.886,4.886,30.013,1,"Cannary
+Coockoo
+Coockatoo
+Red Chest bird 
+Flamingo
+Eagle
+Falco",Small town bird,100,Raven,100,Mini Pidgeon,0,Small Eagle,0,Cannary (?),100,Large Cannary,0,"Big neck bird ",0,"Hummingbird! ",100,Mini Seagull,100,Bald eagle,100,Blue Cannary (?),0,"Water Bird ",0,"Blue Jay ",100,Red Eyed Bird,0,"Black Capped Chickadee ",100,Small Flamingo (?),0,Black Vulture (?),25,Blue Neck Bird,100,blue nut cracker,20,Casa blue (I think),100,"City bird ",50,Black Cannary (?),100,Pelican,100,"Falcon ",100,Grey Bird (?),0,"50s hair style bird ",70,"Swan ",100,American Kiwi (?),0,"Raccoon Punk Bird ",50,"Morheen ",100,False Raven,70,False Duck,50,"Red Chest bird ",64,Black Cannary (?),60,Strange pelican,0,Woodpecker,100,bug eating bird (?),100,Mini Duck (?),13,Blue bird (?),20,"Black Phoebe (?) ",100,"Starling (?) ",100,Seagull,100,Small Flamingo V2.0,0,Small Duck,100,Wren bird (?_,60,"Beach Bird thats not a seagull ",20,Slick Flamingo,0,Owl,100,Black Haired Bird,0,Duck,100,City Bird,0,redchest bird,100,Average Birb :),10,"Singing Bird ",40,Blue Canary,10,Flycatcher (?),61,"Duck (I dont know the type, but i definetly know there are several duck species.)",100,"Pidgeon or a ""Cucu""?  ",0,White Swan,100,Red Cardinal (?),50,Dotted bird,0,Smoke white birb :),20,Blue Cannary (?),62,Duck,100,Red Chest Bird,30,"Little Birb :) ",0,"Another Eagle ",100,Scarlett Cannary (?),71,"Black Bird ",29,Dancing Bird (?),70,Woodpecker,51,Red Eyed bird,0,Red Chest Water Bird,0,"Eagle (It can be a Falcon, but the image is too small)",100,Red Winged black bird (?),50,"Seagull ",100,"red head bird (?) ",0,Average Pidgeon,100,"Red Chest Hummingbird ",100,Redstart (?),80,Owl,100,White mini pidgeon,30,White duck (HONK HONK),100,"City Bird ",50,American Vulture (? ),100,"Instagram birb :] ",100,"Big Cannary ",0,Long face Cannary (?),0,Red head nut cracker bird,30,Snow Pidgeon,0,"Spiky Duck (?) ",10,"Dipper Bird (?) ",51,Yellow Canary (?),100,"Flycatcher (?) ",40,
+2022-01-27 20:01:48,2022-01-27 20:47:12,IP Address,*******,100,2723,True,2022-01-27 20:47:13,R_2YfcBTzdIvm9k81,*******,*******,*******,*******,*******,*******,anonymous,EN,60dd42238b9e00d7c45ff66b,"I agree to participate and share my data, and I'm ready to start!",1,60,A city,Mexico,"Cuidad de Mexico ",1.067,1.067,30.147,1,"raven
+crow
+eagle
+bluejay
+canary
+bal eagle
+ostrich
+emu
+",brown sparrow,12,crow,91,Goldfinch,8,orange jay,3,warbler,15,orange jay,3,black warbler,8,"Hummingbird ",100,Black headed seagull,6,Bald eagle,87,swift,7,crane,6,finch,7,brown caped sparrow,14,Black capped chickadee,75,crane,8,corvid,13,Robin,12,sparrow,9,Bluejay,8,Brown canary,3,jackdaws,9,stork,78,hawk,57,canary,8,widows sparrow,7,"goose ",17,titmouse,4,brown cardenal,3,swallow,6,jackdaw,6,Duck,79,chipping sparrow,10,warbler,11,crane,4,"woodpecker ",35,"Meadowlark ",6,duck,4,canary,7,white feathered canary,3,wren,12,seagull,5,long beaked jay,2,Duck,82,Baltimore Oriole,8,crane,7,white flamingo,56,Owlw,84,"thrushes ",4,Duck,96,Robin,6,warbler,12,brown canary,90,wren,5,sparrow,6,Yellow-striped canary,6,Canadian Duck,78,pigeon,44,swan,92,Cardenal,10,"woodpecker ",8,robin,7,warbler,15,Brown duck,12,sparrow,9,killdeer,8,Hawk,32,robin,10,jackdaws,16,"Wren ",40,"woodpecker ",11,oriole,20,duck,5,Hawk,46,sparrow,5,seagull,6,swift,8,common Pigeon,100,"hummingbird ",100,parrot,30,barn owl,64,chickadee,6,Common duck,15,brown sparrow,8,red headed vulture,2,killdeer,6,sparrow,10,sparrow,5,chickadee,5,mourning dove,8,black duck,72,brown sparrow,9,yellow canary,9,"Goldfinch ",12,
+2022-01-27 19:56:56,2022-01-27 20:51:05,IP Address,*******,100,3248,True,2022-01-27 20:51:05,R_XtCCYW0zH2EWTAJ,*******,*******,*******,*******,*******,*******,anonymous,EN,60fe0062dc15fe2fb6a4cb90,"I agree to participate and share my data, and I'm ready to start!",40,70,A city,Mexico,Mexico city,7.7,31.816,54.794,2,"paloma
+tortola
+",i don´t know,1,raven,70,canary,60,bird,5,i don´t know,5,i don´t know,1,i don´t know,5,bird,10,bird,1,eagle,70,bird,5,i don´t know,5,bird,5,i don´t know,,i don´t know,5,bird,5,i don´t know,1,bird,4,i don´t know,1,bird,5,i don´t know,,bird,10,bird,5,i don´t know,1,turtledove,50,i don´t know,,duck,60,bird,5,i don´t know,0,bird,5,bird,5,duck,60,bird,5,i don´t know,,i don´t know,5,cuckoo,60,i don´t know,1,bird,5,i don´t know,5,bird,5,i don´t know,1,i don´t know,,i don´t know,1,duck,70,i don´t know,5,heron,70,heron,40,"owl or ",70,i don´t know,5,duck,20,bird,5,i don´t know,,bird,5,turtledove,60,bird,5,bird,10,duck,61,i don´t know,,swan,65,i don´t know,1,i don´t know,,i don´t know,1,sparrow,30,duck,60,bird,5,cucu,20,i don´t know,1,bird,5,i don´t know,5,i don´t know,1,bird,5,bird,5,i don´t know,5,i don´t know,1,bird,5,i don´t know,1,bird,5,dove,70,i don´t know,,bird,5,owl,70,bird,5,bird,5,sparrow,60,"eagle, hen and vulture",60,i don´t know,1,i don´t know,5,i don´t know,,i don´t know,1,bird,5,i don´t know,,i don´t know,,bird,5,i don´t know,,I didn´t meet most of the birds since I live in a city where that variety of birds doesn´t exist
+2022-01-30 08:55:23,2022-01-30 09:15:45,IP Address,*******,100,1222,True,2022-01-30 09:15:46,R_xg8qzUVez2YzTH3,*******,*******,*******,*******,*******,*******,anonymous,EN,5ea73086fba55f102801c836,"I agree to participate and share my data, and I'm ready to start!",40,62,A suburb,United States,Illinois,0.479,26.182,30.013,4,"robin
+cardinal
+golden finch
+bluejay
+hummingbird
+kingfisher
+canadian goose
+duck
+wild turkey",brown tailed finch,19,black crow,84,american golden finch,99,yellow breasted falcon,15,red winged finch,30,american robin,100,black fisher,6,red throated hummingbird,97,black headed swallow,82,bald eagle,99,blue headed finch,10,kingfisher,18,blue haired sparrow,0,brown tailed sparrow,10,black capped sparrow,91,white breasted crane,0,vulture,9,blue breasted sparrow,0,blue finch,8,bluejay,100,brown winged sparrow,16,black finch,7,pelican,92,red tailed hawk,85,blue finch,19,"brown pigeon ",7,canadian goose,100,orange billed finch,0,black eyed finch,16,red billed pigeon,5,"blackbird ",84,wood duck,70,red capped finch,18,gray finch,11,fishing goose,92,red capped woodpecker,83,sandpiper,70,wood duck,80,bluebird,80,black capped sparrow,11,yellow billed sparrow,7,seagull,93,red breasted crane,17,woodduck,92,yellow head finch,16,black capped crane,77,sandhill crane,98,great horned owl,92,gray finch,29,brown goose,9,brown sparrow,42,red headed finch,8,american sparrow,96,brown tailed sparrow,15,blue finch,31,yellow breasted finch,9,american duck,98,mourning dove,100,white swan,99,american cardinal,99,red finch,0,black tailed sparrow,10,blue tit,83,woodduck,12,golden finch,72,brown finch,100,falcon,84,red finch,33,black sparrow,21,orange breasted finch,12,woodpecker,92,finch,19,red breasted duck,7,red tailed hawk,80,red wing blackbird,99,seagull,100,"pheasant ",18,domestic pigeon,100,red throated hummingbird,88,long tailed finch,9,brown owl,27,white breasted finch,0,white capped goose,9,sparrow,51,red headed vulture,88,orange striped sparrow,10,yellow breasted sparrow,21,sandpiper,91,pink breasted sparrow,15,white pigeon,12,white billed duck,63,white tailed finch,0,yellow sparrow,12,yellow breasted finch,22,
+2022-01-30 09:00:56,2022-01-30 09:18:06,IP Address,*******,100,1029,True,2022-01-30 09:18:06,R_1JPbKhzjQt8ntRo,*******,*******,*******,*******,*******,*******,anonymous,EN,6041a2482c6bef1ae8fdd51e,"I agree to participate and share my data, and I'm ready to start!",0,20,A city,United States,Ohio,0.729,0.729,30.012,1,"Robin
+Blue Jay
+Eagle
+Cardinal
+Penguin
+Ostrich
+Sparrow
+",Pigeon,0,crow,0,Pigeon,50,Pigeon,0,Pigeon,0,Sparrow,100,Pigeone,0,hummingbird,100,Pigeon,0,eagle,100,blue jay,0,Pigeon,0,Pigeon,0,sparrow,0,Pigeon,53,Pigeon,0,Pigeon,0,Pigeon,0,blue jay,0,blue jay,100,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,goose,100,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,goose,100,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,geese,0,Blue Jay,0,Pigeon,0,Pigeon,0,Seagull,100,Pigeon,0,duck,100,Pigeon,0,seagull,100,Pigeon,0,Owl,100,Pigeon,0,duck,100,Pigeon,0,cardinal,0,Pigeon,0,Pigeon,0,blue jay,0,Pigeon,0,duck,100,Pigeon,0,goose,0,cardinal,100,Pigeon,52,Pigeon,0,Pigeon,0,duck,99,sparrow,50,Pigeon,0,Pigeon,0,cardinal,0,Pigeon,0,sparrow,99,Pigeon,0,Pigeon,0,geese,0,Pigeon,0,Pigeon,0,Pigeon,51,Pigeon,0,Pigeon,100,Pigeon,0,Pigeon,0,owl,0,Pigeon,0,Pigeon,0,Pigeon,0,vulture,52,Pigeon,0,Pigeon,0,Pigeon,52,Pigeon,0,Pigeon,0,Pigeon,0,Pigeon,0,Yellowjacket,0,Pigeon,0,
+2022-01-30 08:59:18,2022-01-30 09:35:52,IP Address,*******,100,2193,True,2022-01-30 09:35:52,R_D7ETL7BF9uZnsRj,*******,*******,*******,*******,*******,*******,anonymous,EN,5ee0554d395f86389a14cc39,"I agree to participate and share my data, and I'm ready to start!",24,91,A suburb,United States,Oklahoma,1.411,1.411,30.109,1,"cardinel
+sparrow
+robin
+egret
+duck
+goose
+whiporwill
+dove
+",sparrow,37,crow,100,goldfinch,100,kistrel,81,sparrow,9,robin,100,heron,0,hummingbird,100,,100,bald eagle,100,,2,heron,83,jay,0,flycatcher,10,chickadee,91,egret,0,vulture,91,,0,painted bunting,20,bluejay,100,oriole,11,,24,pelican,100,hawk,59,wren,0,pheasant,100,goose,100,egret,20,tit mouse,25,,52,mockingbird,9,loon,100,,0,junko,49,heron,0,downy woodpecker,92,beach bird,100,duck,100,bluebird,71,wren,0,starling,91,seagull,100,heron,11,duck,73,finch,47,crane,92,egret,100,horned owl,50,wren,2,goose,11,sparrow,82,painted bunting,53,sparrow,81,wren,51,indigo bunting,82,finch,41,mallard,100,quail,20,swan,100,cardinal,100,flicker,5,wren,12,wren,6,duck,100,sparrow,52,quail,10,perigree,9,bunting,10,black sparrow,9,wren,99,redheaded woodpecker,100,finch,0,duck,10,hawk,91,red winged blackbird,100,seagull,100,pheasant,100,pigeon,100,hummingbird,100,scissortail flycatcher,100,barn owl,100,,5,goose,100,sparrow,82,vulture,100,sparrow,0,meadowlark,51,tit mouse,5,bunting,22,dove,100,coot,51,,0,finch,83,sparrow,39,"the survey is too long, i started to lose interest and focus.  It would also be cool to know how many I got right"
+2022-01-27 19:57:22,2022-01-27 20:01:11,IP Address,*******,67,228,False,2022-02-03 20:01:11,R_e35TmJRknOvygs9,*******,*******,*******,*******,*******,*******,anonymous,EN,5eecf71ff9be240d72d2dddf,"I agree to participate and share my data, and I'm ready to start!",4,0,A city,Mexico,Nuevo Leon,0.575,0.575,30.176,1,"Merlin
+Eurasian
+Black Vulture
+Turkey vulture
+Brown jay
+Rock pigeon",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 11:53:24,2022-02-04 12:10:17,IP Address,*******,100,1013,True,2022-02-04 12:10:18,R_Y4yhMPcn8QabUpX,*******,*******,*******,*******,*******,*******,anonymous,EN,60fffd0b6bab1b908dc7a8d6,"I agree to participate and share my data, and I'm ready to start!",7,29,A city,United States,Massachusetts,0.694,0.694,30.01,1,"falcon
+eagle
+cardinal
+finch
+parrot
+tucan
+seagull
+crane
+ostrich
+peacock
+hawk
+",brown bird,97,,,yellow jay,6,puffin,35,,,,,,,hummingbird,21,,,eagle,100,,,short falcon,16,woodpecker,54,longtailed finch,21,long tailed small bird,49,crane,2,hawk,0,hummingbird,64,small parrot,0,blue jay,75,brown short beaked bird,19,,,,,falcon,80,walleye bird,42,feathered finch bird,6,,,hairy bird,4,skater boy bird,83,black bird,17,black oil spill bird,3,duck,100,cardinal,45,small little grey bird,20,heron,1,,,,,loon,99,,,black and white jay,49,,,seagull,100,,,mallard duck,100,fancy jay,15,,,crane,41,horned owl,77,grey bird,3,,,brown bird,40,red little bird,16,brown little bird,42,brown hummingbird,3,,,,,duck,100,pigeon,80,,,cardinal,100,colorful leopard woodpecker,36,,,small yellow bird,3,,,little puffy bird,18,woodpecker,30,,,,,crow,92,striped skunk bird,3,,,,,,,hawk,24,colorful crow,23,,,long tailed quail,22,pigeon,100,,,,,owl,100,,,,,,,,,winter jay,25,ground woodpecker,5,finch,19,cardinal with sharp beak,12,long neck chicken bird,33,,,longtailed bird,19,tweety bird,0,yellow cardinal,21,I am sorry I really don't know a lot of birds.
+2022-02-04 11:57:26,2022-02-04 12:11:23,IP Address,*******,100,836,True,2022-02-04 12:11:23,R_s74bmLa4ZENnwGJ,*******,*******,*******,*******,*******,*******,anonymous,EN,5c71b63c4aa8ec0001f2bfc4,"I agree to participate and share my data, and I'm ready to start!",8,28,A city,United States,Illinois,1.686,1.686,30.149,1,"Cardinal
+Stork
+Goose
+Penguin
+Toucan
+Sparrow
+Raven
+Hawk
+Eagle
+",Chicka,5,Sparrow,61,Chickadee,5,,,,,Robin,92,,,Hummingbird,88,Tortle,29,,,Hoga,0,,,,,,,Tweedle,48,Stork,13,Seabird,18,,,,,,,Harrow,0,Greybird,9,,,,,,,Tweedle,71,Goose,100,Torca,0,Chickadee,0,Dorset,5,Raven,28,Duck,72,Ghout,9,,,,,Red nose,0,Perto,5,,,Bluebird,25,,,Ticka,0,Seagull,100,Stork,28,Duck,100,Chickadee,29,Stork,29,Stork,39,,,Dee,8,Snort,9,Goyi,0,Redth,0,Redhawk,19,Chickadee,23,,,,,,,Chork,0,Swan,100,Cardinal,78,Hartow,6,Sparrow,20,Chickadee,0,,,Chickadee,0,,,Talon,19,,,,,Alort,47,Jutw,0,,,Duck,14,Hawk,39,Harlot,0,,,Peacock,31,,,Hummingbird,100,,,,,Teera,0,Gull,12,,,Vulture,20,Chickadee,14,,,,,Hartwit,0,Munch,0,,,Peeta,0,Chickadee,10,Chickadee,19,
+2022-02-04 12:07:01,2022-02-04 12:22:26,IP Address,*******,100,924,True,2022-02-04 12:22:26,R_21G3ofCZpjNuIG0,*******,*******,*******,*******,*******,*******,anonymous,EN,61fa93245719bc09cb834c04,"I agree to participate and share my data, and I'm ready to start!",9,71,A city,United States,illinois,0.801,0.801,30.02,1,"owl
+blue footed booby
+heron
+egret
+cardinal
+blue jay
+hummingbird
+Bald eagle
+touc",wren,71,,,,,blue jay,100,,,,,,,hummingbird,100,sea gull,60,,,,,,,blue jay,50,wren,37,,,puffin,36,vulture,21,booby,50,,,blue jay,92,magpie,100,crow,81,pelican,19,eagle,100,chickadee,100,,,goose,100,puffin,4,magpie,18,chicken,30,,,,,,,magpie,59,,,woodpecker,100,sea gull,100,,,blue jay,66,cardinal,40,,,sea gull,91,egret,20,duck,100,,,,,egret,42,tawny owl,92,wren,51,,,chickadee,65,cardinal,39,,,wren,57,wren,60,,,,,magpie,59,swan,100,cardinal,59,cockatoo,39,chickaadee,72,cockatoo,21,goose,68,,,wren,29,eagle,29,chickadee,52,,,,,,,chickadee,53,,,eagle,59,raven,23,sea gull,82,peacock,8,pigeon,100,hummingbird,100,cockatoo,39,barn owl,83,,,seagull,61,wren,51,vulture,18,,,wren,61,chickadee,51,wren,30,,,duck,19,,,,,,,I definitely knew fewer birds than I thought! I feel like is started to figure more of them out and remember more names as the survey went on
+2022-02-04 12:11:13,2022-02-04 12:23:11,IP Address,*******,100,718,True,2022-02-04 12:23:12,R_1nYPa6AVcPWSebM,*******,*******,*******,*******,*******,*******,anonymous,EN,5c3bfa59e8ff27000171a46a,"I agree to participate and share my data, and I'm ready to start!",0,9,A city,United States,New York,1.002,1.002,30.114,1,"Blue Jay
+Woodpecker
+Gold finch
+Sparrow
+Crow
+Raven
+Eagle
+Vulture
+nighthawk
+Owl
+",Sparrow,100,,,yellowjay,15,hawk,16,,,,,Vulture,46,hummingbird,20,Whitetail,0,Eagle,100,,,Blue Jay,77,,,,,,,duck,0,,,,,sparrow,40,Blue jay,22,Sparrow,34,raven,16,Pelican,32,,,Finch,0,quail,33,duck,100,snipe,31,Quail,0,quail,36,,,,,Robin,52,,,,,,,finch,0,Duck,0,Blue jay,43,robin,0,little birdd,0,seagull,80,Duck,27,Duck,100,Yellowhair,0,,,Swan,82,,,,,,,,,,,bird,0,,,blue jay,35,,,Duck,37,little bird,45,Swan,100,,,,,bird,0,small bird,0,,,Sparrow,0,Pigeon,0,hawk,0,Robin,36,Nighthawk,0,blue jay,25,Robin,29,tiny bird,0,Duck,40,Hawk,74,,,Seagull,100,Turkey,26,pigeon,100,Woodpecker,100,,,,,pigeon,18,Goose,68,,,vulture,46,Gold finch,0,yellowjay,20,Sparrow,48,,,,,duck,13,,,,,Yellowtail,26,too many birds you guys must be real avid bird watchers i've only seen like 10 percent of these birds
+2022-02-04 12:10:14,2022-02-04 12:23:14,IP Address,*******,100,779,True,2022-02-04 12:23:15,R_2bOZd4S0cyE7KBy,*******,*******,*******,*******,*******,*******,anonymous,EN,5fac51a62cd1ad201dde6290,"I agree to participate and share my data, and I'm ready to start!",9,26,A city,United States,New York,0.398,0.398,30.112,1,"Eagle
+Hawk 
+Blue jay 
+Cardinal 
+Pigeon 
+Duck 
+Chicken 
+Mockingbird 
+Hummingbird 
+Parrot 
+Penguin 
+",Branches,1,,,Cardinal,5,Tiger,3,Buck,3,Bland,38,beaky,2,Hummingbird,9,Seagull,2,,,Leig,2,Moth,12,mohawk,2,Redeye,0,Brunch,4,,,Eagle,9,bluejay,3,Sonic,1,,,,,,,Perikee,3,Eagle,12,plunige,3,Feather,3,Goose,100,,,,,Stem,2,Crow,5,,,,,Lop,3,Parikee,3,Skunk,3,Tip,3,Duck,7,Blue wing,1,branch,4,,,snow,3,,,,,,,,,,,Owl,2,Buib,9,,,Horns,2,Red neck,2,Marsup,17,Bert,1,Ernie,0,Yellowtail,29,duck,72,Duck,3,Swan,69,Cardinal,4,,,Cardinal,49,Jay,1,,,,,Cheetah,2,,,Jay,2,crow,3,,,liz,3,Peri,18,,,,,orange,3,seagull,2,Snake,3,Pigeon,100,Hummingbird,3,tail,2,Owl,2,,,Duck,2,Beaky,9,,,,,"Sniper ",9,,,,,,,,,,,,,,,
+2022-02-04 12:05:54,2022-02-04 12:27:16,IP Address,*******,100,1281,True,2022-02-04 12:27:16,R_2fpTAWADIC7WiuS,*******,*******,*******,*******,*******,*******,anonymous,EN,5d3e1489f2d9e800010e4d1c,"I agree to participate and share my data, and I'm ready to start!",0,16,A city,United States,TX,0.96,10.311,30.01,7,"Blue jay
+cardinal
+dove
+crow
+owl
+hummingbird
+woodpecker
+",sparrow,26,,,mockingbird,0,i don’t know,0,,,,,,,"hummingbird ",10,swallow,5,eagle,69,cardinal,0,,,quill,5,white belly,0,swallow,0,quill,0,vulture,7,,,,,blue cardinal,23,i don’t know,0,raven,0,seagull,0,hawk,0,short winged bird,0,,,goose,64,golden belly,0,,,"i don’t know ",74,raven,0,,,red haired buzzard,0,chick,36,,,i don’t know,0,duck,2,,,"blue jay ",0,i don’t know,0,,,gullet,0,flamingo,0,quill,0,,,seagull,63,swan,0,,,crow,0,,,swallow,0,sparrow,60,small bird,0,twitter bird,0,,,i don’t know,0,duck,80,jaybird,0,swan,34,,,,,"quill ",0,,,goose,64,,,golden haired sparrow,0,hawk,46,,,raven,23,sparrow,45,,,,,duck,0,,,blackbird,0,,,,,stoop pigeon,0,,,white jay,0,,,pigeon,0,,,,,vulture,38,"i don’t know ",0,i don’t know,0,,,cardinal,0,"i don’t know ",0,,,,,i don’t know,0,i don’t know,0,
+2022-02-04 12:10:50,2022-02-04 12:28:40,IP Address,*******,100,1069,True,2022-02-04 12:28:40,R_1IF6PNCAhbx7T5D,*******,*******,*******,*******,*******,*******,anonymous,EN,612fcbbd5386d9edb42da147,"I agree to participate and share my data, and I'm ready to start!",4,5,A rural area,United States,Virginia,0.86,0.86,30.008,1,"Cardinal
+Blue Jay
+Crow
+Pigeon
+Seagull
+Robin
+",Sparrow,41,Crow,40,Yellow jay,9,,,Chikodee,0,Robin,40,Gander,10,Hummingbird,0,Sparrow,5,Eagle,61,Cardinal,7,Hawk,18,Woodpecker,4,,,Robin,5,,,,,Sparrow,7,Blue Jay,39,Blue Jay,92,Cardinal,1,,,,,Hawk,30,Chikodee,2,,,Goose,73,Woodpecker,0,Sparrow,0,,,Sparrow,0,Duck,27,Robin,3,Chikodee,2,Goosebill,15,Woodpecker,11,,,,,Robin,30,Robin,30,Robin,0,Seagull,100,,,,,,,,,Swan,0,Owl,9,,,,,,,Cardinal,8,,,,,Chikodee,19,Chikodee,19,,,Dove,6,Swan,51,,,,,Sparrow,3,Chikodee,3,Duck,46,Chikodee,3,,,,,Cardinal,42,Pigeon,2,Robin,30,Woodpecker,13,,,,,Hawk,42,,,,,Sparrow,0,Pigeon,61,Hummingbird,0,,,Brown Owl,62,Chikodee,0,Duck,6,,,Vulture,70,,,Sparrow,0,Chikodee,4,,,Pigeon,20,,,,,Yellow Jay,3,Robin,2,
+2022-02-04 12:06:07,2022-02-04 12:29:34,IP Address,*******,100,1407,True,2022-02-04 12:29:35,R_1gOx2RJ2omF8rE3,*******,*******,*******,*******,*******,*******,anonymous,EN,610c73e305ca53ef706a4bcc,"I agree to participate and share my data, and I'm ready to start!",15,40,A suburb,United States,Georgia,0.509,0.509,30.116,1,"duck
+goose
+eagle
+hawk
+falcon
+blue footed booby
+tit
+seahawk
+seagull
+parrot
+cockatiel
+parake",standard bird,100,,,,,sparrow,54,,,robin,79,long necked hawk,0,hummingbird,91,,,,,swallow,71,,,woodpecker,3,sparrow,0,finch,3,,,,,,,,,,,,,crow,94,pelican,0,hawk,91,,,pheasant,0,goose,100,gull,0,brown cardinal,50,pheasant,0,crow,71,duck,85,robin,21,jay,45,,,woodpecker,7,kiwi bird,0,,,bluejay,29,jay,0,spud,0,seagull,100,,,duck,100,sparrow,2,egret,9,crane,99,owl,37,,,duck,29,,,red finch,0,wren,13,wren,13,bluejay,30,chicky,0,mallard,100,dove,73,swan,0,,,spotted belly,0,,,,,duck,91,,,,,,,jay,6,crow,34,finch,55,woodpecker,61,,,waterbird,0,hawk,26,,,,,pheasant,6,,,hummingbird,20,,,owl,97,,,fancy goose,0,finch,39,,,sparrow,23,,,kiwi bird,25,finch,7,snow pidgeon,0,,,jay,0,canary,24,,,"That was fun, thank you.  Sorry I said pheasant when it clearly wasnt... Saw the pheasant at the end... lol"
+2022-02-04 12:13:45,2022-02-04 12:31:02,IP Address,*******,100,1037,True,2022-02-04 12:31:02,R_3nBDmO6WdDXUSVk,*******,*******,*******,*******,*******,*******,anonymous,EN,605e6f4f35800996a22ac0ab,"I agree to participate and share my data, and I'm ready to start!",10,50,A suburb,United States,Nevada,1.272,1.272,30.014,1,"pigeon
+hummingbird
+tit bird
+owl
+eagle
+hawk
+toucan
+finch
+woodpecker
+",,,crow,82,messenger,0,tiger bird,0,volcano bird,0,,,giraffe bird,0,hummingbird,100,cap bird,0,bald eagle,100,,,seagull,0,jay,0,dumbledore bird,0,,,,,vulture,0,,,finch,0,,,tree bird,19,house finch,100,pelican,71,hawk,51,,,groovy dude bird,0,goose,90,,,mohawk,0,black flamingo looking thing,0,,,,,red chested bird,8,,,,,woodpecker,39,worm bird,0,devil bird,0,,,snow bird,0,,,,,,,duck,100,king finch,0,seagull,100,,,owl,100,squawker,0,,,,,,,,,tit,100,,,mustard chested bird,0,duck,100,landwhale bird,0,,,mohawk,0,nectar bird,0,tit,40,tit,0,,,house finch,77,land goose,0,eagle,0,,,,,finch,18,,,tree bird,0,,,,,pepsi bird,0,,,peacock,0,pigeon,100,hummingbird,100,perch,0,owl,79,snow eater,0,duck,17,hopper,82,vulture,0,lava bird,0,,,leopard bird,0,red snow bird,0,,,,,wood bird,72,bumblebee bird,0,tit,0,I live in the desert so there are barely any birds here
+2022-02-04 12:21:51,2022-02-04 12:34:06,IP Address,*******,100,734,True,2022-02-04 12:34:06,R_33j4EAoe3FpwLgB,*******,*******,*******,*******,*******,*******,anonymous,EN,594a9305647e0600014f7c3d,"I agree to participate and share my data, and I'm ready to start!",6,56,A rural area,United States,Virginia,0.662,10.791,30.116,2,"cardinal
+eagle
+hawk
+bluebird
+wren
+titmouse
+chickadee
+towhee
+falcon
+kestrel
+heron
+",phoebe,92,,,,,,,oriole,74,robin,100,,,"hummingbird ",100,seagull,100,,,barn swallow,100,,,king fisher,100,not sure,0,titmouse,100,,,vulture,100,no idea,0,not sure,0,bluejay,100,,,cowbird,100,,,,,bush tit,50,quail,100,,,not sure,0,,,,,grackle,100,duck,100,,,junco,100,condor,29,woodpecker,100,,,,,bluebird,100,,,,,seagull,100,,32,duck,100,,,heron,100,egret,100,owl,100,catbird,67,duck of some kind,66,,,house finch,100,,,,,indigo bunting,100,not sure,0,duck,100,not sure,0,swan,100,cardinal,100,flicker,100,not sure,0,,,mallard,100,gold finch,100,,,hawk,100,finch,100,,,carolina nuthatch,100,woodpecker,100,,,duck,100,red tailed hawk,100,,,seagull,100,pheasant,63,"pigeon ",100,,,no idea,0,,,not sure,0,grebe,81,,,,,not sure,0,,,killdeer,75,finch,0,,,not sure,0,,,not sure,0,not sure,0,
+2022-02-04 12:16:54,2022-02-04 12:38:15,IP Address,*******,100,1280,True,2022-02-04 12:38:15,R_114nrPgbYxKEXnw,*******,*******,*******,*******,*******,*******,anonymous,EN,"57509Adb119192000651Ec2B ","I agree to participate and share my data, and I'm ready to start!",23,43,A suburb,United States,Ohio,0.652,26.337,30.055,2,"Robin
+Blue jays  
+Cardinal
+Hawk
+Eagle
+",,,,,,,Unsure,10,"Finch ",25,,,"Water crane ",0,"Hummingbird ",100,,,Eagle,100,"Unsure ",7,,,,,"Unsure ",1,,,Unsure,11,Osprey,13,Unsure,4,,,,,"Unsure ",0,,,,,Unsure,8,,,"Unsure ",0,Canadian goose,100,"Squall ",0,"Cardinal ",100,"Unsure ",9,"Unsure ",1,"Unsure ",15,"Finch ",58,"Robin ",99,"Hookfish ",0,,,"Booby ",0,,,"Bluebird ",45,"Starling ",27,,,,,"Crane ",11,Mallard,100,,,"Unsure ",5,"Crane ",8,"Owl ",100,"Unsure ",15,,,Unsure,1,"Finch ",49,"Oriole ",4,Robin,54,,,"Unsure ",4,Mallard duck,100,"Unsure ",0,"Swan ",89,"Cardinal ",100,,,Unsure,27,,,Duck,100,,,"Unsure ",4,,,,,"Unsure ",4,Finch,88,"Woodpecker ",84,,,,,Unsure,0,"Unsure ",6,,,"Pheasant ",71,"Pigeon ",70,"Hummingbird ",100,"Oriole ",6,,,,,"Unsure ",0,"Unsure ",1,"Pheasant ",36,"Unsure ",0,,,,,"Unsure ",5,"Unsure ",0,"Unsure ",0,"Unsure ",2,,,,,
+2022-02-04 12:21:34,2022-02-04 12:38:40,IP Address,*******,100,1026,True,2022-02-04 12:38:41,R_3hxLFdgWzps01e8,*******,*******,*******,*******,*******,*******,anonymous,EN,5c7070519f9392000150023c,"I agree to participate and share my data, and I'm ready to start!",20,60,A city,United States,Illinois,0.576,0.576,30.009,1,"Robin
+Cardinal
+Finch
+Blue Jay
+Chickadee
+",Finch,90,Sparrow,91,canary,4,robin,3,,,,,crane,3,,,,,eagle,3,,,SParrow,3,blue jay,4,Robin,17,finch,4,,,vulture,2,,,Robin,3,Blue Jay,81,robin,5,,,Pelican,4,,,finch,5," Quail",3,,,Robin,3,finch,2,,,Finch,2,duck,84,finch,12,,,Crane,3,Woodpecker,95,pelican,2,duck,51,,,finch,3,,,,,,,duck,95,finch,9,,,crane,4,,,finch,5,goose,50,,,cardinal,50,,,finch,81,Finch,18,yellow finch,9,,,sparrow,4,Swan,3,cardinal,95,Cardinal,9,Finch,5,Blue Jay,6,,,robin,4,,,hawk,71,,,black bird,51,,,,,yellow finch,7,duck,18,eagle,3,,,pelican,3,,,,,hummingbird,95,Finch,4,Owl,5,,,,,finch,3,,,robin,5,,,Sparrow,5,Cardinal,81,,,duck,2,finch,1,yellow finch,2,sparrow,5,
+2022-02-04 12:24:16,2022-02-04 12:39:35,IP Address,*******,100,919,True,2022-02-04 12:39:36,R_21v4MpUrVVjVTkA,*******,*******,*******,*******,*******,*******,anonymous,EN,610e88e6455168ffad0a4163,"I agree to participate and share my data, and I'm ready to start!",7,25,A suburb,United States,"Pennsylvania ",0.69,25.763,30.014,3,"Cardinal
+Oriole 
+Blue Jay
+Dove
+Mockingbird 
+Sparrow 
+","Swallow ",7,,,,,Falcon,7,,,Robin,100,Heron,26,,,,,Eagle,100,Swallow,5,Fish bird,4,,,Dove,8,,,Crane,23,"Vulture ",10,Blue breasted bird,1,Finch,58,Blue jay,99,"Barn swallow ",21,,,"Pelican ",36,Hawk,59,,,Quail,100,Goose,100,,,,,,,Crow,82,"Duck ",15,Cardinal,1,,,Heron,1,"Woodpecker ",5,Seagull,51,Duck,15,Blue jay,57,Tuxedo bird,3,Crow,2,"Seagull ",100,,,"Duck ",99,Finch,7,,,Crane,80,Owl,100,Crow,2,,,,,,,,,"Swallow ",5,,,,,Duck,100,,,Swan,100,,,Spotted bird,1,Sparrow,0,Finch,25,"Duck ",10,Swallow,45,,,"Falcon ",60,,,Blue bird,33,"Sparrow ",36,,,Finch,8,Duck,4,,,"Oriole ",84,Seagull,100,"Pheasant ",63,,,,,Dove,3,,,,,Goose,12,Striped bird,33,"Buzzard ",82,"Oriole ",38,Yellow bird,18,"Mockingbird ",19,,,,,,,White breasted bird,5,"Canary ",46,Yellow finch,5,
+2022-02-04 12:26:53,2022-02-04 12:39:38,IP Address,*******,100,765,True,2022-02-04 12:39:38,R_cCRBT39hLXSmkY9,*******,*******,*******,*******,*******,*******,anonymous,EN,614bbefcf812159d1f0bc2e3,"I agree to participate and share my data, and I'm ready to start!",2,70,A city,United States,Ohio,2.118,2.118,30.016,1,"Dove
+Bald Eagle
+Pelican
+Hummingbird
+",robin,71,,,parakeet,6,robin,10,bluejay,31,dove,8,eagle,4,pink dove,11,eagle,8,bald eagle,100,blue jay,10,robin,8,crow,4,brown dove,5,woodpecker,13,swan,88,,,pelican,11,parakeet,8,blue jay,5,crow,40,,,pelican,40,eagle,3,,,,,duck,40,mockingbird,4,,,goose,5,crow,21,goose,55,robin,2,hummingbird,30,eagle,10,woodpecker,63,mockingjay,13,,,blue jay,71,,,jay,10,,,pelican,19,,,,,,,duck,7,owl,82,hummingbird,41,,,,,red sparrow,9,blue jay,6,pelican,3,,,parakeet,8,goose,82,small eagle,7,white goose,17,,,hummingbird,4,,,,,goose,18,,,blue jay,17,,,,,,,dove,7,hummingbird,8,,,goose,80,,,orange dove,6,dove,57,goose,19,,,,,dove,12,owl,82,,,,,hummingbird,8,,,,,dove,10,woodpecker,5,,,,,,,,,yellow dove,8,mockingjay,2,This was a pretty cool study!
+2022-02-04 12:17:55,2022-02-04 12:40:23,IP Address,*******,100,1347,True,2022-02-04 12:40:23,R_20PE6SILkhixr9W,*******,*******,*******,*******,*******,*******,anonymous,EN,5ec87bdf7a32d2364079e2fc,"I agree to participate and share my data, and I'm ready to start!",50,100,A rural area,United States,Maryland,0.502,0.502,30.184,1,"blue jay
+cardinal
+tufted tit mouse
+common tern
+seagull
+chickadee
+norther flicker
+wood pec",,,crow,100,gold finch,100,,,sparrow,0,robin red-breast,100,brown cormorant,21,,,,,bald eagle,100,,,,,,,,,Carolina chickadee,100,fancy flamingo,0,,,,,indigo bunting,40,blue-jay,100,brown-headed cow bird,100,common blackbird,100,grey pellican,100,red-shouldered hawk,45,grey wren,0,,,Canada goose,100,,,waxwing,0,,,common black bird,100,,,sparrow,10,,,cormorant,100,yellow bellied sap-sucker,100,sand-piper,100,devil duck,0,Eastern bluebird,100,,,,,"Sea gull ",96,,,wood duck,14,house finch,1,great blue heron,100,egret,3,,,,,,,,,common house finch,100,house sparrow,100,,,,,yellow throated warbler,0,,,mourning dove,100,"swan ",100,Cardinal,100,Northern flicker,100,catbirds 3rd cousin,0,yellow-throated warbler,0,wood duck,0,,,sandpiper,37,falcon,100,,,blackbird,1,,,red-bellied woodpecker,100,green king-fisher,0,fancy tern,0,,,red-winged blackbird,100,ring-billed gull,100,,,iridescent pigeon,100,ruby throated hummingbird,100,,,barred owl,53,Sea tern,0,checker goose,4,,,,,orange tit,0,road-runner,0,sand-piper,75,Finch,0,grouse,1,black goose,0,uncommon catbird,0,,,yellow-winged warbler,0,"Thank you, Thank you! this was such a fun survey to test my very novice bird ID skills. Im a plant person myself! "
+2022-02-04 12:27:22,2022-02-04 12:40:38,IP Address,*******,100,795,True,2022-02-04 12:40:38,R_2V45fjNrDOhTgxO,*******,*******,*******,*******,*******,*******,anonymous,EN,6039e8ee8d9a2b570728d771,"I agree to participate and share my data, and I'm ready to start!",20,30,A city,United States,Illinois,0.297,24.39,30.112,2,"Cardinal
+Pelican
+Blue jay
+Blackbird
+Red winged blackbird
+Blue foot booby
+Crow
+Marbled murrellet
+Sparrow
+Crow
+Raven
+",Finch,81,Crow,100,Goldfinch,78,,,Goldfinch,20,Robin,100,,,,,,,Bald eagle,100,Finch,35,Bittern,13,,,,,,,Plover,20,Turkey vulture,96,,,,,,,,,Magpie,12,Pelican,100,Hawk,91,,,Quail,61,,,Egret,8,Finch,5,Duck,11,Magpie,63,Duck,71,Robin,20,Sparrow,82,Heron,67,Woodpecker,88,,,,,Finch,17,,,Finch,24,Seagull,100,Scarlet ibis,63,Duck,86,,,Great blue heron,100,Egret,97,Great horned owl,94,Finch,23,Goose,85,,,Red finch,90,House sparrow,88,Sparrow,27,,,,,Mallard duck,97,,,Swan,98,,,,,Finch,20,Chickadee,55,Duck,83,Sparrow,75,,,Peregrine falcon,72,Finch,74,Magpie,32,Finch,90,Woodpecker,82,Finch,10,,,,,Red winged blackbird,100,,,Pheasant,66,,,,,,,Barn owl,80,Plover,28,Duck,21,,,,,Finch,71,,,Piper,68,Finch,31,Grouse,88,,,Sparrow,3,Goldfinch,84,Chickadee,82,"Sometimes the photos took a while to load "
+2022-02-04 12:09:09,2022-02-04 12:41:22,IP Address,*******,100,1932,True,2022-02-04 12:41:22,R_AvS4d8giTEO8h2h,*******,*******,*******,*******,*******,*******,anonymous,EN,60fdab663ebe0cb7f3fd4d4d,"I agree to participate and share my data, and I'm ready to start!",30,60,A suburb,United States,Texas,0.937,0.937,30.119,1,"Mockingbird
+Woodpecker
+Crow
+Dove
+Robin
+Bluejay
+",,,Crow,100,Goldfinch,60,N/A,0,,,Robin,100,Unknown,0,Hummingbird,100,Royal tern,60,,,Unknown,0,Heron,0,,,,,Sparrow,54,,,,,Sparrow,0,Bluebird,38,Bluejay,100,,,Grackle,100,,,,,Unknown,7,,0,,,Cardinal,3,Unknown,0,Unknown,0,,,,,Unknown,63,Sparrow,64,Unknown,7,mockingbird,4,,,,,Bluebird,27,magpie,12,,,,,Unknown,0,,,,,Crane,100,Crane,100,Owl,100,,,Duck,100,,,Finch,63,Sparrow,100,Sparrow,82,Bluebird,40,Finch,60,Mallard duck,100,Dove,100,,,Cardinal,100,,,,,Finch,58,Duck,100,Finch,23,Unknown,82,,,,,Blackbird,12,Chickadee,100,,,Finch,0,Unknown,11,Hawk,100,,,,,Unknown,75,,,Hummingbird,100,Unknown,13,,,Flycatcher,19,,,sparrow,71,,,Warbler,59,Unknown,10,,,Robin,55,Unknown,20,Duck,35,Sparrow,60,Songbird,42,Finch,82,
+2022-02-04 12:29:58,2022-02-04 12:42:04,IP Address,*******,100,725,True,2022-02-04 12:42:05,R_3shOxdv1dKLZMco,*******,*******,*******,*******,*******,*******,anonymous,EN,5bc640334b3be500012d36aa,"I agree to participate and share my data, and I'm ready to start!",26,59,A city,United States,Texas,0.336,26.76,30.013,10,"Pigeon
+Hummingbird
+Cardinal
+Blue jay
+Mockingbird
+Mourning Dove
+Dove
+Crow
+Raven
+Grackle
+",,0,,,Goldfinch,7,Falcon,29,Finch,5,Robin,23,,,,,,,,,,,,,,2,Sparrow,8,,0,,0,,,Finch,0,Finch,5,Blue jay,100,Finch,9,Grackle,100,Pelican,100,Falcon,50,,,,0,,,,,,0,,0,,,,,,,,0,,0,Woodpecker,96,Curlew,7,Duck,3,,,,,Robin,19,Seagull,100,,0,Duck,100,Finch,5,Crane,29,Crane,82,,,,0,Duck,72,,,,,Finch,10,,0,Sparrow,8,Goldfinch,8,Mallard duck,100,Mourning dove,100,,,Cardinal,100,Dove,5,Finch,3,Finch,8,Duck,100,Goldfinch,9,,,Eagle,93,,0,,,,,,,,0,,,Eagle,80,,,Seagull,100,,,Pigeon,100,,,,,Owl,100,,0,Duck,72,,,Turkey vulture,100,,0,,,,0,,,,,Duck,81,,0,Parakeet,3,,,"i'm sorry i guessed finch for everything i didn't realize how stupid i am "
+2022-02-04 12:15:46,2022-02-04 12:42:12,IP Address,*******,100,1585,True,2022-02-04 12:42:12,R_28ZDQfWBB6t5Ejn,*******,*******,*******,*******,*******,*******,anonymous,EN,5ddeb0232e4a05e10f448a80,"I agree to participate and share my data, and I'm ready to start!",6,4,A suburb,United States,virginia,0.716,0.716,30.022,1,"cardinal
+robin
+blue jay
+warbler
+oriole
+finch
+bobwhite
+",titmouse,39,,,,,,,swallow,30,robin,100,,,hummingbird,100,tern,68,bald eagle,100,chickadee,0,,,woodpecker,0,sparrow,0,titmouse,6,stilt,0,buzzard,13,warbler,0,,,,,mockingbird,28,grackle,0,,,,,titmouse,45,,,canadian goose,100,kingfisher,39,,,roadrunner,0,crow,0,duck,99,red-headed finch,0,wren,0,heron,72,,,piper,0,duck,54,,,white-bellied piper,0,titmouse,54,seagull,100,stork,0,,,,,,,,,horned owl,100,warbler,24,,,wren,23,finch,74,wren,100,,,,,,,mallard duck,100,pheasant,37,,,,,,,titmouse,26,sparrow,19,duck,85,finch,0,,,,,oriole,0,wren,0,finch,42,red-headed woodpecker,100,white-bellied sparrow,3,,,falcon,18,,,seagull,100,,,,,hummingbird,100,,,owl,100,puffer,5,,,wren,48,turkey buzzard,100,grackle,0,roadrunner,0,plower,17,,,,,duck,34,titmouse,2,yellow finch,0,mockingbird,24,
+2022-02-04 12:20:42,2022-02-04 12:42:58,IP Address,*******,100,1336,True,2022-02-04 12:42:59,R_PI1XLxvw2A6kZ7b,*******,*******,*******,*******,*******,*******,anonymous,EN,5d16b8aeaa676d001a898b7d,"I agree to participate and share my data, and I'm ready to start!",5,4,A city,United States,Oklahoma,1.562,1.562,30.014,1,"cardinal
+blue jay
+mocking jay
+woodpecker
+canary
+finch
+scissortail flycatcher
+kingfisher
+",,,crow,100,,,starling,1,finch,1,,,guinea,3,,,scissortail flycatcher,2,eagle,1,,,kingfisher,1,kingfisher,1,,,finch,1,crane,1,,,finch,1,sparrow,1,,,sparrow,1,,,crane,2,hawk,29,blue jay,59,,,,,,,,,,,warbler,1,,,cardinal,80,sparrow,2,,,woodpecker,90,puffin,2,loon,1,,,swallow,15,finch,1,gull,3,shoebill,1,duck,99,robin,2,heron,1,heron,1,,,,,duck,73,sparrow,1,,,,,warbler,1,,,canary,2,,,,,swan,100,cardinal,100,woodpecker,50,,,canary,2,duck,96,warbler,3,sparrow,1,herring,1,,,,,finch,1,woodpecker,92,finch,2,kingfisher,1,hawk,1,swallow,1,seagull,0,pheasant,1,pigeon,100,hummingbird,100,,,owl,100,,,,,,,vulture,2,finch,1,robin,1,,,,,,,duck,79,heron,2,warbler,1,warbler,1,
+2022-02-04 12:22:30,2022-02-04 12:43:26,IP Address,*******,100,1255,True,2022-02-04 12:43:26,R_3hiSanh7vGqBiTg,*******,*******,*******,*******,*******,*******,anonymous,EN,5e54056420410b4061885e16,"I agree to participate and share my data, and I'm ready to start!",49,61,A city,United States,New York,0.301,0.301,30.147,1,"Cardinal
+Blue Jay
+Raven Crow
+Sparrow
+Starling
+Swan
+Eagle
+Hawk
+Seagull
+Duck
+Goose 
+M",Sparrow,0,,,Chickadee,0,Falcon,8,,,,,black goose,0,,,Seagull,30,,,,,Heron,0,,,White chested bird,0,Titmouse,100,black Egret,0,,,warbler,29,,,,,Sparrow,20,Blackbird,52,pelican,100,Hawk,100,Titmouse,61,pheasant,100,Canadian goose,100,Egret,0,Titmouse,0,Weird goose,0,Grackle,50,Duck,0,rose finch,0,,,Creepy bird,0,Woodpecker,100,,,Duck,5,bluebird,32,,,starling,100,Seagull,100,,,Mallard duck,28,Angry bird,0,Heron,100,Egret,100,owl,49,grey blackbird,50,Duck,0,,,rose finch,11,Sparrow,100,starling,0,Bluebird,0,,,Mallard duck,100,,,Swan,100,Cardinal,100,,,Chickadee,51,,,,,,,Seagull or duck,0,Peregrine falcon,54,,,Blackbird,25,Striped bird,0,,,,,,,Red tailed hawk,100,redwing blackbird,100,,,,,,,Hummingbird,100,Longtail orange bird,0,"Owl ",20,,,,,Sparrow,50,Vulture,100,Robin,15,,,kiwi,14,,,,,duck,0,,,warbler,37,Warbler,11,
+2022-02-04 12:22:07,2022-02-04 12:43:32,IP Address,*******,100,1285,True,2022-02-04 12:43:33,R_3080PjOGo9qLu6K,*******,*******,*******,*******,*******,*******,anonymous,EN,611082ee9fd766aaaf0126db,"I agree to participate and share my data, and I'm ready to start!",20,29,A suburb,United States,Alabama,0.608,0.608,30.022,1,"Blue jay 
+Red Robin 
+Blue titmouse 
+Cardinal 
+",Titmouse,23,"Raven ",100,Yellow titmouse,27,,,,,,,Duck,15,Hummingbird,100,Black cap seagull,33,,,Swallow,47,,,Bluejay,30,,,Titmouse,51,Flamingo,5,,,,,Blue Cardinal,10,Blue jay,100,Brown titmouse,25,Titmouse,15,Pelican,94,,,Blue titmouse,25,Quail,100,"Canadian goose ",100,"Crane ",62,Brown robin,77,Pigeon,15,Crow,21,"Black duck ",36,,,Robin,75,"Black crane ",8,Woodpecker,95,Titmouse,10,"Red eyed duck ",52,,,,,,,Seagull,100,,,,,,,Water crane,10,,,,,Grey titmouse,10,Duck,10,,,"Red crested Cardinal ",12,,,Brown titmouse,2,,,,,"Mallard duck ",100,"Mourning dove ",69,Swan,100,Cardinal,100,,,Grey titmouse,7,Yellow finch,50,"Duck ",23,,,"Quail ",10,"Falcon ",97,,,Titmouse,10,,,,,Sparrow,17,Duck,13,,,Red wing sparrow,20,,,Pheasant,72,,,Hummingbird,90,Long feathered finch,5,"Barn owl ",65,,,Duck,16,"Striped sparrow ",27,Vulture,81,,,Yellow titmouse,13,Roadrunner,27,Yellow cardinal,21,,,Duck,9,,,Yellow titmouse,18,Yellow crested titmouse,14,
+2022-02-04 12:30:56,2022-02-04 12:44:23,IP Address,*******,100,807,True,2022-02-04 12:44:24,R_7aLl8ypXjvf8w3D,*******,*******,*******,*******,*******,*******,anonymous,EN,5eff8ffb5819b1074680077c,"I agree to participate and share my data, and I'm ready to start!",7,44,A rural area,United States,Ohio,0.507,0.507,30.152,1,"Sparrow
+Blue jay
+Cardinal
+Booby (haha funny ",,,,,,,,,Cardinal,0,,,,,Hummingbird,100,Black headed seagull,0,"Bald eagle ",100,Swallow,8,Thick legged duck,0,Woodpecker,3,White chested watcher,0,Chickadee,0,Long legged pete,0,"Vulture ",0,,,Grosbeak,0,Blue jay,100,Grosbeak,18,Crow,100,Pelican,9,,,"Chickadee ",3,,,Canadian goose,100,Quirky duck,0,Cardinal,0,,,Crow,100,Goth duck,0,Red headed pretty bird,0,,,,,Tiny woodpecker,0,Long beaked water duck,0,Red eyed fowl,0,Color changing sparrow,0,White chested sparrow,0,,,Seagull,100,,,Duck,32,Mohawked chick,0,Crane,100,Crane,40,,,Gray chested small,0,Goose,11,"Sparrow ",38,Grosbeak,0,Chickadee,55,Little round fella,0,Grosbeak,0,,,Duck (normal),100,,,Swan,29,Cardinal,100,,,Chickadee,0,Round chickadee,0,Duck,4,,,Pheasant,8,Falcon,42,Grosbeak,6,"Black sparrow ",0,Chickadee,63,,,,,Elegant duck,0,,,,,,,,,Pigeon,100,Hummingbird,100,,,Owl,100,,,,,,,"Vulture ",100,,,,,,,Hook nosed sparrow,0,,,,,Little guy that likes to hang out,0,"Yellow brownfacer ",0,Chickadee,6,Sorry I think everything is a chickadee I just think chickadees are the fat little guys
+2022-02-04 12:19:39,2022-02-04 12:45:26,IP Address,*******,100,1547,True,2022-02-04 12:45:27,R_3rO2M705fQli0RD,*******,*******,*******,*******,*******,*******,anonymous,EN,5ae0afd709eae20001131fb9,"I agree to participate and share my data, and I'm ready to start!",27,38,A suburb,United States,Michigan,0.68,0.68,30.011,1,"Cardinal
+Blue Jay
+Warbler
+Hawk
+Falcon
+Blackbird
+Starling
+",,,Raven,100,Goldfinch,96,Spotted Sparrow,6,,,Robin,94,Black Crane,9,Hummingbird,100,Small gull,94,Eagle,100,,,,,,,,,,,Crane,95,,,Finch,53,,,,,Blue Jay,89,Blackbird,89,Pelican,81,,,Blue Jay,73,,,,,Yellow tipped sparrow,5,Orange finch,24,Black Pigeon,8,Multicolored Raven,12,,,Redbelly finch,9,,,Goose,50,Woodpecker,100,Stork,55,,,Bluebird,77,Pheobe,74,,,Pigeon,98,Red bellied crane,51,Mallard,66,Yellow tipped finch,26,American Gray Crane,85,Long necked crane,3,American Owl,94,,,Canadian Goose,84,Black eyed finch,23,Finch,92,,,Finch,77,,,Goldfinch,63,North American Duck,95,Dove,60,Swan,100,,,Cockatiel,95,Grey tipped Sparrow,32,,,Dotted Duck,75,,,Sparrow,69,,,Orange headed finch,6,Blackfinch,59,,,Orange tipped wood pecker,64,,,,,Hawk,100,,,Grey winged Pigeon,100,,,,,,,Long tailed songbird,9,Owl,100,Whitefinch,9,Southern yellow billed duck,27,,,Vulture,95,American Robin,59,Yellow breasted songbird,4,,,Black tailed bird,44,Round breasted dove,3,Black duck,13,American Sparrow,57,Yellow finch,55,,,Very unique and difficult study!
+2022-02-04 12:33:27,2022-02-04 12:46:47,IP Address,*******,100,800,True,2022-02-04 12:46:47,R_SPnJPRIdOLtJarT,*******,*******,*******,*******,*******,*******,anonymous,EN,612679052d45de15e927a3b4,"I agree to participate and share my data, and I'm ready to start!",2,24,A city,United States,Tennessee,2.901,2.901,30.02,1,"Dove
+Red bird
+blue jay
+pigeon
+",finch,45,,,,,fluffy,31,yellow belly,97,,,long neck,1,hummingbird,100,gull,49,eagle,100,blackbird,3,gull,2,,,brown bird,49,,,,,vulture,100,blue jay,28,blue jay,100,blue jay,98,plain bird,27,,,seagull,100,,,,,,,goose,100,gull,7,mohawk bird,0,vulture?,9,,,duck,34,redbird,57,finch,56,,,,,lake bird,9,,,blue jay,60,finch,53,,,gull,100,turkey,12,,,mohawk bird,6,seagull,78,gull,26,,,puffbird,100,,,finch,51,red bird,79,,,little brown bird,34,,,yellow belly bird,32,,,plump bird,29,,,,,,,greybird,36,,,duck,100,yellowbird,31,,,,,,,blackbird,96,finch,68,mohawk bird,9,redeye bird,3,duck,10,,,,,gull,100,peacock,3,pigeon,100,hummingbird,100,longtail,20,,,cutie bird,13,duck,72,brown bird,36,,,finch,27,brownbird,44,,,red bird,57,,,duck,35,finch?,43,tweetie bird,2,finch?,3,i am sorry i am bad at knowing birds
+2022-02-04 12:31:54,2022-02-04 12:47:37,IP Address,*******,100,942,True,2022-02-04 12:47:37,R_1AMw2DFZMWAcuk1,*******,*******,*******,*******,*******,*******,anonymous,EN,5ef78f819d93424af2af742b,"I agree to participate and share my data, and I'm ready to start!",28,65,A suburb,United States,Ohio,0.501,0.501,30.107,1,"cardinal
+junko
+woodpecker
+sparrow
+robin
+bluejay
+chickadee
+",,,sparrow,70,wren,80,,,junko,23,,,huron,10,,,,,eagle,100,junko,81,mallard,26,,,wren,30,chickadee,100,,,falcon,25,wren,13,bluejay,20,,,sparrow,20,crow,30,mallard,20,,,sparrow,30,robin,18,woodduck,81,,,cardinal,92,duck,10,wren,40,,,robin,30,robin,40,crane,65,woodpecker,100,,,duck,34,,,sparrow,10,robin,91,,,,,duck,100,junko,80,,,crane,92,,,cuckoo,12,duck,70,,,robin,50,chickadee,20,,,bluejay,6,chickadee,20,wooduck,100,,,swan,75,,,,,thresh,51,,,,,sparrow,88,crow,40,hawk,90,robin,18,,,,,woodpecker,100,wren,20,woodduck,7,hawk,100,wren,30,puffin,20,,,pidgeon,100,,,,,,,,,duck,90,,,,,woodpecker,29,mallard,28,robin,91,chickadee,26,dove,20,crane,30,robin,30,,,cuckoo,29,
+2022-02-04 12:27:15,2022-02-04 12:48:44,IP Address,*******,100,1288,True,2022-02-04 12:48:44,R_2vj1gYwc1L8PkSs,*******,*******,*******,*******,*******,*******,anonymous,EN,6075ff702ca9dd94767cca11,"I agree to participate and share my data, and I'm ready to start!",10,15,A rural area,United States,Texas,0.646,0.646,30.124,1,"Blujay
+Hummingbird
+Cardinal
+Crow
+Bald Eagle
+",,,,,Yellow Finch,0,Hawk,0,Finch,0,Finch,10,Goose,0,Humming Bird,20,,,Eagle,4,,,Roadrunner,0,woodpecker,0,,,White belly,0,,,Buzzard,0,Finch,5,BlueJay,1,,,,,Crow,0,Seagull,4,Hawk,10,Finch,0,Pigeon,0,Goose,0,Seagull,0,,,,,Blackbird,0,Duck,0,Finch,0,,,Goose,0,Woodpecker,0,Roadrunner,0,,,BlueJay,1,Finch,0,Spotted Finch,0,,,Flamingo,0,,,Finch,0,Crane,0,Crane,0,,,,,,,Finch,0,,,Finch,1,Finch,0,,,Yellow Finch,0,Mallard Duck,3,,,Swann,0,,,Spotted Yellow Tail,0,Grey tail,0,,,Duck,0,Mocking Bird,0,Roadrunner,0,,,Finch,0,Blackbird,0,Finch,0,Woodpecker,0,,,Duck,0,Hawk,2,,,,,,,Pigeon,10,,,Long Tailed Finch,0,Owl,5,Finch,0,,,,,,,,,,,Roadrunner,0,FInch,0,Dove,0,Duck,0,,,Yellow Finch,0,Finch,0,
+2022-02-04 12:31:59,2022-02-04 12:51:06,IP Address,*******,100,1147,True,2022-02-04 12:51:07,R_1dHAa9bB3EjIMhA,*******,*******,*******,*******,*******,*******,anonymous,EN,610827eff2dd1f7f6750faad,"I agree to participate and share my data, and I'm ready to start!",9,22,A suburb,United States,Utah,0.324,0.324,30.011,1,"magpie
+bluebird
+turkey
+peacock
+songbird
+pigeon
+warbler
+parrot
+",,,small crow,5,warbler,46,hawk,22,,,robin,100,,,hummingbird,93,,,bald eagle,21,,,river bird,5,woodpecker,10,,,,,,,,,,,blue bird,0,blue jay,100,sparrow,3,sparrow,4,,,hawk,82,,,quail,100,,,red footed bird,0,sparrow,1,runner,5,small crow,5,duck,5,red belly warbler,24,,,gray swan,4,woodpecker,46,sparrow,72,duck,0,sparrow,6,sparrow,9,,,,,,,duck,30,,,,,heron,1,horned owl,58,sparrow,10,duck,12,sparrow,35,red crested warbler,16,chickadee,70,,,blue bird,4,warbler,56,mallard duck,100,dove,66,swan,100,,,,,chickadee,48,,,,,,,,,falcon,100,,,,,sparrow,5,woodpecker,89,,,,,,,sparrow,3,seagull,72,,,pigeon,100,hummingbird,12,sparrow,5,owl,10,dove,7,duck,17,chickadee,100,,,sparrow,8,,,quail,8,swallow,14,snow quail,6,duck,26,sparrow,3,songbird,21,yellow chickadee,15,
+2022-02-04 11:59:59,2022-02-04 12:51:07,IP Address,*******,100,3067,True,2022-02-04 12:51:07,R_22DeYv9R8IDRp3Y,*******,*******,*******,*******,*******,*******,anonymous,EN,5b824fb6cc06660001a302d4,"I agree to participate and share my data, and I'm ready to start!",25,40,A suburb,United States,Georgia,0.597,23.556,30.123,4,"blue jay brown thrasher
+owl
+hawk
+cardinal
+
+",,,crow,100,yellow breasted finch,100,sparrow,1,,,,,goose-necked fancy tail,0,,,split tail swallow,0,,,slick-head finch,0,egret,0,crested jay,0,gussied thrasher,0,,,stilt bird,0,buzzard,100,bluethroat,0,,,,,house finch,0,ravenfinch,0,pelican,100,,,wren,70,Brown quail,100,,,yellow-billed plum bird,0,tufted tit-mouse,100,green-foot beach duck,0,,,,,,,finch,100,,,downy woodpecker,100,long-beaked duck bird,0,,,bluebird,100,,,,,white gull,100,,,red headed duck,0,yellow crested wren,0,egret,100,"giant egret ",0,horned owl,0,grey crown tit mouse,0,great duck geese,0,white breasted thrasher,0,cardinal finch,100,brown finch,100,,,,,,,Mallord duck,100,Mourning dove,100,swan,100,,,mottled wren,0,,,tiny yellow breasted tiki,0,brown head pin tail duck,100,finch,100,sandpiper,0,mottled hawk,0,,,,,nuthatch,100,,,,,duck swan,0,,,,,snowy gull,0,common pheasant,100,,,hummingbird,100,long tail towhee,0,Barred owl,100,,,,,mottled sparrow,0,buzzard,100,double winged sparrow,0,warbler,0,mottled long-beaked thrush,0,,,,,turkey-duck,0,spotted tailed thrush,8,yellow wren,100,chickadee,100,
+2022-02-04 12:30:32,2022-02-04 12:53:31,IP Address,*******,100,1379,True,2022-02-04 12:53:32,R_27HCKiIlc7PfdlS,*******,*******,*******,*******,*******,*******,anonymous,EN,610b3489a58c821ea5d042db,"I agree to participate and share my data, and I'm ready to start!",10,15,A suburb,United States,Pennsylvania,1.901,2.503,30.128,2,"Cardinal
+Blue bird
+Crow
+Hawk
+Owl
+Finch
+Canary
+Goose
+Chick",finch,50,,,yellow cardinal,40,,,finch,20,,,crane,0,,,water finch,10,,,yellow belly finch,20,crane,0,blue sparrow,0,,,,,swamp crane,10,,,sparrow,30,blue cardinal,0,blue cardinal,100,sparrow,40,,,,,,,finch,20,,,,,,,red wing finch,5,green legged crane,0,black crow,100,loon,100,cardinal,19,,,,,woodpecker,70,,,loon,70,blue bird,30,,,sparrow,42,,,pelican,0,duck,60,Yellowhead,10,crane,9,,,owl,15,black sparrow,10,goose,15,brown sparrow,30,red sparrow,60,finch,50,,,,,,,duck,100,,,swan,100,,,spotted cardinal,10,finch,39,finch,21,canadian duck,10,yellow finch,10,forest crane,0,hawk,60,cardinal,9,,,sparrow,30,woodpecker,100,sparrow,20,,,hawk,70,,,seagull,100,turkey,0,pigeon,100,hummingbird,81,,,barn owl,30,,,duck,0,finch,40,,,sparrow,21,yellow belly seagull,10,,,,,snow turkey,0,loon,100,sparrow,3,,,Yellowtail,10,im sorry my bird guesses were so wack lol
+2022-02-04 12:25:21,2022-02-04 12:53:39,IP Address,*******,100,1698,True,2022-02-04 12:53:39,R_2PiFgnPu7ooABYo,*******,*******,*******,*******,*******,*******,anonymous,EN,60fcf05ab368fd88bb8075ad,"I agree to participate and share my data, and I'm ready to start!",2,12,A suburb,United States,Texas,0.724,0.724,30.012,1,"Blue Jay
+Cardinal 
+Parrot
+",Brown Bird,0,crow,93,yellow jay,0,,,black tailed jay,0,,,,,Humming bird,8,Black Head Gull,0,eagle,71,blue tip finch,0,Sea Bird,0,,,,,black and white finch,0,stork,73,,,Blue Neck Tweeter,0,blue finch,0,,,pidgeon,10,crow,10,pelican,92,,,blue jay,0,quail,19,goose,100,,,"brown cardinal ",0,Black Finch,0,,,,,red chest finch,0,,,"Fish Guzzler ",0,,,Long Billed Finch,0,,,blue bird,13,black beak,0,Dotted Finch,0,sea gull,92,"Long Billed Stork ",0,Duck,100,,,,,great egret,0,owl,0,,,,,Puffy Brown Finch,0,,,house finch,0,,,,,,,,,,,swan,82,,,"blue bill spekler ",0,Grey Jay,0,yellow chest puffer,0,duck,50,Puffer Finch,0,Speckled Finch,0,,,Gray Finch,0,,,black stripe finch,0,red snow bird,0,,,Thin Beak Duck,0,hawk,19,,,Black Tailed Gull,72,Long Feather Tail,0,,,hummingbird,84,long feather tailed finch,0,owl,82,,,duck,0,,,,,orange finch,0,,,brown feathered puffer,0,Red Finch,0,Snow Pigeon,0,Duck,0,White Chest finch,0,yellow jay,0,Yellow and Black finch,0,i clearly know nothing about birds!
+2022-02-04 12:32:33,2022-02-04 12:53:55,IP Address,*******,100,1281,True,2022-02-04 12:53:56,R_1irjkrH2puU5CIj,*******,*******,*******,*******,*******,*******,anonymous,EN,5fd14598fd2de30f5eea2fc4,"I agree to participate and share my data, and I'm ready to start!",50,71,A suburb,United States,"Oklahoma ",0.627,0.627,30.029,1,"Cardinal
+Crow
+Titmouse
+Raven
+Chickadee
+Towhee
+Magpie
+",Gray finch,8,,,Gold finch,100,"Falcon ",6,Yellow breasted towhee,1,Robin,100,Swamp fisher,4,"Hummingbird ",100,,,Bald eagle,100,"Tanninger ",5,King Fisher,8,,,,,Black capped chickadee,100,Water wader,2,Vulture,4,,,"Royal ",1,,,Crow bird,5,Cow bird,100,,,"Prairie Hawk ",71,Gray wren,4,Grouse,6,,,Egret,3,,,,,Starling,100,Spotted duck,3,House finch,80,Towhee,50,,,,,Wading pipkin,4,Red eyed glider,5,Blue bird,100,White breasted,4,Cow bird,93,,,,,Red headed duck,52,"Yellow capped chickadee ",9,Egret,6,,,,,,,,,"Sparrow ",100,Common sparrow,100,Sparrow,15,House wren,99,Blue sparrow,3,Warbler,19,Mallard duck,100,,,Swan,99,"Cardinal ",100,"Woodpecker ",50,,,,,Brown headed duck,4,,,,,"Peregrine Falcon ",6,House finch,49,,,Black capped chickadee,99,"Downy woodpecker ",100,,,,,"Red tailed Hawk ",52,,,,,"Pheasant ",20,,,"Humming bird ",100,,,Owl,50,Pipkin,8,,,"Sparrow ",92,"Turkey vulture ",4,Orange sparrow,3,"Meadow grouse ",1,Sand pipkin,3,Wren,6,Ptarmigan grouse,100,,,"Am scissor tail ",2,,,,,
+2022-02-04 12:33:52,2022-02-04 12:56:34,IP Address,*******,100,1362,True,2022-02-04 12:56:34,R_74e2DoDA2nOa4sF,*******,*******,*******,*******,*******,*******,anonymous,EN,61281807315e6a48865e5349,"I agree to participate and share my data, and I'm ready to start!",42,60,A suburb,United States,Maine,1.15,1.15,30.011,1,"Robin
+Morning Dove
+Pigeon
+Crow
+Blue Jay
+Wren
+Blue bird
+Candian Geese
+",brownbird,43,,,yellow finch,5,sharpshin hawk,0,"orange winged blackbird ",0,robin,100,"cormorant ",0,ruby throated hummingbird,100,,,,,blue bird,13,,,kookaburra,0,shrike,0,,,sandpiper,0,vulture,0,,,blue finch,0,bluejay,100,,,blackbird,7,brown pelican,5,"peregrine falcon ",17,,,"ridged pheasant ",3,,,brownchested egret,0,,,chicken,0,blackbird,44,loon,80,,,grey capped finch,0,,,,,sandpiper,36,wood duck,42,bluebird,100,"black capped sparrow ",2,brown sparrow,2,seagull,100,,,woodduck,97,,,,,egret,46,great horned owl,90,,,,,sparrow,53,sparow,7,,,,,,,yellow chested sparow,0,mallard duck,100,morning dove,79,swan,100,"cardinal ",100,,,,,,,,,oriole,5,,,,,orange headed finch,0,bluewinged black bird,0,,,hairy woodpecker,100,,,sand piper,0,"peregrine falcon ",1,redwinged blackbird,1,seagull,100,phesant,0,"pigeon ",99,,,shrike,0,owl,34,arctic finch,0,duck,1,house sparrow,81,"california condor ",92,,,,,,,red finch,0,"snow pheasant ",0,redeyed duck,0,redwinged swallow,0,,,yellow throated songbird,0,
+2022-02-04 12:31:53,2022-02-04 13:01:28,IP Address,*******,100,1774,True,2022-02-04 13:01:28,R_33vYVW57aN8abuu,*******,*******,*******,*******,*******,*******,anonymous,EN,60d3b417d47497f6ae55273f,"I agree to participate and share my data, and I'm ready to start!",30,45,A suburb,United States,Kentucky,0.514,0.514,30.01,1,"cardinal
+woodpecker
+blue jay
+crane
+",,,,,yellow finch,100,,,finch,22,robin,89,goose,80,hummingbird,100,,,hawk,56,finch,25,,,,,,,tiffed titmouse,86,,,vulture,85,blue chested chickadee,5,,,blue jay,100,,,raven,82,pelican,15,,,,,dove,1,,,,,,,starling,1,crow,91,dark goose,5,cardinal,7,starling,52,watercrest,15,,,woodpecker,20,eastern duck,5,robin,72,northern grey titmouse,15,chickadee,70,,,heron,13,duck,65,yellow crowned titmouse,10,heron,20,,,barn owl,65,tuffed titmouse,84,orange beaked goose,15,finch,80,bright starling,5,,,,,starling,44,striped yellow finch,20,,,mourning dove,100,,,cardinal,100,blue crested starling,20,chickadee,80,chickadee,75,,,,,starling,5,hawk,75,northern grey titmouse,8,crow,5,striped chickadee,68,woodpecker,100,yellow back starling,10,water fowl,5,,,eastern orange chickadee,13,seagull,100,,,pigeon,100,hummingbird,100,,,,,northeastern white chickadee,15,goose,10,,,,,,,yellow chested starling,8,white speckled chickadee,58,,,,,,,starling,15,yellow chickadee,5,chickadee,15,
+2022-02-04 12:48:48,2022-02-04 13:08:40,IP Address,*******,100,1192,True,2022-02-04 13:08:40,R_1cRMPNp7Hr7Zy3d,*******,*******,*******,*******,*******,*******,anonymous,EN,60aae4f5fb23c081f5624ebb,"I agree to participate and share my data, and I'm ready to start!",0,70,A rural area,United States,New Jersey,0.598,0.598,30.01,1,"robin
+dove
+ostrich
+blue jay
+raven
+crow
+",cute baby taupe bird,0,raven or crow,100,,,,,sunset bird,0,orange bellied bird,0,,,humming bird,100,boat bird,90,bald eagle,100,slender tailed yellow chested bird,0,ancient bird,0,mohawk anthony,0,,,,,,,black peacock vulture,0,blue chested Diane,0,blue bird,0,blue jay,100,,,black bird,0,big headed larry bird,0,,,grey baby bird,0,,,,,white and orange bird,0,round bird,0,chicken duck,0,,,duck goose,0,,,long tailed bird,0,gull bird,0,woodpecker,100,,,spunky duck,0,blue bird,100,black and white bird,0,,,pigeon,100,red duck,0,duck,100,neon mohawk bird,0,,,skinny neck white bird,0,owl,100,grey bird,0,,,big belly bird,0,,,red headed bird,0,chunky brown bird,0,,,,,duck,100,,,,,,,,,round white belly bird,0,,,,,,,speckled skunk bird,0,hawk,50,,,bue jay,100,skunk bird,0,redheaded zebra bird,0,yellow bird,0,swan duck,0,hawk,0,,,pigeon,100,wild chicken,0,,,humming bird,0,long tailed bird,0,,,white and black bird,0,,,brown striped belly bird,60,turkey vulture,0,scaley bird,0,yellow neck Susan,0,,,orange torosed Makaw,0,,,,,brown bird white belly,0,yellow bird,0,bumble bee bird,0,
+2022-02-04 12:49:20,2022-02-04 13:15:13,IP Address,*******,100,1553,True,2022-02-04 13:15:13,R_1jNihyWmm8t6Bte,*******,*******,*******,*******,*******,*******,anonymous,EN,6147ade6028a9d57b67740c7,"I agree to participate and share my data, and I'm ready to start!",51,89,A city,United States,Florida,0.501,0.501,30.022,1,"Cardinal
+Bluejay
+Ibis
+Eagle
+Hawk
+Chicken
+Twit
+Robin
+Hummi",Twit,76,,,Budgerigar,47,Sparrowhawk,75,Flycatcher,20,,,Comorant,79,,,Seabird,48,Eagle,100,Blue headed warbler,14,Fish catcher,43,,,Brown tweeter,13,Tit,100,,,Vulture,30,,,,,,,,,,,Pelican,100,Kestrel,100,Wagtail,90,Featherbird,54,,,Heron,86,,,Moor hen,100,Raven,32,Coot,85,Pink pointer,8,Nutcracker,33,Comorant,100,,,Pond wader,93,Booby,72,,,Flycatcher,85,Spotted finch,27,Seagull,100,Wader,29,Duck,100,Yellow-crested finch,80,Comorant,50,,,Horned owl,96,,,Goose,100,,,Twit,15,,,,,Blue robin,20,,,,,,,,,Cardinal,100,Speckled breast,51,,,,,,,Finch,25,Sandpiper,52,Kestrel,89,Fardinal,12,Blackbird,7,,,Woodpecker,100,Titmouse,63,Paddler,65,Hawk,100,Blackbird,14,Seagull,100,,,Pigeon,100,Hummingbird,66,Flytail,7,Owl,100,Sea twit,36,,,,,Turkey vulture,100,,,Warbler,70,,,Hookbeak,42,Snow hen,0,,,Coot,25,,,Finch,7,I thought I knew more birds lol
+2022-02-04 12:32:03,2022-02-04 13:15:17,IP Address,*******,100,2593,True,2022-02-04 13:15:17,R_dbv3asO4YTSz8Zz,*******,*******,*******,*******,*******,*******,anonymous,EN,6110af8a7b17f4c0cf4fd934,"I agree to participate and share my data, and I'm ready to start!",18,30,A city,United States,CA,0.462,0.462,30.108,1,"Plover
+Mourning dove
+Pigeon
+Raven 
+Crow
+Hummingbird 
+Sparrow 
+Blue j",,,,,"Finch ",68,,,Finch,35,Finch,34,,,"Hummingbird ",100,,,Eagle,100,Sparrow,23,Razorbill,42,Blue jay,84,Sparrow,11,Sparrow,45,Stilt,63,,,,,Finch,100,Blue jay,100,Sparrow,41,Starling,100,,,Hawk,100,Titmouse,76,Quail,100,,,Egret,0,,,,,,,,,Sparrow,6,,,Cormorant,34,"Woodpecker ",100,Plover,100,Rail,40,Bluebird,39,,,"Starling ",100,,,,,Duck,36,"Bushtit ",46,,,,,Owl,100,,,Duck,37,,,Sparrow,28,,,,,Sparrow,21,,,Duck,100,,,Swan,100,,,Sparrow,23,,,Bushtit,16,Seabird,12,"Finch ",53,Plover,41,,,Sparrow,0,Starling,30,,,Flicker,65,Sparrow,15,Rail,20,,,Sparrow,19,"Seagull ",100,Pheasant,100,Pigeon,100,"Hummingbird ",100,Warbler,27,,,Plover,9,Duck,41,Sparrow,100,,,Sparrow,14,Flinker,36,Plover,83,,,Dove,19,Coot,100,,,"Flycatcher ",72,Warbler,30,
+2022-02-04 12:32:00,2022-02-04 13:30:58,IP Address,*******,100,3538,True,2022-02-04 13:30:58,R_2UWuExIalL1yHWH,*******,*******,*******,*******,*******,*******,anonymous,EN,5699cf0625d9e9000db0c789,"I agree to participate and share my data, and I'm ready to start!",60,85,A suburb,United States,Texas,1.805,1.805,30.013,1,"cardinal
+chickadee
+sora
+kingfisher
+crow
+bluejay
+scissor-tailed flycatcher
+",phoebe,95,crow,99,goldfinch,81,Cooper's hawk,98,warbler,2,robin,100,black cormorant,82,,,tern,2,bald eagle,50,,,green egret,81,belted kingfisher,88,cuckoo,14,black-capped chickadee,100,,,turkey vulture,100,,,,,blue jay,100,brown-headed cowbird,100,blackbird,100,,,,,blue-eyed gnatcatcher,95,,,,,,,,,,,common grackle,100,common loon,100,,,,,,,,,shorebird,50,red-eyed merganser,2,Eastern bluebird,100,flycatcher,92,starling,100,,,wood ibis,5,duck,53,yellow-headed warbler,20,great egret,98,,,screech owl,81,catbird,33,nene,0,black-faced thrush,0,house finch,50,,,Carolina wren,100,,,,,mallard,100,,,trumpeter swan,3,,,flicker,97,mockingbird,100,warbler,18,duck,19,finch,29,,,,,purple finch,50,,,,,red-bellied woodpecker,96,red-eyed vireo,19,piping plover,50,red-tailed hawk,97,,,seagull,60,ring-tailed pheasant,72,pigeon,100,ruby-throated hummingbird,100,scissor-tailed flycatcher,100,barn owl,49,ptarmigan,1,goose,5,,,,,redstart,1,,,shorebird,29,crossbilled finch,4,,,,,yellow-billed cuckoo,100,yellow warbler,19,,,"I can't remember the difference between the house finch and the purple finch. I don't know water birds well at all. "
+2022-02-04 13:45:25,2022-02-04 14:06:32,IP Address,*******,100,1267,True,2022-02-04 14:06:33,R_3irtMoXgEaculSP,*******,*******,*******,*******,*******,*******,anonymous,EN,6112a0826f404dc5c6ece834,"I agree to participate and share my data, and I'm ready to start!",10,36,A rural area,United States,Kentucky,1.557,1.557,30.124,1,"Cardinal
+Blue Jay
+Woodpecker
+Oriole 
+Wrench
+Pigeon 
+Canary
+",Gray finch,33,,,Yellow songbird,6,,,Black songbird,9,Red breasted finch,7,Black crane,2,,,Seagull,4,"Bald eagle ",93,Kingfisher,2,Blue footed booby,2,,,,,Black canary,12,"Crane ",13,Vulture,88,,,,,,,Hawk finch,3,,,Pelican,3,Hawk,83,,,Guinea Hen,75,Goose,59,Vulture crane,1,Big breasted cardinal,14,Turkey pigeon,2,Crow,73,,,Red breasted finch,3,Pigeon,13,Black wren,3,,,Long beaked finch,1,Red eyed mallard,2,Gold bellied finch,12,,,,,,,,,Mallard,38,Yellow headed finch,3,,,Stork,83,,,,,Duck,19,Hawk finch,13,Red breasted finch,6,,,,,,,Yellow breasted finch,3,"Mallard ",60,,,Swan,16,Cardinal,100,Spotted swallow,3,,,Golden canary,3,Duck,23,Finch,47,Spotted wrinch,3,Hawk,54,,,,,,,,,Canary,11,Red necked mallard,7,,,Spotted finch,37,Pigeon,4,,,,,Hummingbird,100,Long tail swallow,3,"Barn owl ",26,,,Duck,55,,,Turkey vulture,94,"Golden wren ",11,,,Long beaked crane,3,Hawk finch,5,Rooster puffin,2,Black mallard,3,Swallowtail,6,Golden canary,3,Chickadee,2,"I enjoyed this study even if I was awful at knowing bird names! "
+2022-01-30 08:58:59,2022-01-30 08:59:03,IP Address,*******,6,3,False,2022-02-06 08:59:04,R_12qXWFoArV6idRI,*******,*******,*******,*******,*******,*******,anonymous,EN,58e98b8c41b9a700018d580b,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 12:03:34,2022-02-04 12:03:53,IP Address,*******,6,18,False,2022-02-11 12:10:06,R_3RmTTusVAu08cRw,*******,*******,*******,*******,*******,*******,anonymous,EN,5cb56689b34d310018c83a8c,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 12:08:09,2022-02-04 12:11:52,IP Address,*******,72,223,False,2022-02-11 12:13:11,R_ApOO9m1Sn5hzywh,*******,*******,*******,*******,*******,*******,anonymous,EN,60e9c78a617cbabf4732fee6,"I agree to participate and share my data, and I'm ready to start!",0,2,A city,United States,PA,0.997,0.997,30.123,1,"bluejay
+finch
+cardinal
+pigeon
+hummingbird
+canary
+",,,,,,,,,,,,,,,,,,,eagle,0,,,,,,,,,finch,0,,,,,,,sparrow,0,,,,,,,,,,,,,,,,,,,,,,,sparrow,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,duck,30,,,,,,,,,,,,,,,,,,,,,,,finch,0,,,,,,,,,,,cardinal,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 12:04:42,2022-02-04 12:16:49,IP Address,*******,72,726,False,2022-02-11 12:16:50,R_sMRlBrTwGqMelGx,*******,*******,*******,*******,*******,*******,anonymous,EN,5d63876854f7a50001c712e7,"I agree to participate and share my data, and I'm ready to start!",3,15,A suburb,United States,Illinois,0.308,0.308,30.12,1,"Pigeon
+Hummingbird
+Parrot
+Parakeet
+Crow
+Eagles
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,bluejay,51,crow,90,,,,,,,sparrow,0,,,duck,100,mockingbird,0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,goose,100,,,,,,,,,,,duck,100,,,,,,,,,,,,,,,pigeon,100,,,,,,,pigeon,9,,,duck,100,,,,,,,,,,,,,parakeet,0,,,,,eagle,95,,,,,,,,,woodpecker,50,,,,,,,,,,,,,woodpecker,0,heron,0,,,,,,,,,,,,,,,
+2022-02-04 12:05:30,2022-02-04 12:11:56,IP Address,*******,72,386,False,2022-02-11 12:17:30,R_1d9KjR5xJ9yVb7r,*******,*******,*******,*******,*******,*******,anonymous,EN,60fcc965ffd91b02dc8b02bf,"I agree to participate and share my data, and I'm ready to start!",5,35,A suburb,United States,Georgia,1.215,1.215,30.014,1,"sparrow
+cockatoo
+cardinal
+crow
+blackbird
+robin
+",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,blue bird,71,,,,,,,,,,,,,,,goose,100,mohawk sparrow,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,arctic hawk,30,,,,,,,,,,,red pond bird,10,,,,,,,,,,,,,,,,,,,water hen,81,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 12:06:48,2022-02-04 12:21:05,IP Address,*******,72,856,False,2022-02-11 12:24:29,R_2SvoNpmgeXeJ977,*******,*******,*******,*******,*******,*******,anonymous,EN,6126b4877167c0dbe04149a6,"I agree to participate and share my data, and I'm ready to start!",15,31,A suburb,United States,"Illinois ",3.572,5.326,7.146,2,,Brown state bird,0,Raven,0,Canary,0,,,Illinois jet bird,100,Orange sparrow,0,Long necked duck,0,Hummingbird,100,,,,,,,Red eyed jack,0,Brown cockapoo,0,,,,,,,,,Blue chinned sparrow,0,Blue jay,0,,,,,Black jay,0,,,,,,,Feather bird,0,American Goose,100,Pink fluff,0,Yellow belly bird,0,,,,,Black duck,0,,,,,Black goose,0,Sparrow,0,Long beak arizona bird,0,,,,,,,,,,,Velvet maroon,0,,,Cockapoo,0,Long legged goose,0,,,Barn owl,100,,,Orange legged goose,38,,,,,,,,,,,Black and yellow canary,0,American duck,100,,,,,Cardinal,100,,,,,Canary,0,Black duck,99,,,,,Hawk,99,Pink shorthair,0,Black bluejay,0,Sparrow,0,,,Red eyed sparrow,0,,,,,Illinois blackbird,100,Seagull,0,,,,,Hummingbird,100,,,,,,,Mixed duck,0,,,Vulture,0,,,,,,,Robin,0,,,,,Olivia,0,,,,,
+2022-02-04 12:32:07,2022-02-04 12:32:49,IP Address,*******,6,42,False,2022-02-11 12:36:42,R_2UgOHWgPXtMZ7gs,*******,*******,*******,*******,*******,*******,anonymous,EN,5e7b49d04a5c6014377ddb6a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2022-02-04 12:30:04,2022-02-04 12:48:10,IP Address,*******,72,1086,False,2022-02-11 12:48:14,R_2Crm44Dp6ZxlmS7,*******,*******,*******,*******,*******,*******,anonymous,EN,60fde055210bd93e6e6aa7f4,"I agree to participate and share my data, and I'm ready to start!",10,20,A city,United States,idaho,0.51,0.51,30.011,1,"dove
+pigeon
+crow
+eagle
+blue bird
+red belly
+quail 
+vulture
+",brown bird,20,crow,100,yellow sparrow,0,owl,81,,,sparrow,20,,,humming bird,100,,,eagle,100,blue back,0,arrow bird,10,loco bird,0,tell tale bird,20,snow bird,0,pink leg bird,0,vulture,100,,,,,blue sparrow,20,,,black bird,51,,,watcher,40,straight tail,20,,,,,,,,,rooster,100,rainbow crow,0,duck,100,pink belly,0,,,,,red necked bird,0,wood pecker,60,,,,,messenger bird,20,spotted belly bird,0,,,pecker bird,30,,,,,,,,,,,,,,,yellow jacket,9,sparrow,0,,,belly bird,100,blue bird,60,,,duck,100,,,swan,100,chief,0,speckled rainbow bird,0,,,,,duck,100,clench bird,0,S  neck bird,0,amber bird,0,,,,,skunk bird,0,red necked bird,0,,,,,,,fire bird,0,seagull,100,,,pigeon,100,,,long whisper,0,,,,,duck,82,,,raven,71,orange sparrow,0,,,wood pecker,51,watcher bird,0,,,,,mirror bird,0,,,bee bird,10,
+2022-02-04 12:25:53,2022-02-04 12:48:19,IP Address,*******,72,1346,False,2022-02-11 12:50:32,R_2rZ8ev9GHCd6TDs,*******,*******,*******,*******,*******,*******,anonymous,EN,610c67294eb01007a0b18475,"I agree to participate and share my data, and I'm ready to start!",10,25,A suburb,United States,Michigan,1.17,29.421,30.031,11,"Blue macaw 
+Mockingbird
+Bluefoot
+",,,,,,,Bulbul,9,,,,,,,"Sparrow ",49,,,Bald Eagle,100,,,,,Blue Mockingjay,30,Buzzard,50,,,Blackbird,0,,,Nightangle,0,,,,,,,,,Seagull,50,Falcon,100,,,Kite,0,,,,,Blackbeek,0,Green foot wallie,0,,,,,Red sparrow,70,,,Orange macaw,0,,,,,Coot,0,,,,,,,Booby,45,Heron,0,Autumn duck,35,,,,,,,Barn owl,65,,,,,,,,,Goldfinch,100,,,Mockingbird,100,Mockingjay,30,Duck,100,Canary,10,,,,,,,,,,,Geese,60,,,,,Falcon,60,,,,,Blue Mockingbird,50,Red sparrow,40,"Bluefoot ",0,Curlew,0,,,,,,,,,,,Mockingbird,75,Peasent,0,Owl,100,,,,,,,Vulture,100,Tit,30,,,,,,,Dove,50,,,Booby,0,,,,,
+2022-02-04 12:31:11,2022-02-04 12:50:29,IP Address,*******,83,1158,False,2022-02-11 12:52:53,R_3n8VJQnaqp7cbRA,*******,*******,*******,*******,*******,*******,anonymous,EN,60fcdf0c78d9550332a7847b,"I agree to participate and share my data, and I'm ready to start!",39,70,A city,United States,Oklahoma,0.846,0.846,30.015,1,"cardinal
+robin
+sparrow
+finch
+hummingbird
+pigeon
+mourning dove
+blue jay
+bluebird
+hawk
+bald eagle
+",finch,51,crow,98,,,kestrel,9,,,robin,100,heron,0,hummingbird,100,gull,61,,,,,,,,,no idea,0,,,heron,10,vulture,92,finch,0,oriole,0,bluejay,100,finch,9,,,,,hawk,100,finch,50,,,,,,,cardinal,5,don't know,0,,,loon,10,finch,93,finch,10,heron,10,,,sandpiper,41,,,bluebird,50,oriole,15,grackle,92,,,heron,15,duck,50,finch,3,,,,,,,cowbird,7,duck,72,bobwhite,75,finch,100,,,,,finch,3,finch,63,,,,,swan,100,cardinal,100,,,finch,49,finch,7,duck,71,oriole,36,,,falcon,6,,,grackle,51,finch,9,,,oriole,13,loon,29,,,red-winged blackbird,100,seagull,100,pheasant,0,pigeon,100,,,,,,,seabird,9,duck,5,sparrow,100,vulture,51,oriole,5,,,piper,50,finch,50,ptarmigan,3,,,don't know,0,finch,49,,,
+2022-02-04 12:28:11,2022-02-04 14:13:02,IP Address,*******,72,6291,False,2022-02-11 14:13:17,R_3q8xmwuD8npMjuc,*******,*******,*******,*******,*******,*******,anonymous,EN,60d281f9fd54c7da6cb345d4,"I agree to participate and share my data, and I'm ready to start!",19,36,A suburb,United States,MA,1.169,1.169,30.008,1,"Sparrow
+Blue Jay
+Rob
+Finch
+Eagle
+Hawk
+Crane
+Eggert
+Pigeon
+Dove
+",titmouse,37,,,Canary,100,baby hawk,19,no idea,17,Robin,100,,,,,sea bird,36,bald eagle,16,,,Sea bird,8,,,Brown,9,,,Long leg,34,,,Finch,78,no idea,0,Blue jay,100,,,,,,,,,Finch,15,Quail,8,Goose,100,no idea,70,Finch,14,,,,,Duck,87,no idea,0,,,Swan,81,,,sparrow,29,,,finch,18,,,no idea,57,Seagull,32,,,duck,92,,,eggert,14,Eggert,73,Owl,100,Finch,0,Duck,84,Finch,83,,,,,,,Bluefinch,74,,,Duck,100,Dove,82,,,Cardinal,100,,,Finch,13,,,duck,19,,,Kildeer,94,Falcon,54,,,,,,,,,finch,86,no idea,4,,,,,,,pheasant,100,Pigeon,100,,,no idea,9,,,,,Duck,12,,,turkey vulture,100,,,no idea,17,,,,,,,,,,,gold finch,74,Goldfinch,0,
+2022-06-05 12:49:23,2022-06-05 13:04:01,IP Address,*******,100,877,True,2022-06-05 13:04:01,R_08mn5415IuZwSFH,*******,*******,*******,*******,*******,*******,anonymous,EN,6283e1c0021bbb06c7748609,"I agree to participate and share my data, and I'm ready to start!",41,65,A suburb,United States,california,1.144,2.246,30.014,2,"sparrow
+crow
+raven 
+seagull
+blue jay
+par",,,crow,60,sparrow,72,,1,canary,85,,,,7,,,sparrow,9,bald eagle,59,,,,,,16,,,,20,,,,,mockingbird,67,blue jay,51,blue jay,27,,,mockingbird,82,,,hawk,99,,44,quail,62,swan,60,,59,,10,,4,,70,duck,40,sparrow,56,sparrow,63,seagull,3,wood pecker,97,,,,,,,,14,,20,seagull,100,pelican,67,,,canary,22,pelican,100,,,owl,99,,,,,,,sparrow,100,sparrow,99,,,sparrow,23,,,,,dove,71,swan,57,robin,100,,,,,sparrow,100,,,,,,15,hawk,73,,,,62,sparrow,3,wood pecker,90,yellow tail,7,duck,5,,,,13,seagull,100,,,,,hummingbird,55,no idea,3,owl,54,,,,,,,,,,10,bird,6,,3,"robin ",62,,5,duck,23,,12,,,,3,
+2022-06-05 12:45:23,2022-06-05 13:05:49,IP Address,*******,100,1225,True,2022-06-05 13:05:49,R_4OtavLgsktnUeGd,*******,*******,*******,*******,*******,*******,anonymous,EN,6100e66dc7a536fc2bd9a6f1,"I agree to participate and share my data, and I'm ready to start!",6,22,A city,United States,New York,1.19,1.19,30.124,1,"American Robin.
+Blue Jay
+Dark-Eyed Junco
+Hawlk
+
+",Sparrow,4,crow,3,,,jay,10,,,Tanager,0,crow,2,,,,,hawk,1,Robin,14,,,wookpecker,0,sparrow,0,Woodpecker,8,,,,,,,Finch,4,Chickadee,6,Blue jay,8,,,long-nose duck,5,,,hummingbird,0,crow,3,,,hummingbird,0,finch,6,green-legged pigeon,0,blue jay,3,,,,,,,,,wookpecker,8,,,,,blue jay,2,,,finch,2,hawk,0,long neck humming bird,3,duck,100,robin,3,wide-eyed duck,0,ostrich,0,,,humming bird,14,duck,51,,,woodpecker,0,,,Chickadee,6,blue jay,17,,,duck,100,chickadee,2,swan,81,,,,,,,,,duck,100,woodpecker,0,Sparrow,1,,,,,blue jay,2,,,woodpecker,3,woodpecker,0,duck,6,Crow,14,black-eyed woodpecker,0,"white Chickadee bird ",5,peacock,0,"pigeon ",100,humming bird,25,humming bird,8,owl,33,,,,,wookpecker,0,robin,4,,,humming bird,3,woodpecker,2,humming bird,4,,,Wood Duck,4,jay,0,yellow jay,15,,,
+2022-06-05 12:50:01,2022-06-05 13:06:07,IP Address,*******,100,966,True,2022-06-05 13:06:08,R_3nwk00Pjy4MpeMr,*******,*******,*******,*******,*******,*******,anonymous,EN,5f92e6e89b8ab203b90d1325,"I agree to participate and share my data, and I'm ready to start!",10,48,A suburb,United States,North Carolina,1.347,1.347,30.107,1,"robin
+cardinal
+bluejay
+blue bird
+mourning dove
+goldfinch
+finch
+woodpecker
+tana",sparrow,2,crow,100,,,hawk,0,warbler,0,,,,,hummingbird,100,,,eagle,27,,,sparrow,0,,,long tailed bird,0,chickadee,100,egret,2,black bird,0,,,,,,,finch,3,sparrow,0,hornbill,3,kestrel,7,,,,,canadian goose,100,heron,8,cardinal,0,plover,0,crow,0,,,finch,0,finch,2,,,woodpecker,100,sandpiper,29,duck,13,,,,,finch,0,seagull,100,beak bird,0,duck,6,,,egret,3,egret,100,,,,,,,,,finch,100,,,wren,0,,,finch,0,duck,100,dove,0,swan,100,cardinal,100,,,,,,,duck,4,robin,20,plover,0,,,,,,,chickadee,100,,,warbler,0,,,hawk,50,,,seagull,100,quail,0,pigeon,100,hummingbird,100,no idea,0,owl,100,,,duck,0,sparrow,0,vulture,75,,,sparrow,0,plover,0,finch,4,turkey,0,,,sparrow,0,gold bird,0,finch,0,
+2022-06-05 12:55:15,2022-06-05 13:06:15,IP Address,*******,100,659,True,2022-06-05 13:06:16,R_278PQ7SPnYKKDbR,*******,*******,*******,*******,*******,*******,anonymous,EN,5e1ab52f6a9bac30cbc3214d,"I agree to participate and share my data, and I'm ready to start!",18,27,A city,United States,Washington,1.403,1.403,30.012,1,"Bald eagle
+Loon
+Mallard duck
+Swan
+Canada goose
+Redtail hawk
+Osprey
+Tanager
+Bluebird
+Cardinal
+Robin
+Chi",,0,,,,,nighthawk,4,,,,,,,hummingbird,100,tern,93,bald eagle,100,bluebird,0,,3,,,,,chickadee,28,wader,5,vulture,82,,0,,,bluejay,97,,3,blackbird,10,pelican,100,osprey,100,,,quail,100,Canada goose,100,,,cardinal,0,,,,,,,,1,chickadee,3,,,woodpecker,52,,,wood duck,7,bluebird,75,,,,,seagull,100,,2,duck,75,chickadee,22,heron,75,egret,63,,,,,duck,7,chickadee,11,,,wren,3,,,,,,,Mallard duck,100,grouse,9,swan,100,cardinal,10,,,,0,,6,duck,10,robin,15,,,,,,,,0,,,,,,0,,0,redtail hawk,55,blackbird,0,seagull,100,,,pigeon,100,hummingbird,100,,0,,,,0,goose,0,wren,11,turkey vulture,100,oriole,0,,0,sandpiper,4,,,grouse,71,duck,10,,,,,chicakdee,38,
+2022-06-05 12:53:30,2022-06-05 13:10:18,IP Address,*******,100,1007,True,2022-06-05 13:10:18,R_30685zxPMszNZAB,*******,*******,*******,*******,*******,*******,anonymous,EN,60f99f9d7acea24790f070b9,"I agree to participate and share my data, and I'm ready to start!",10,40,A rural area,United States,Kentucky,2.026,2.959,30.118,2,"blue jay
+cardinal
+woodpecker
+robin
+finch
+parrot
+love bird
+",,,crow,100,,,,,finch,0,,,goose,0,hummingbird,100,sea bird,30,,,finch,0,,,,,brown jay,0,,,small pelican,0,,,,,blue finch,0,,,,,blackbird,0,pelican,100,hawk,100,gray jay,0,,,goose,100,mockingbird,30,,,pigeon,0,crow,0,duck,0,red finch,0,finch,20,,,,,,,,,blue finch,20,mockingbird,10,,,,,,,duck,100,,,,,goose,0,owl,100,,,duck,20,mockingbird,20,finch,0,finch,10,,,bluebird,30,,,duck,100,pigeon,80,,,,,,,jay,0,jay,0,duck,80,finch,80,pigeon,20,hawk,100,finch,0,blackbird,40,mockingbird,30,,,mockingbird,50,waterbird,0,hawk,100,crow,0,,,quail,80,pigeon/dove,100,hummingbird,100,,,owl,100,white finch,0,duck,0,,,turkey vulture,100,,,mockingbird,10,robin,50,robin,0,large pigeon,100,duck,0,mockingbird,20,yellow finch,10,finch,0,thank you!
+2022-06-05 12:50:09,2022-06-05 13:13:30,IP Address,*******,100,1400,True,2022-06-05 13:13:30,R_28AkDzF410HZSo3,*******,*******,*******,*******,*******,*******,anonymous,EN,612159c5e4fd13df2044d7ec,"I agree to participate and share my data, and I'm ready to start!",5,18,A suburb,United States,Missouri,1.48,1.48,30.011,1,"cardinal
+blue jay
+pigeon
+crow
+eagle
+ostrich
+",sparrow,20,starling,20,,,,,goldfinch,14,robin,9,,,hummingbird,100,,,eagle,77,barn swallow,20,sparrow,26,kingfisher,34,finch,25,,,crane,10,falcon,59,,,barn swallow,4,blue jay,100,swallow,17,,,pelican,21,falcon,21,bluebird,59,pigeon,21,swan,41,,,,,crane,9,,,duck,28,swallow,14,sparrow,32,,,cuckoo,3,nightingale,19,duck,3,,,cuckoo,24,starling,46,pigeon,15,,,duck,100,robin,22,crane,19,,,owl,77,warbler,16,,,finch,16,,,,,sparrow,35,blue sparrow,18,,,,,,,swan,18,cardinal,100,,,swallow,47,finch,23,mallard,22,,,,,peregrine,1,"robin ",22,blue jay,12,swallow,16,,,,,,,falcon,14,starling,7,pigeon,7,mallard,13,,,hummingbird,100,,,,,,,swan,70,,,,,goldfinch,22,canary,19,sparrow,11,robin,8,dove,7,swan,5,,,canary,34,,,I ended up being very vague. I gave my best guesses but I am not someone that has any idea about birds. the only birds I was confident about were the hummingbirds and the second blue jay because my mascot is a blue jay.
+2022-06-05 13:04:24,2022-06-05 13:15:11,IP Address,*******,100,647,True,2022-06-05 13:15:12,R_2zdXLFquSHn2i1W,*******,*******,*******,*******,*******,*******,anonymous,EN,5ad16f41b02aca0001272316,"I agree to participate and share my data, and I'm ready to start!",0,5,A suburb,United States,Kentucky,0.355,0.355,30.011,1,"robin
+sparrow
+dove
+pigeon
+blue footed booby
+tit
+flamingo
+penguin
+macaw
+parrot
+cockatiel
+",,0,Crow or raven I can never tell,18,,,,,Finch?,10,Robin,100,,0,hummingbird,70,,,Eagle,77,,0,,,Anger bird,0,,0,,0,,0,,,,,,0,,,,,,,,,Hawk,0,,,,,Goose,66,,,,0,bin chicken,0,,,,,finch,0,,,,0,,,,0,,,,,,0,,0,Seagull,81,Is this that one bird that's all over a town in anna maria florida?,80,,,,0,,,Crane,0,,,songbird,0,,,,,,0,,0,,0,,0,,0,Canadian Duck,100,,0,Swan,100,Cardinal,100,,,,0,,0,Duck,0,,,,0,Hawk pt 2,18,,20,,0,,0,,0,,,Pippete,0,Hawk,50,,0,Seagull,100,Pheasant,20,Pigeon,18,Hummingbird,100,,0,Owl,19,,,,,,0,Vulture,30,,0,,,,0,,0,,,,,,,,,,0,I I feel like there are few people that are not bird watchers that could name all of those birds presented.
+2022-06-05 12:56:24,2022-06-05 13:15:50,IP Address,*******,100,1165,True,2022-06-05 13:15:50,R_DIdVPEqYrjegy9b,*******,*******,*******,*******,*******,*******,anonymous,EN,5e0acbffdc79bd35336ed6e0,"I agree to participate and share my data, and I'm ready to start!",5,40,A rural area,United States,New York,0.952,0.952,30.015,1,"swallow
+crow
+pigeon
+blue jay
+cardinal
+robin
+parrot
+",,,crow,70,yellow cardinal,0,brown finch,0,yellow throated finch,0,,,thrasher,2,,,black capped swallow,22,bald eagle,100,swallow,68,lake gull,47,blue jay,48,redeyed sparrow,0,black headded robin,0,long legged heron,0,buzzard,82,blue throated booby,0,finch,7,blue jay,100,,,,,,,,,,,cockatoo,70,,,,,redwing cardinal,27,,,iridescent crow,0,,,,,finch,41,yellow throated heron,7,woodpecker,99,,,duck,70,bluebird,84,white chested bird,12,,,,,red throated heron,10,common duck,100,yellow head,24,heron,100,crane,0,barn owl,100,,,wetland goose,12,brown hopper,20,,,red headed finch,8,chickadee,40,finch,0,yellow robin,7,mallard duck,100,dove,30,swan,94,,,red throated robin,6,,,,,,,finch,0,spotted hopper,0,,,,,blackbird,63,finch,0,,,red eyed bird,0,thin billed duck,0,,,blackbird,56,seagull,100,peacock,0,,,,,longtailed swallow,0,owl,28,,,,,finch,0,,,yellow chested robin,11,yellow throated desert bird,0,thin billed finch,29,redbird,0,turtledove,0,,,,,yellow songbird,0,,,birds all look the same...
+2022-06-05 12:59:59,2022-06-05 13:16:16,IP Address,*******,100,976,True,2022-06-05 13:16:16,R_31KrUAfQ02S4uQe,*******,*******,*******,*******,*******,*******,anonymous,EN,5d559714311caf0001f10cc8,"I agree to participate and share my data, and I'm ready to start!",6,45,A suburb,United States,Delaware,0.108,0.108,30.008,1,"Cardinal
+Bald Eagle
+Red Hawk
+Blue Jay
+Puffin
+Blue footed booby
+",Brown shortbeak,0,Raven,100,Yellowbird,100,,,Robin,0,Oriel,100,Igrit,0,Hummingbird,100,Pacific sea swallow,0,Bald Eagle,100,American swallow,2,Ocelot,0,Blue Jay,4,Brown swallow,0,,,Igrit,25,,,,,American standard bird,0,Toronto Blue Jay,0,European swallow,0,Crow,23,Pelican,100,Red Hawk,100,Titmouse,0,,,,,,,Brown headed kingbird,0,,,,,,,Robin red breast,0,Rock Warbler,0,,,Titmouse,16,,,,,Blue rock warbler,0,Common sparrow,0,Sharp-beaked sparrow,0,,,"Iblis ",0,,,Crowned finch,0,Heron,100,,,Barn Owl,0,Puffed sparrow,0,Mallard,0,Brown warbler,0,Red-breasted songbird,9,Common finch,0,,,,,Yellow swallow,68,,,Qual,0,,,Cardinal,100,Red faced pecker,0,Finch,0,Blue faced songbird,0,,,,,European gull,0,Spotted Eagle,0,,,,,Striped rockbird,0,Red-headed robin,0,Red eyed warbler,8,Miniature duck,0,Brown Eagle,65,Red-Winged Blackbird,100,Seagull,100,,,,,Hummingbird,59,,,,,Cockatoo,0,Goose,100,Spotted swallow,37,,,Orange breasted finch,0,,,,,,,,,Red-eyed mallard,12,Sparrow,19,,,Yellow finch,1,"As someone who could name about 5 birds off of the top of my head, this was definitely a challenge!"
+2022-06-05 12:51:56,2022-06-05 13:19:10,IP Address,*******,100,1633,True,2022-06-05 13:19:10,R_DoD1sTkKUMbWdH3,*******,*******,*******,*******,*******,*******,anonymous,EN,5b0e003d9663ee000145af8b,"I agree to participate and share my data, and I'm ready to start!",50,81,A suburb,United States,Missouri,2.465,2.465,30.121,1,"crow
+raven
+robin
+cardinal
+blue jay
+finch
+macaw
+cockatiel
+cockatoo
+",finch,0,crow,100,american goldfinch,100,hawk,100,,,American robin,100,,,,,,,,,swallow,58,heron,11,kookaburra,0,roadrunner,14,,,,,culture,100,bluethroat,0,finch,0,blue jay,100,cowbird,80,finch,18,,,,,,,quail,100,,,heron,0,finch,0,chicken duck,0,finch,0,duck,0,,,,,,,woodpecker,100,waterpecker,0,duck,0,eastern bluebird,100,,,,,,,crane,0,duck,100,crowned finch,0,great heron,100,crane,61,great horned owl,100,finch,0,duck,100,yellow headed finch,36,rosefinch,50,sparrow,23,finch,0,,,finch,0,,,,,swan,68,northern cardinal,100,woodpecker,40,mockingbird,51,,,duck,43,finch,0,,,falcon,53,,,finch,0,finch,0,,,,,,,red tail falcon,91,,,,,pheasant,100,pigeon,100,,,finch,0,,,,,goose,0,,,,,,,yellow belly,16,pecker,0,finch,0,quail,0,duck,0,storm crow,100,yellow warbler,100,finch,0,really any small bird looks like a finch to me but I know the names of the few finches i know!
+2022-06-05 13:10:49,2022-06-05 13:22:39,IP Address,*******,100,709,True,2022-06-05 13:22:39,R_1eFPAmZ2lwJPSjQ,*******,*******,*******,*******,*******,*******,anonymous,EN,5dd1ab5dd3ac2a21600f87b8,"I agree to participate and share my data, and I'm ready to start!",7,38,A suburb,United States,Michigan,4.11,4.11,30.013,1,"Robin
+Blue Jay
+Crow
+American Black Bird
+Dove
+Geese
+Cardinal",,,American Black Bird,24,NA,0,NA,0,NA,0,,,NA,0,Hummingbird,100,,,,,NA,0,NA,0,NA,0,NA,0,NA,0,NA,0,Vulture,27,,,NA,0,Blue Jay,100,NA,0,NA,0,,,Hawk,100,Titmouse,13,Quail,1,Goose,100,NA,0,NA,0,,,Crow?,100,NA,0,NA,0,NA,0,,,Woodpecker,100,,,NA,0,NA,0,NA,0,,,,,NA,0,,,NA,0,Blue Herron,100,,,Great Horned Owl,17,,,,,NA,0,,,NA,0,NAN,0,,,NA,0,Duck/Mallard,100,,,Swan,49,Cardinal,99,,,,,NA,0,Duck,85,,,NA,0,,,Finch,0,NA,0,NA,0,Woodpecker,72,,,,,,,American Redstart,100,Seagull,100,Crowl?,0,,,Hummingbird,100,NA,0,,,NA,0,NA,0,NA,0,,,,,,,,,NA,0,,,NA,0,,,,,NA,0,None. Thanks!
+2022-06-05 13:07:01,2022-06-05 13:24:09,IP Address,*******,100,1027,True,2022-06-05 13:24:09,R_D36dsmQm7w7ykkV,*******,*******,*******,*******,*******,*******,anonymous,EN,5f3449937104763434c56067,"I agree to participate and share my data, and I'm ready to start!",5,5,A suburb,United States,Florida,0.986,0.986,30.018,1,"cardinal
+emu
+hummingbird
+pidgeon
+raven
+bluejay
+",,,,,finch,29,sparrow,19,,,sparrow,7,,,hummingbird,82,gull,8,eagle,100,sparrow,4,heron,39,woodpecker,5,sparrow,3,,,heron,60,,,sparrow,50,sparrow,21,bluejay,94,sparrow,6,crow,60,pelican,89,,,sparrow,40,dove,8,goose,72,,,sparrow,19,starling,0,,,duck,71,sparrow,21,sparrow,31,,,woodpecker,72,,,duck,29,,,finch,8,,,seagull,98,,,mallard,100,sparrow,40,heron,61,,,owl,100,sparrow,26,fowl,7,,,,,sparrow,99,sparrow,91,,,,,mallard,100,pigeon,82,swan,100,,,sparrow,18,sparrow,60,sparrow,30,mallard,71,,,heron,9,hawk,82,sparrow,8,crow,39,sparrow,62,,,,,,,,,,,,,"peacock ",51,,,hummingbird,61,,,,,dove,18,seagull,40,sparrow,71,,,,,goldfinch,29,sparrow,61,sparrow,40,dove,71,duck,8,,,,,sparrow,3,
+2022-06-05 13:09:51,2022-06-05 13:25:11,IP Address,*******,100,919,True,2022-06-05 13:25:11,R_2SJieyEb2z5OnHq,*******,*******,*******,*******,*******,*******,anonymous,EN,6111199919248a929a09a1be,"I agree to participate and share my data, and I'm ready to start!",18,79,A suburb,United States,Pennsylvania,1.245,19.276,30.036,6,"Cardinal
+Blue jay
+Swallow
+Dove
+Quail
+Finch
+",Finch,2,Crow,97,Finch,2,Owl,2,,,,,Goose,3,Hummingbird,85,,,Eagle,100,Finch,3,Duck,4,Finch,2,Finch,2,Swallow,5,Flamingo,2,Turkey,3,Finch,2,Finch,5,,,,,Raven,8,Pelican,100,,,,,Quail,52,,,Seagull,1,Finch,2,Goose,2,Raven,2,Duck,50,Finch,5,Finch,32,,,Woodpecker,77,Duck,2,,,,,,,Finch,3,Seagull,100,Flamingo,3,Duck,100,Yellow tail bird,5,,,Crane,6,Owl,100,Finch,3,,,Finch,2,Finch,2,,,,,Bluejay,2,Swallow,5,Duck,100,,,Swan,100,Cardinal,100,Finch,2,Finch,4,Swallow,5,,,Yellow tail bird,6,,,Eagle,12,Finch,3,Finch,1,,,,,,,Duck,3,Hawk,92,,,Seagull,100,Turkey,2,,,,,Finch,2,,,,,,,Finch,1,,,,,Swallow,5,,,,,Snowbird,9,,,,,Yellow tail,3,Finch,3,"Very interesting task. I thought of other birds while answering compared to the initial task. Guessed finch for most birds I didn't know. "
+2022-06-05 13:12:03,2022-06-05 13:28:14,IP Address,*******,100,970,True,2022-06-05 13:28:17,R_2zvGClDuFEs7jPR,*******,*******,*******,*******,*******,*******,anonymous,EN,61132361275e08754e30c2db,"I agree to participate and share my data, and I'm ready to start!",31,66,A suburb,United States,Massachusetts,0.54,14.601,30.02,3,"seagull
+cardinal
+blue jay
+oriole
+hawk
+dove
+pigeon
+crane
+heron
+eagle
+
+",chickadee,32,crow,100,canary,24,hawk,3,jayhawk,0,,,,,hummingbird,100,,,bald eagle,100,,,falcon,14,woodpecker,4,,,oriole,83,flamingo,0,turkey vulture,9,plover,19,bluebird,2,blue jay,100,miniature raven,11,,,,,,,sparrow,50,french hen,26,canadian goose,100,fowl,10,rainbow cardinal,8,,,black beauty,29,loon,19,,,,,,,,,,,,,bluebird,16,chickadee,17,starling,100,seagull,100,kiwi,10,wood duck,100,,,,,crane,100,,,,,mallard duck,100,sparrow,52,,,tufted titmouse,100,,,bluebird,10,,,mallard duck,100,,,swan,100,,,woodpecker,47,tufted titmouse,84,yellow bellied sparrow,6,,,,,,,gray hawk,15,parakeet,19,,,chickadee,86,woodpecker,100,common crest,31,,,,,oriole,100,seagull,100,pygmy fowl,27,pigeon,100,hummingbird,100,long tailed dove,0,barn owl,29,sandplover,17,duck,38,sparrow,63,,,sparrow,0,swallow,41,plover,100,,,,,duck,14,whitetail,0,,,oriole,50,
+2022-06-05 13:12:14,2022-06-05 13:28:17,IP Address,*******,100,962,True,2022-06-05 13:28:18,R_1ImBDQQzNtJAdkO,*******,*******,*******,*******,*******,*******,anonymous,EN,5c53a186cf1cd900018ccdde,"I agree to participate and share my data, and I'm ready to start!",15,31,A suburb,United States,North Carolina,1.748,17.929,30.01,2,"Cardinal
+Robin
+Woodpecker
+Bluebird
+Bluejay
+Tufted titmouse
+Carolina wren
+Warbler
+",Chickadee,27,Crow,95,Chickadee,98,Hawk,13,Wren,90,Robin,100,,,,,"Sea gull ",69,Bald eagle,100,,,Water crest,64,,,,,Wren,87,Zebra bird,11,"Turkey vulture ",57,Wren,49,,,Blue jay,97,"Brown ratchet ",13,,,Pelican,56,,,Carolina wren,86,,,Canadian goose,100,Crested heron,14,"Wren ",78,,,"Oiler ",57,,,Red breasted finch,1,Gray wren,11,Egret,11,Pilliated woodpecker,99,Water proust,15,,,Blue bird,100,Tufted titmouse,55,,,Seagull,100,Muscret,3,,,Carolina wren,80,Egret,97,White heron,82,,,Grey belly wren,16,Duck,64,,,,,,,,,Blue bird,33,Yellow bellied proust,52,,,,,,,Cardinal,100,Warbler,20,,,Goldfinch,46,Mallard duck,76,Yellow warbler,62,,,Hawk,19,Orange taft,4,Black bird,19,Wren,100,Piliated woodpecker,100,Chickadee,15,,,,,,,,,,,"Pigeon ",99,Red throat hummingbird,100,,,Barn owl,2,White wren,14,Duck,77,Chickadee,65,,,Black bellied sully,18,,,"Long billed ",1,Orange taft,11,,,,,Squirrel bird,1,Chickadee,74,Wren,61,
+2022-06-05 13:02:42,2022-06-05 13:28:37,IP Address,*******,100,1555,True,2022-06-05 13:28:37,R_O9DDKaQ21k9c2Hv,*******,*******,*******,*******,*******,*******,anonymous,EN,5ee0e82f5f060109ed1d1d29,"I agree to participate and share my data, and I'm ready to start!",0,0,A suburb,United States,"California ",0.924,26.828,30.126,5,"Pigeon
+Robin
+Hummingbird
+Dove
+",,,Blorg,21,Robin,13,Robin,16,Gruffle,0,"Peckham ",15,Rew,11,"Hummingbird ",42,Snowbird,13,Hawk,53,,,Plint,14,Rulum,13,Robin,22,Migeon,0,Flamingo,0,,,,,,,Twird,15,Glin,18,"Robin ",16,Seagull,57,,,Robin,21,Mund,15,,,Shrew,14,,,Plick,0,,,,,,,"Mockingbird ",18,,,,,Robin,16,,,,,Tweasy,11,,,,,,,Goose,61,,,Swan,20,,,,,,,Duck,58,Chren,19,Dew,13,Windel,19,Pludgeon,14,"Robin ",15,,,Goose,67,,,Swan,15,"Robin ",15,"Mich ",21,Flome,15,,,,,"Robin ",44,Plew,17,Owl,14,,,Fleming,23,Umi,14,Lin,16,Robin,21,Duck,0,Eagle,57,Robin,26,Rew,0,Slint,0,Pigeon,92,"Hummingbird ",12,,,Owl,87,Snowbird,0,,,,,,,Mort,7,Blen,18,Glew,16,,,,,Duck,39,Nin,18,Robin,19,,,It was really hard answering these questions. I either repeated a lot of my answer or made up some bird to match what i thought the bird was. I feel like i am definitely going to notice my surroundings more.
+2022-06-05 13:10:19,2022-06-05 13:28:44,IP Address,*******,100,1104,True,2022-06-05 13:28:44,R_2rwJKTPAyMRd5p0,*******,*******,*******,*******,*******,*******,anonymous,EN,613527174e5f1b1d6b9facdf,"I agree to participate and share my data, and I'm ready to start!",40,70,A suburb,United States,"Pennsylvania ",1.423,1.423,30.01,1,"swallow
+robin
+blue jay
+cardinal
+finch
+sparrow
+hummingbird 
+woodpecker
+parrot
+",sparrow,100,,,,,,,finch,0,,,,,"hummingbird ",100,gull,60,bald eagle,100,,,,,jay,0,swallow,60,warbler,80,,,,,speckled warbler,100,finch,0,blue jay,100,finch,0,raven,60,pelican,100,falcon,40,,,pea fowl,0,canadian goose,100,heron,25,jay,0,"pheasant ",0,raven,80,,,sparrow,0,warbler,60,heron,80,woodpecker,100,"sandpiper ",100,,,,,"swallow ",24,,,seagull,100,heron,50,duck,100,,,heron,100,crane,70,owl,100,sparrow,0,goose,85,swallow,60,,,warbler,100,sparrow,90,,,finch,0,mallard duck,100,pigeon,100,,,"cardinal ",100,finch,50,warbler,40,warbler,0,,,robin,100,,,hawk,40,,,,,,,,,swallow,50,,,hawk,100,,,seagull,100,,,,,"hummingbird ",100,swallow,0,owl,100,,,,,"sparrow ",70,,,,,,,swallow,40,swallow,0,"pheasant ",0,"duck ",60,"sparrow ",40,,,finch,40,
+2022-06-05 13:12:45,2022-06-05 13:28:54,IP Address,*******,100,969,True,2022-06-05 13:28:55,R_3rOmJHzE9lLoIy8,*******,*******,*******,*******,*******,*******,anonymous,EN,614e6aae492dda7417a15396,"I agree to participate and share my data, and I'm ready to start!",35,76,A city,United States,Illinois,1.26,1.775,30.025,2,"Lark
+Wren
+Finch
+Dove
+Pidgeon
+Cardinal
+Robin
+Starling
+Crow
+Raven
+Mockingbird
+BlueJa",Nuthatch,11,Crow,100,Finch,3,Osprey,94,,,Robin,100,don't know,1,Ruby Throated Hummingbird,100,don't know,13,Bald Eagle,100,,,,,,,,,,,,,Vulture,40,,,Finch,0,BlueJay,100,Wren,7,Blackbird,13,Pelican,100,,,,,,,Canada Goose,100,Heron,100,,,,,,,Duck,17,,,Finch,1,Cormorant,100,Woodpecker,100,,,Buffle Duck,48,don't know,4,Nuthatch,3,Starling,5,,,don't know,2,Duck,7,Finch,6,Great Heron,100,Crane,100,Great Horned Owl,100,Warbler,15,Goose,5,,,Strawberry Finch,75,Wren,35,Warbler,22,Lark,1,Goldfinch,3,Duck,100,,,Swan,100,Cardinal,100,,,Wren,4,Finch,65,Duck,88,,,Speckled Grouse,6,,,Finch,7,,,Wren,4,,,,,,,Falcon,100,Oriole,100,,,,,Pidgeon,100,,,,,Barred Owl,3,,,Duck,4,Titmouse,5,Turkey Vulture,99,don;t know,1,don't know,3,Piping Plover,100,Wren,5,,,,,,,Warbler,1,Nuthatch,2,I can't type enough names in 30 seconds ;)
+2022-06-05 13:06:00,2022-06-05 13:29:30,IP Address,*******,100,1409,True,2022-06-05 13:29:30,R_yIroHbGCVzz0c13,*******,*******,*******,*******,*******,*******,anonymous,EN,5c1dc77ee2d9150001b5b70e,"I agree to participate and share my data, and I'm ready to start!",30,40,A suburb,United States,New Jersey,0.863,0.863,30.028,1,"Seagull
+Peacock
+Pigeon
+Chickadee
+Egret
+Peregrine falcon
+Red tailed falcon
+Blue jay
+Canada goose
+M",Gray chickadee,20,Crow,100,Yellow jay,30,,,,,,,Comarant,20,Hummingbird,100,Egret,0,Bald eagle,100,,,Osprey,30,,,Brown sparrow,0,,,Black egret,0,Turkey vulture,100,,,,,,,Chickadee,100,,,Pelican,100,,,Gray piper,25,,,Canada goose,100,White sparrow,0,,,Red billed goose,0,Blackbird,10,,,,,Common sparrow,10,,,,,Sandpiper,100,Gold crested duck,0,,,,,White spotted sparrow,30,,,,,Mallard duck,30,,,Egret,30,,,Barn owl,100,Gray finch,50,Common brown goose,100,Chickadee,100,Red breasted finch,30,,,,,Bluebird,5,Yellow finch,30,Mallard duck,100,Morning dove,100,,,Cardinal,100,Red spotted finch,40,,,Yellow piper,10,Blue bill duck,10,Red jay,20,Blackbreasted piper,0,Peregrine falcon,50,Red oriole,0,Black sparrow,30,Black and white piper,5,Redheaded woodpecker,20,Golden parakeet,10,Red crested duck,20,Red tailed hawk,100,Woodpecker,50,Seagull,100,,,Pigeon,100,Hummingbird,100,Black tail cardinal,0,Brown owl,0,,,,,,,,,Woodpecker,10,White tailed hawk,30,Sandpiper,40,Red jay,50,,,White headed duck,20,,,Yellow finch,40,Yellow spotted finch,30,
+2022-06-05 12:57:43,2022-06-05 13:29:47,IP Address,*******,100,1923,True,2022-06-05 13:29:47,R_27WrfFo3pc29G4c,*******,*******,*******,*******,*******,*******,anonymous,EN,5d2f32b1a3590800173be724,"I agree to participate and share my data, and I'm ready to start!",10,51,A suburb,United States,Illinois,0.438,0.438,30.014,1,"Catatonic
+Part
+Pidgin
+Cardinal
+Blue bird
+Hawk
+Seagul
+Vulture
+",Treecreeper,29,Crow,100,,,Hawk,0,,,Robbin,0,,,Hummingbird,100,,,,,Finch,0,"Kingfisher ",0,,,Finch,0,,,"Kingfisher ",0,,,Kingfisher,0,,," Bluebird",100,Finch,53,Blackbird,1,,,Hawk,100,,,Quail,0,,,,,Yellow brested warbler,29,Quail,0,Blackbird,20,Duck,50,,,Robbin,1,,,,,Kingfisher,6,Duck,0,Blue jay,50,Sparrow,0,Fintch,12,,,Great blue heron,0,,,Goldfinch,39,,,Crain,82,Owl,100,,,Duck,100,Robbin,0,,,,,Wren,0,Bluebird,29,Wren,0,Mallard,100,Quail,0,,,Cardinal,89,,,,,Finch,1,,,Robbin,1,Robbin,55,Hawk,76,"Fintch ",0,Finch,44,,,,,Robbin,0,Duck,0,Hawk,100,,,Seagul,100,Peacock,0,Pidgion,100,"Hummingbird ",100,Robin,0,,,Swallow,0,Duck,0,,,Vulture,0,,,Warbler,0,,,Cardinal,29,Puffer,0,,,Sparrow,21,Jay,0,Robbin,36,
+2022-06-05 13:05:16,2022-06-05 13:30:19,IP Address,*******,100,1502,True,2022-06-05 13:30:19,R_De3EuxQaghvHxTP,*******,*******,*******,*******,*******,*******,anonymous,EN,5f6e1c92b768652fc12d5f62,"I agree to participate and share my data, and I'm ready to start!",50,80,A suburb,United States,New York,2.173,2.173,30.02,1,"robin
+oriole
+mourning dove
+bluejay
+wren
+sparrow
+tufted titmouse
+chickadee
+eagle
+",,,,,,,?,0,,,robin,100,?,0,ruby throated hummingbird,100,gull,0,bald eagle,100,?,0,,,,,?,0,chickadee,100,oystercatcher?,0,,,,,?,0,bluejay,100,?,0,starling,90,pelican,1,hawk,66,,,partridge,0,Canada goose,100,?,0,cedar waxwing,0,?,0,grackle,90,,,redpoll,40,wren?,0,,,flicker,90,?,0,duck,0,bluebird,0,?,0,,,,,?,0,duck,0,,,egret or heron,10,crane,0,,,,,,,sparrow,100,redpoll?,18,,,?,0,,,yellow bellied sapsucker?,0,mallard,50,mourning dove,100,swan,100,cardinal,100,flicker,80,,,?,0,duck,0,goldfinch,91,,,falcon,0,,,?,0,wren,40,,,,,duck,0,hawk,25,,,seagull,100,pheasant,0,,,hummingbird,70,?,0,,,,,duck,0,,,vulture,20,,,?,0,?,0,,,,,,,,,goldfinch,50,?,0,This was really fun! I wish the page after the bird photos revealed what each bird is.
+2022-06-05 13:06:45,2022-06-05 13:31:48,IP Address,*******,100,1502,True,2022-06-05 13:31:48,R_z2TSsXwwYSHJ5N7,*******,*******,*******,*******,*******,*******,anonymous,EN,5eabb7264a9aaa19fc5c6ed6,"I agree to participate and share my data, and I'm ready to start!",10,40,A city,United States,WA,0.377,0.377,30.111,1,"Red winged blackbird
+Blackbird
+Crow
+Robin
+Cardinal
+Bluebird
+Eagle
+Pidgeon
+Osprey",,,,,,,Hawk,25,,,Copper chested robin,2,Black stork,5,Hummingbird,100,Sea flyer,2,Bald eagle,100,Long tailed sparrow,8,Water diver,0,,,Long tailed robin,3,Helmeted warbler,10,Penguin flamingo,0,,,Blue bearded sparrow,5,,,Bluejay,40,Blue sparrow,5,Black pidgeon,20,Pelican,30,Hawk,50,Black tailed squeaker,31,,,Canada goose,100,,,Tufted finch,6,White streak pheasant,2,,,Billed goose,0,Rose splashed warbler,6,Elegant thrush,9,,,Spotted woodpecker,1,Anteater finch,0,,,,,White chested warbler,1,,,Seagull,100,Black pelican,0,Mallard,30,Tufted warbler,5,Stork,80,White flamingo,50,Great horned owl,50,Bushtit,21,,,,,Red chested flapper,5,,,Common brownbird,3,Prism percher,3,Bumblebird,0,Ruddy duck,100,Pheasant,10,,,Cardinal,0,Spotted thrill,5,Bushtit,4,Blue canary,5,,,Vivid tit,0,White crested starling,10,,,Vested thrush,3,Midnight robin,0,Seed finch,8,,,,,,,Falcon,10,,,,,,,,,,,,,,,Squatting dove,0,Ducking goose,15,Streaked flyer,2,,,Forest flyer,3,,,,,Winter robin,0,Pheasant,0,Black ruddy duck,4,,,Sunrise flap,0,Bumblethrush,0,
+2022-06-05 13:04:18,2022-06-05 13:31:57,IP Address,*******,100,1658,True,2022-06-05 13:31:58,R_1CdsakynXpa6rfS,*******,*******,*******,*******,*******,*******,anonymous,EN,60b8e59ef963cd7c6989cd37,"I agree to participate and share my data, and I'm ready to start!",65,80,A suburb,United States,Pennsylvania,0.425,0.425,30.108,1,"green heron
+great blue heron
+cowbird
+grackel
+cat bird
+eastern towee
+mourning dove
+pigeon",sparrow,40,crow,100,american gold finch,100,merlin,60,oriole,60,,,,,,,sea swallow,5,bald eagle,100,,,,,king fisher,100,old world mocking bird,0,,,plover,0,black vulture,100,sparrow,0,indigo bunting,10,blue jay,100,,,grackle,100,,,cooper's hawk,80,titmouse,90,quail,10,,,,,wax wing,70,plover,0,grackle,100,loon,0,,,sparrow,10,cormorant,80,,,,,duck,20,,,warbler,50,,,gull,99,ibis,10,duck,1,,,great blue heron,100,,,great horned owl,0,mockingbird,100,goose,10,finch,5,,,,,tufted titmouse,50,,,,,mallard,100,mourning dove,100,swan,70,cardinal,100,,,titmouse,70,,,duck,20,oriole,60,,,,,house finch,90,blackbird,10,wren,85,woodpecker,60,thrush,5,plover,30,,,,,,,ring neck pheasant,0,pigeon,100,,,long tailed warbler,0,short eared owl,0,,,snow goose,20,,,turkey vulture,100,oriole,20,,,sand piper,90,purple finch,40,,,,,thrush,5,yellow bellied warbler,5,finch,65,I thought this was very fun!
+2022-06-05 13:08:09,2022-06-05 13:32:09,IP Address,*******,100,1440,True,2022-06-05 13:32:10,R_2VL2uAkfmglyKt8,*******,*******,*******,*******,*******,*******,anonymous,EN,5c3a958d48ad2900017f6817,"I agree to participate and share my data, and I'm ready to start!",23,80,A suburb,United States,"New Hampshire ",0.482,0.482,30.022,1,"Blue Jay
+Cardinal 
+Hummingbird
+Crow
+Raven
+Chickadees 
+Doves
+Robin
+","Finch ",68,,,,,"Hawk ",100,,,,,,,"Hummingbird ",100,,,"Bald Eagle ",100,"Orange Finch ",8,,,"King Fisher ",100,"Pheasant ",84,"Chickadee ",100,,,Turkey vulture,100,,,"Bluebird ",30,,,House finch,89,"Raven ",100,"Pelican ",100,"Coopers Hawk ",100,,,"Pheasant ",74,,,,,"Morning glory ",0,,,"Rusty Black Bird ",100,,,,,,,"Osprey ",100,"Hairy Woodpecker ",100,,,"Loon ",100,,,"Songbird ",0,"Oriole ",23,"Seagull ",100,,,"Wood Duck ",100,,,,,"Egret ",91,"Horned Owl ",100,"Gray Catbird ",74,,,"Goldfinch ",46,"Purple Finch ",92,Sparrow,98,,,"Blue Finch ",29,"Yellow sparrow ",27,"Mallard Duck ",100,"Dove ",100,"Swan ",100,,,"Woodpecker ",92,"King Bird ",82,"Yellow Bird ",30,North American Loon,93,,,,,"Red Tailed Hawk ",100,Glorybird,26,,,"Winter bird ",92," Pileated woodpecker ",100,"Finch ",10,"Piper ",0,"Red Tailed Hawk ",100,"Red winged black bird ",100,"Seagull ",100,"Quail ",72,"Pigeon ",100,"Hummingbird ",100,,,,,"Water Bird ",10,"Geese ",20,"White chested sparrow ",96,,,,,,,"Sand piper ",100,"Red Finch ",30,,,"North American Duck ",2,"Songbird ",14,"Goldfinch ",40,"Yellow Finch ",10,
+2022-06-05 13:10:57,2022-06-05 13:32:29,IP Address,*******,100,1292,True,2022-06-05 13:32:30,R_30dZcehPmMTgKJl,*******,*******,*******,*******,*******,*******,anonymous,EN,61f2ae10a09e72f23cbafa10,"I agree to participate and share my data, and I'm ready to start!",10,40,A suburb,United States,Texas,0.457,0.457,30.013,1,"robin
+blue jay
+eagle
+humming bird
+canary
+pecock
+hawk
+owl","brown finch ",0,crow,0,rocky mountain bird,0,,,"spotted finch ",0,Jay,0,,,"hummingbird ",52,,,,,"robin ",0,Road runner,0,"Rocker fellow ",0,,,"big fellow finch ",0,"dwarf flamingo  ",0,"vulchur ",18,,,"short blue jay ",0,"blue jay ",0,,,Crow,62,"Seagal ",92,"desert hawk ",0,,,peacock,0,,,dwarf flamingo,0,,,,,,,"duck ",0,,,,,Raptor,0,"woodpecker ",0,swamp bird,0,"Georgia goose ",0,"blue jay dwarf ",0,,,rocky mountain bird,0,,,flamingo,0,"Canadian goose ",0,"Yellow dapper ",0,,,"Stork ",98,"owl ",11,Finch,5,"goose ",59,"finch ",0,,,,,"Thumper ",0,blue jay,0,"yellow robin ",0,Duck,100,,,,,"Robin ",70,"new york pigeon ",0,"Finch ",0,,,,,,,roadrunner,0,"hawk ",0,spotted finch,0,,,,,woodpeacker,100,"North American finch ",0,"goose ",0,hawk,20,"crow ",2,,,turkey,0,"pigeon ",100,,,,,,,"canary ",2,,,road runner,0,,,corn bird,0,,,road runner,0,"robin ",0,"snow pigeon ",0,,,"Michigan finch  ",0,"yellow jay ",0,"pigeon  ",0,
+2022-06-05 13:08:15,2022-06-05 13:33:01,IP Address,*******,100,1486,True,2022-06-05 13:33:01,R_qErk00ofD4OQo7L,*******,*******,*******,*******,*******,*******,anonymous,EN,5c4783b51d1ad90001228d05,"I agree to participate and share my data, and I'm ready to start!",4,35,A suburb,United States,ohio,1.382,1.382,30.111,1,"Hummingbird
+Crow
+Swallow
+Robin
+Woodpecker
+Pigeon
+","Grey cardinal ",64,crow,80,sparrow,43,spotted sparrow,1,swallows,61,,,,,"Hummingbird ",73,"white and black seagull ",6,,,Bluejay,63,quail,3,Woodpecker,68,Dove,63,"Robin ",75,"Penguin heron ",17,Hawk,75,Robin,70,,,bluejay,61,quail,15,Sparrow,60,,,Spotted Hawk,26,cardinal,57,Spotted quail,14,"Geese ",79,"Starling ",5,,,"chicken duck ",6,,,geese,48,,,,,"heron ",4,,,,,Duck,61,blue cardinal,11,sparrow,11,,,"seagull ",45,"Brown seagull ",28,duck,70,"robin ",28,Heron,63,,,,,,,Duck,73,,,robin,21,"brown robin ",8,,,Bluejay,55,Canary,71,duck,92,Dove,51,,,Red Robin,62,,,Robin,64,Robin,74,,,gold robin,10,Spotted sparrow,63,,,,,,,,,red headed finch,52,,,Sparrow,39,Hawk,68,,,"Seagull ",70,,,,,,,,,,,spotted dove,41,,,Brown cardinal,40,"bald eagle ",5,"Gold finch ",40,goldfinch,52,quail,9,finch,31,Doves,63,"Red eye duck ",16,,,,,cardinal,52,"This was hard "
+2022-06-05 13:23:57,2022-06-05 13:33:19,IP Address,*******,100,562,True,2022-06-05 13:33:20,R_2duvAlGBiL9BREr,*******,*******,*******,*******,*******,*******,anonymous,EN,6078b85e024d1d094113c3aa,"I agree to participate and share my data, and I'm ready to start!",18,42,A suburb,United States,California,2.009,2.009,30.035,1,"Pigeon
+Cardinal
+Hawk
+Eagle
+Blue Jay
+Woodpecker
+Titmouse
+",IDK,87,,,,,,,IDK,1,,,,,Hummingbird,100,IDK,3,,,,,Booby,76,,,jay,6,IDK,5,IDK,1,Condor,5,,,Finch,5,Blue Jay,7,Finch,57,,,Pelican,99,Hawk,80,IDK,3,,,,,IDK,1,IDK,1,,,IDK,1,Duck,1,,,,,,,,,Don't know,88,Duck,2,IDK,1,IDK,1,,,Seagull,100,Ibis,1,,,,,Heron,42,Crane,11,Horned Owl,92,IDK,1,Duck,29,IDK,1,IDK,1,,,Tit,66,IDK,3,IDK,5,Mallard Duck,100,,,Swan,100,Cardinal,93,,,,,IDK,6,Duck,69,IDK,4,IDK,1,Hawk,4,,,,,IDK,91,IDK,1,,,,,Hawk,100,IDK,2,,,,,,,Hummingbird,100,IDK,2,,,IDK,1,Duck,1,IDK,37,,,Don't know,4,,,IDK,100,IDK,1,IDK,1,Duck,1,IDK,8,IDK,1,IDK,1,
+2022-06-05 13:19:39,2022-06-05 13:37:08,IP Address,*******,100,1049,True,2022-06-05 13:37:09,R_2WYnjF3PnUtRPZZ,*******,*******,*******,*******,*******,*******,anonymous,EN,5cf908a436b40600153b3746,"I agree to participate and share my data, and I'm ready to start!",3,1,A suburb,United States,CAlifornia,0.996,0.996,30.111,1,"Robin
+Blue jay 
+Hummingbird 
+Dove
+Duck
+C","Parakeet ",33,,,"Parakeet ",0,"Parakeet ",78,,,"Robin ",32,"Vultures ",0,"Hummingbird ",100,"Eagle ",6,,,"Lovebird ",49,,,Blue jay,0,"Robin ",0,"Lovebird ",9,,,"Vultures ",18,"Parakeet ",15,,,Blue jay,0,,,,,"Dodos ",0,,,"Parakeet ",44,Dove,65,"Duck ",95,"Rate parakeet ",0,,,,,Crow,44,,,"Red Robin ",0,"Parakeet ",34,Swan,5,,,,,"Duck ",99,,,"Lovebird ",1,"Parakeet ",77,Dove,11,Crane,0,"Duck ",100,,,Whooping crane,0,Crane,0,"Owl ",94,"Dove ",0,,,"Sparrow ",0,,,"Sparrow ",4,"Sparrow ",3,,,,,"Duck ",100,Spotted crane,0,,,,,,,,,"Lovebird ",5,,,"Parakeet ",50,,,,,,,,,"Lovebird ",25,"Robin ",0,"Parakeet ",16,Duck,98,,,Parat,55,Dove,0,"Peacock ",0,"Dove ",36,"Hummingbird ",100,,,"Owls ",87,"Parakeet ",7,"Duck ",81,"Parakeet ",83,"Eagle ",69,"Parakeet ",10,"Eagle ",8,"Hummingbird ",52,,,,,"Duck ",97,,,"Parakeet ",8,"Parakeet ",42,This was fun-thanks!
+2022-06-05 13:17:46,2022-06-05 13:37:53,IP Address,*******,100,1207,True,2022-06-05 13:37:53,R_1r7zDqWpBjf4ikW,*******,*******,*******,*******,*******,*******,anonymous,EN,5d86d05f9854a60019240621,"I agree to participate and share my data, and I'm ready to start!",0,70,A suburb,United States,Louisiana,0.43,0.43,30.123,1,"finch 
+pelican 
+owl 
+cardinal
+robin
+egret 
+emu
+ostrich
+",finch,0,,,"rare yellow cardinal ",0,hawk,4,,,robin,81,phesant,0,,,seagull,19,bald eagle,100,finch relative,0,,,finch relative,0,,,fluffy finch,0,"water bird ",0,buzzard,51,,,,,,,,,,,pelican but not a brown pelican,100,,,finch,0,pigeon,40,goose,100,,,cardinal,32,,,blackbird,0,,,,,robin,0,water bird baed on webbed feet,0,woodpecker,93,sea bird,0,duck relative not an acrtual duck,0,speckeld robin,0,finch,14,spotted finch,0,"seagull ",100,"egret relative ",1,,,finch,56,,,,,,,dove,21,goose,100,hawk,0,,,,,finch,0,,,yellow breasted finch,2,mallard duck,100,dove,82,swan,100,,,spotted finch,0,dove,0,,,duck,100,,,,,falcon,100,,,blue cardinal,0,finch,0,woodpecker,100,finch,0,duck relative not a duck the bill is too pointy,0,,,"pigeon ",0,,,"peacock relative ",0,pigeon,100,"hummingbird ",100,swallow tail,0,,,seagull relative,1,duck,59,striped finch,3,vulture,100,dove relative,0,,,,,cardinal,66,,,water bird duck relative,2,swallow tail,0,yellow finch,0,,,None
+2022-06-05 13:23:21,2022-06-05 13:37:55,IP Address,*******,100,873,True,2022-06-05 13:37:55,R_TdyC5GOKW0aCI7L,*******,*******,*******,*******,*******,*******,anonymous,EN,6112d0352f3bd7d746a1065b,"I agree to participate and share my data, and I'm ready to start!",25,40,A suburb,United States,Oregon,1.537,1.537,30.013,1,"Woodpecker
+Seagull
+Chickadee
+Pigeon
+Robin
+Parrot
+",,,Crow,100,I don't know,12,I don't know,16,,,Red breasted something,29,Heron,23,Hummingbird,100,I don't know,28,Eagle,100,,,,,I don't know,1,,,,,I don't know,3,Vulture,35,,,I don't know,5,Robin,32,I don't know,6,I don't know,2,,,Falcon,83,,,Quail,80,,,,,I don't know,14,,,I don't know,5,,,I don't know,49,I don't know,32,,,Woodpecker,85,,,I don't know,44,I don't know,1,I don't know,2,,,Seagull,100,,,"Duck, Mallard",93,I don't know,1,Heron,100,,,Barn Owl,100,,,Duck,87,I don't know,4,,,I don't know,71,,,I don't know,41,I don't know,9,"Duck, Mallard",100,I don't know,20,Swan,100,Robin,34,,,I don't know,28,Chickadee,40,Duck,82,I don't know,11,I don't know,18,Peregrine,12,I don't know,7,I don't know,14,,,,,Chickadee,19,I don't know,1,,,I don't know,15,Seagull,100,Pheasant,40,,,Hummingbird,100,I don't know,11,Owl,92,I don't know,38,,,,,Vulture,78,I don't know,4,,,,,I don't know,25,Dove,39,,,,,,,,,
+2022-06-05 13:25:37,2022-06-05 13:39:06,IP Address,*******,100,808,True,2022-06-05 13:39:07,R_22tzEUW57RiLNs0,*******,*******,*******,*******,*******,*******,anonymous,EN,611178113c2efecb1c14a276,"I agree to participate and share my data, and I'm ready to start!",10,25,A suburb,United States,Wisconsin,1.046,1.046,30.012,1,"robin
+cardinal
+pigeon
+finch
+blue jay
+seagull
+",,,,,finch,0,don't know,0,finch,0,robin,100,don't know,0,hummingbird,25,,,bald eagle,80,don't know,0,don't know,0,,,,,,,don't know,10,vulture,0,don't know,0,,,blue jay,60,don't know,0,don't know,40,,,falcon,100,finch,10,quail,0,goose,100,i don't know,0,don't know,0,don't know,0,don't know,0,duck,30,don't know,0,don't know,0,,,,,don't know,0,,,don't know,0,,,,,seagull,100,,,duck,20,don't know,0,crane,19,,,owl,100,don't know,0,duck,5,don't know,0,,,,,don't know,0,finch,0,,,,,,,swan,90,,,,,finch,10,don't know,0,,,,,,,falcon,70,don't know,0,don't know,0,finch,35,don't know,0,,,,,,,red winged blackbird,70,seagull,100,,,pigeon,100,hummingbird,30,don't know,0,owl,10,don't know,0,duck,0,don't know,0,,,don't know,0,don't know,0,don't know,0,,,,,,,finch,0,finch,0,,,
+2022-06-05 13:16:43,2022-06-05 13:39:33,IP Address,*******,100,1370,True,2022-06-05 13:39:33,R_1F992xetQyKhtHb,*******,*******,*******,*******,*******,*******,anonymous,EN,611e90a7d843d206f0fa4a88,"I agree to participate and share my data, and I'm ready to start!",30,85,A suburb,United States,Massachusetts,1.159,18.325,30.114,2,"Oriol
+Chickadee
+Titmice
+PellegrineHawk
+Falcon
+King Fisher
+Finch
+Owls
+
+",,,Crow,100,Finch,100,,,,,Oriole,77,,,,,Seagull,57,Eagle,100,,,Gull,0,King Fisher,0,,,Chickadee,100,Gull,0,,,,,,,Bluejay,100,Sparrow,0,Grackle,0,,,Hawk,81,Titmouse,60,,,Canadian Goose,100,,,Titmouse,0,pheasant,0,,,Duck,0,Chickadee,100,Chickadee,54,Heron,10,,,Swallow,0,Duck,1,Finch,45,finch,0,sparrow,0,,,Heron,1,Duck,100,titmouse,100,Heron,100,,,Owl,1,Titmouse,0,Duck,37,,,sparrow,94,Chickadee,100,Titmouse,59,Finch,70,Titmouse,1,Duck,100,,,,,Cardinal,100,Titmouse,57,Dove,1,Titmouse,15,,,,,,,Hawk,100,,,,,,,,,finch,19,Duck,0,hawk,63,Oriole,30,seagull,100,Pheasant,0,Pigeon,100,Hummingbird,100,,,,,Gull,0,,,,,Vulture,100,,,,,Sandpiper,32,Chickadee,10,Grouse,0,Duck,0,Swallow,0,,,titmouse,19,This survey has made me want to know the birds I see in my backyard more! Thank you!
+2022-06-05 13:14:16,2022-06-05 13:39:51,IP Address,*******,100,1534,True,2022-06-05 13:39:51,R_3m1pw9heZZOgXmi,*******,*******,*******,*******,*******,*******,anonymous,EN,5e687270b3032910fc917644,"I agree to participate and share my data, and I'm ready to start!",14,71,A city,United States,Kansas,0.646,0.646,30.009,1,"Cardinal
+Blue Jay
+Western Meadowlark
+Crow
+Heron
+Starling
+",lark,52,,,lark,0,lark,50,,,American robin,100,,,hummingbird,100,,,Eagle,86,lark,1,,,lark,0,lark,60,,,,,crow,0,lark,19,,,Blue jay,100,starling,40,starling,88,,,,,,,lark,0,goose!,100,lark,0,,,,,,,,,sparrow,19,,,Crane,50,lark,84,lark,79,Duck,0,,,lark,20,,,dove,30,heron,19,duck,100,,,,,Heron,71,Owl,42,lark,40,duck,30,,,Starling,28,sparrow,70,lark,82,lark,10,Western meadowlark,100,Mallard,100,,,Swan,100,,,,,,,,,,,lark,19,,,,,lark,20,starling,9,,,Lark,93,,,Duck,39,hawk,0,,,Dove,72,lark,0,Pigeon,100,,,lark,0,,,Lark,9,duck,0,sparrow,71,turkey vulture,100,Lark,10,Western meadowlark,100,sparrow,92,lark,0,lark,0,duck,0,lark,0,canary,8,lark,19,"This was so fun! I loved being absolutely clueless and then getting one that was super common in my region and knowing it right away. "
+2022-06-05 13:26:09,2022-06-05 13:40:36,IP Address,*******,100,867,True,2022-06-05 13:40:37,R_2e8YuVt3qPMUiJW,*******,*******,*******,*******,*******,*******,anonymous,EN,628817a3c518b074f426f27d,"I agree to participate and share my data, and I'm ready to start!",13,16,A suburb,United States,Florida,1.363,1.363,30.02,1,"Mockingbird
+Hummingbird
+Woodpecker
+Swa",cardinal,0,blackbird,16,cardinal,0,cardinal,0,thrush,0,,,bird,0,,,Swift,32,eagle,38,cardinal,0,cardinal,0,cardinal,0,,,cardinal,0,cardinal,0,buzzard,31,bluebird,0,,,bluebird,13,cardinal,0,blackbird,0,pelican,48,,,,,pheasant,0,goose,49,cardinal,0,cardinal,0,,,cardinal,0,duck,57,cardinal,0,,,goose,0,cardinal,0,duck,0,duck,0,,,,,robbin,0,,,,,,,cardinal,0,cardinal,51,,,owl,18,cardinal,0,duck,16,cardinal,0,cardinal,0,,,,,,,cardinal,0,,,cardinal,0,swan,79,cardinal,0,,,,,,,duck,81,,,,,,,cardinal,0,cardinal,0,cardinal,0,,,,,cardinal,0,,,,,seagull,88,pheasant,0,pigeon,88,hummingbird,46,cardinal,0,owl,13,cardinal,0,,,,,,,cardinal,0,,,,,,,pheasant,0,duck,0,cardinal,0,cardinal,0,cardinal,0,
+2022-06-05 13:28:33,2022-06-05 13:41:00,IP Address,*******,100,746,True,2022-06-05 13:41:00,R_32QirEk1x6EKNdR,*******,*******,*******,*******,*******,*******,anonymous,EN,5f394ce53b053607008f4b74,"I agree to participate and share my data, and I'm ready to start!",30,40,A rural area,United States,"Pennsylvania ",0.492,4.037,30.114,2,"hawk 
+eagle
+bluebird 
+blue jay 
+cardinal 
+robin 
+finch 
+hummingbird 
+crow 
+ra",,,"raven ",100,"yellow finch ",5,"spotted wing ",0,"finch ",0,,,,,,,black head,3,"bald eagle ",100,,,crow,0,,,"white chest ",0,,,long legged,10,"turkey vulture ",100,"blue beard ",0,,,blue jay,100,,,"blackbird ",70,,,"hawk ",60,"gray ",0,,,"Snow goose ",100,,,"brown ",0,,,crow,100,"duck ",10,"spotted red ",10,,,"herring ",30,"woodpecker ",10,,,"duck ",30,"blue finch ",10,,,,,"seagull ",100,,,duck,40,"finch ",5,,,"crane ",81,,,"gray finch ",20,duck,40,finch,20,"red finch ",60,brown wing,0,"brown ",0,"blue finch ",40,yellow finch,50,,,"dove ",50,"swan ",100,"cardinal ",100,red spot,25,,,"yellow chest ",5,,,,,,,"hawk ",60,,,,,"blue finch ",45,,,"white belly ",0,duck,0,hawk,60,"blackbird ",100,"seagull ",100,,,"pigeon ",100,"hummingbird ",100,bird,0,"owl ",80,finch,0,,,,,"Turkey Vulture ",100,"orange spotted ",10,"yellow ",10,,,"finch ",5,white ren,0,,,,,"yellow ",20,"yellow spotted finch ",20,
+2022-06-05 13:20:46,2022-06-05 13:42:42,IP Address,*******,100,1316,True,2022-06-05 13:42:43,R_1HkLmPvOGF8m1p6,*******,*******,*******,*******,*******,*******,anonymous,EN,5d2787f7e9b2a00018221059,"I agree to participate and share my data, and I'm ready to start!",44,68,A suburb,United States,CA,1.39,1.39,30.018,1,"Robin
+Grosbeak
+Golden finch
+Sparrow
+Woodpecker
+Heron
+Egret
+Seagull
+Blackbird
+European Starling
+Cardinal
+bluejay
+",Phoebe,0,Crow,100,Golden finch,38,Falcon,80,,,Robin,100,,,,,Tern,0,Eagle,84,American wren,0,,,Scrub Jay,0,Tanager,0,Chickadee,0,Sandpiper,0,Turkey Vulture,0,Blue throated flycatcher,0,Grosbeak,0,,,,,Blackbird,97,Pelican,99,Hawk,95,,,Quail,94,Goose,96,Ibis,0,Waxwing,0,,,European Starling,100,Heron,0,Purple finch,90,Black Junco,94,Loon,0,,,Sandpiper,39,Egret,0,Wren,49,,,European Starling,98,,,,,Duck,100,,,Heron,83,Heron,92,Owl,84,Towhee,2,,,,,House finch,100,,,Nuthatch,0,Grosbeak,4,,,Mallard Duck,100,Partridge,0,,,,,Woodpecker,0,,,Blue birb,0,Duck,92,Golden Wren,0,Nuthatch,0,,,,,,,,,Woodpecker,0,,,,,Osprey,39,,,,,Pheasant,9,Pigeon,100,hummingbird,100,,,,,,,Goose,99,,,Vulture,99,thrush,0,Yellow breasted warbler,0,,,Finch,0,Pheasant,0,,,Wren,0,Golden Finch,0,flycatcher,0,
+2022-06-05 13:28:06,2022-06-05 13:43:03,IP Address,*******,100,896,True,2022-06-05 13:43:03,R_3RyXBFCm6KfUopr,*******,*******,*******,*******,*******,*******,anonymous,EN,6122b5527020257bf5aabc8e,"I agree to participate and share my data, and I'm ready to start!",85,85,A suburb,United States,Texas,0.614,0.614,30.121,1,"American Robin
+Northern Cardinal
+Bluejay
+Carolina wren
+star",eastern wood pewee,100,american crow,100,american goldfinch,100,,,american redstart,100,american robin,100,anhinga,100,,,tern,40,,,barn swallow,100,,,,,,,black capped chickadee,100,,,black vulture,100,blue throat,0,,,blue jay,100,brown headed cowbird,100,,,brown pelican,100,red shouldered hawk,100,blue gray gnatcatcher,100,California quail,0,canada goose,100,cattle egret,100,,,purple gallinule,100,common grackle,100,,,,,,,,,downy woodpecker,100,sandpiper,50,grebe,0,,,eastern kingbird,100,european starling,100,,,glossy ibis,92,green winged teal,100,golden crowned kinglet,100,great blue heron,100,,,great horned owl,100,gray catbird,100,,,lark sparrow,0,house finch,100,house sparrow,100,,,,,,,mallard,100,mourning dove,100,mute swan,100,northern cardinal,100,northern flicker,100,,,northern parulia,100,Northern pintail,100,orchard oriole,100,american golden plover,20,,,purple finch,0,purple martin,100,red breasted nuthatch,100,red bellied woodpecker,100,,,,,red tailed hawk,100,,,ring billed gull,100,pheasant,0,rock pigeon,100,ruby throated hummingbird,100,,,owl,20,,,snow goose,0,,,turkey vulture,100,,,,,sandpiper,100,red crossbill,0,,,,,yellow billed cuckoo,100,yellow warbler,100,,,
+2022-06-05 13:26:59,2022-06-05 13:45:19,IP Address,*******,100,1099,True,2022-06-05 13:45:19,R_2scZhrfqLT3C5dK,*******,*******,*******,*******,*******,*******,anonymous,EN,61111442bb1b255927718949,"I agree to participate and share my data, and I'm ready to start!",4,9,A suburb,United States,ohio,0.605,0.605,30.077,1,"hawk
+blue jay
+cardinal
+sparrow
+seagull
+",,,crow,100,black and yellow glider,25,even babier hawk,17,baby sparrow,13,robin,100,,,,,,,bald eagle,100,finch,12,puffer,46,,,,,,,flamingo's brother,13,vulture,84,"common bird ",47,,,blue jay,100,sparrow,42,,,pelican,69,,,,,pheasant,64,,,,,,,pecker,15,wide eyed bird,10,,,finch,35,,,long neck gulloway,32,,,pheasnt,36,evil duck,29,blue feather jay,23,type of wood pecker,22,finch,26,seagull,100,,,duck,44,yellow headed lady,26,stork,72,stork,47,owl,100,gray breasted tweeter,15,duck,50,,,red wing,20,sparrow,100,,,blue finch,15,yellow and black finch,9,,,dove,100,swan,100,cousin of the cardinal,47,northern atlantic bird,0,,,,,duck,90,,,killdeer,55,hawk,58,cardinal,42,,,finch,67,,,buzzard bait,24,duch,47,,,a very pretty bird named pretty bird,57,,,,,pigeon,100,hummingbird,100,long tailed springer,4,owl,68,,,,,,,turkey buzzard,51,,,yellow bellied finch,5,killdeer,54,cardinal,47,,,duck,77,baby hawk,19,yellow finch,28,"the cutes bird ever, the finch",19,
+2022-06-05 13:36:07,2022-06-05 13:46:45,IP Address,*******,100,638,True,2022-06-05 13:46:45,R_3P7sTVqjdh6pDyn,*******,*******,*******,*******,*******,*******,anonymous,EN,601836ba0681ff045e6d6940,"I agree to participate and share my data, and I'm ready to start!",2,20,A suburb,United States,Georgia,0.434,0.434,30.11,1,"Cardnial
+eagle
+hawk
+wren
+hummingbird
+swallow
+sparrow
+tucan
+",wren,49,raven,66,canary,12,finch,9,,,wren,0,egot,2,humming bird,100,seagul,3,,,,,egot,0,,,finch,0,,,egot,0,crow,45,,,,,,,finch,51,raven,23,,,eagle,100,finch,7,quail,11,goose,100,,,cardnial,0,egot,0,raven,12,,,cardinal,0,finch,12,egot,0,wood pecker,100,,,,,finch,0,finch,6,,,,,,,,,tit,10,,,,,owl,100,,,duck,100,,,wren,0,,,,,finch,50,finch,11,duck,100,,,swan,100,,,finch,0,wren,62,finch,0,duck,100,,,wren,0,hawk,72,finch,0,,,,,,,finch,0,egot,0,hawk,84,,,seagull,100,quail,0,,,humming bird,100,finch,0,owl,100,white wren,0,duck,10,,,,,,,wren,0,kiwi,0,finch,0,hen,13,goose,5,finch,0,canary,75,tit,13,
+2022-06-05 13:26:19,2022-06-05 13:47:57,IP Address,*******,100,1298,True,2022-06-05 13:47:58,R_9HR6YN4SUshx2sF,*******,*******,*******,*******,*******,*******,anonymous,EN,610d3f2e9d2333e4a86ca9bc,"I agree to participate and share my data, and I'm ready to start!",10,28,A rural area,United States,Nebraska,1.154,1.154,30.117,1,"Robin
+Sparrow
+Black bird
+Bluebird
+Yellow finch
+Dove
+Phea","Sparrow ",12,,,Finch,20,Wren,0,,,Robin,100,Egret,0,Hummingbird,100,,,American eagle,100,,,Greib,0,Wren,0,,,Finch,0,,,No idea,0,,,Parrot,0,"Bluejay ",50,,,,,,,Hawk,100,Sparrow,27,,,,,Egret,0,Finch,0,Chicken,,,,Duck,4,Sparrow,0,Finch,0,,,Woodpecker,14,Long billed finch,0,Duck,0,Finch,0,,,Sparrow,0,Gull,10,Greib,0,"Mallard ",100,Sparrow,0,Heron,78,,,Owl,100,Finch,5,Duck,87,Finch,7,,,,,Wren,0,Finch,0,Finch,0,,,,,Swan,100,,,,,Finch,4,,,Dick,19,Fonch,14,Wren,0,Falcon,8,Finch,18,,,Finch,0,,,"Finch ",18,Egret,4,Hawk,89,"Sparrow ",4,"Seagull ",100,,,Pigeon,38,,,,,Owl,22,,,Duck,31,"Sparrow ",50,,,,,,,Sparrow,6,Finch,0,,,Duck,0,,,Yellowtail,0,Finch,7,
+2022-06-05 13:24:48,2022-06-05 13:48:42,IP Address,*******,100,1433,True,2022-06-05 13:48:42,R_3dQu58kQKFp2hOx,*******,*******,*******,*******,*******,*******,anonymous,EN,60fd700494c27e5a2fefcbb3,"I agree to participate and share my data, and I'm ready to start!",0,42,A suburb,United States,California,0.643,0.643,30.007,1,"goldfinch
+blue jay
+finch
+robin
+woodpecker
+mocking bird
+hummingbird
+mallla",,,crow,95,american goldfinch,75,sparrow,0,starling,6,,,,,hummingbird,100,puffing,59,eaglr,92,hummingbird,10,,,,,sparrow,0,finch,4,,,hawk,55,idont know,0,,,bluejay,67,,,dove,0,pelican,46,hawk,43,grey finch,4,,,goose,74,heron,18,,,coot,0,finch,40,,,,,,,cormorant,84,,,sparrow,25,loon,30,finch,3,,,cuckoos,0,,,,,wood duck,76,finch,43,heron,52,egret,38,owl,81,housefinch,6,mallard,17,,,goldfinch,5,,,,,sparrow,4,,,mallard,93,pigeon,45,swan,24,cardinal,85,sparrow,0,snowy finch,4,finch,40,duck,50,finch,56,idontknow,0,,,,,,,,,,,yellow finch,21,wigeon,38,eagle,58,red wing blackbird,49,seagull,87,idontknow,0,,,,,widowbird,0,,,sparrow,3,,,finch,0,,,starling,0,,,sparrow,8,robin,29,goose,0,loon,0,,,,,canary,7,
+2022-06-05 13:20:01,2022-06-05 13:48:51,IP Address,*******,100,1729,True,2022-06-05 13:48:51,R_3D89kXzYWjebixf,*******,*******,*******,*******,*******,*******,anonymous,EN,5d16badb7b0154001a282fdb,"I agree to participate and share my data, and I'm ready to start!",80,97,A city,United States,Washington DC,0.78,0.78,30.01,1,"cardinal
+eagle
+redtail hawk
+wood duck
+robin
+catbird
+mockingbird
+hummingbird
+",,,American Crow,100,don't know,0,Kestrel,100,,,American Robin,100,Loon,0,"Ruby throated hummingbird ",100,Plover,50,Bald Eagle,100,Fly Catcher,5,,,Kingfisher,9,,,Chickadee,100,Shorebird,63,,,unknown,0,"blue bird, tree sparrow, purple marlin",47,Northern Bluejay,100,,,Common Crackle,100,,,,,,,Quail,38,Canadian Geese,100,,,Cedar waxwing,6,,,Common Crackle,100,,,sparrow,3,Chickadee,35,loon,54,Downy woodpecker,100,,,Merganser Duck,100,Blue bird,74,flycatcher,14,European Starling,100,,,,,Duck,0,,,loon,16,Erget,100,Great-horned owl,61,Catbird,100,,,,,Wren,100,Field Sparrow,100,Carolina Wren,100,Blue bird,1,Finch,18,,,Mourning Dove,100,Swan,100,Northern Cardinal,100,Northern Flicker,100,,,,,Duck,0,Sparrow,6,Sandpiper,3,Peregrine Falcon,100,Sparrow,0,Purple Martin,40,,,,,,,don't know,0,,,"Baltimore Oriole ",100,Common Gull,100,,,,,Hummingbird,81,,,,,,,,,,,Black Vulture,100,,,,,Sandpiper,1,Sparrow,0,Snow pigeon,0,Duck,0,Flycatcher,0,Yellow Finch,100,Sparrow,0,Enjoyed taking your survey.
+2022-06-05 13:19:31,2022-06-05 13:49:35,IP Address,*******,100,1803,True,2022-06-05 13:49:35,R_vwducbqbdn0WYmJ,*******,*******,*******,*******,*******,*******,anonymous,EN,5b4653a7a47aa0000133219e,"I agree to participate and share my data, and I'm ready to start!",10,25,A suburb,United States,Ohio,1.475,1.475,30.01,1,"Woodpecker
+Dove
+Duck
+swan
+sparrow
+gull
+pidg",,,,,canary,0,,,,,cardinal,72,crane,20,hummingbird,0,,,Bald Eagle,100,,,heron,0,blue jay,10,swallow,0,bluebird,0,,,vulture,98,,,finch,0,,,,,sparrow,15,heron,15,,,robin,20,,,,,crane,40,jay,0,quali,0,sparrow,16,,,finch,0,,,heron,0,woodpecker,100,,,duck,0,finch,0,sparrow,0,cardinal,9,gull,100,ibis,0,,,,,,,crane,34,owl,100,,,,,finch,55,finch,2,,,finch,50,,,Yellow belly finch,0,geese,100,,,swan,100,,,,,finch,10,finch,0,Duck,100,robin,0,sparrow,0,,,finch,0,blackbird,100,bluebird,10,,,,,,,hawk,60,starling,0,,,,,pigeon,100,hummingbird,100,swallow,0,owl,100,gull,10,,,finch,51,vulture,100,robin,0,starling,10,sterling,0,robin,0,,,duck,10,starling,0,canary,0,finch,0,
+2022-06-05 12:53:17,2022-06-05 13:50:00,IP Address,*******,100,3403,True,2022-06-05 13:50:01,R_1OfnQ9rp4m1B03v,*******,*******,*******,*******,*******,*******,anonymous,EN,601f3a8163401445bdf41c1b,"I agree to participate and share my data, and I'm ready to start!",23,35,A rural area,United States,"Florida ",0.753,9.74,30.018,2,"Crested cara cara 
+Mocking
+Eagle
+Osprey 
+Flamingo
+Shriek 
+Bunting
+Warl",,,"Raven ",100,,,"Pedigrew falcon ",99,,,"Common robin ",100,"Anhinga ",100,"Green backed hummingbird ",8,Swallowtail kite,86,"NA Bald eagle ",100,,,Night heron,100,,,"White bellied bunting ",12,"Loggerhead shriek ",95,,,"American vulture ",100,Blue throat wren,13,"Blue majesty ",0,"Blue jay ",100,Brown head warbler,45,"Black martin ",8,,,"Red winged hawk ",100,,,"Feather hat pheasant ",0,"North American goose ",100,,,"Canadian cardinal ",5,,,,,"Velvet duck ",0,"Rosey wren ",5,"Grey bunting ",0,,,,,,,"Red eye duck ",25,"Blue winged warbler ",50,,,"Starling ",100,"Seagull ",100,,,,,Yellow haired wren,0,,,,,,,"Purple Martin ",65,"Indian walking duck ",82,"Ring neck wren ",19,Rosette naped warbler,0,"Common house wren ",100,"House wren ",71,,,"Yellow bellied warbler ",83,,,"Brown Dove ",100,,,"North American cardinal ",100,,,,,"Yellow naped bunting ",22,Fancy duck,0,Black throat warbler,0,Sandpiper,81,,,,,"Black eyed blue bird ",14,"Brown breasted bunting ",32,"Red head woodpecker ",100,"Grey hair bunting ",5,,,"Red tailed Hawk ",28,,,"Laughing seagull ",100,"North American pheasant ",27,"New York pigeon ",100,"Red throat hummingbird ",100,,,"Round face owl ",0,,,"Western goose ",0,"Eastern wren ",14,"Turkey vulture ",100,,,"Yellow breasted roadrunner ",56,"Sandpiper ",99,"Rosey ",6,,,,,White breast bunting,0,"Yellow bunting ",58,"Yellow spotted bunting ",0,
+2022-06-05 13:25:58,2022-06-05 13:53:51,IP Address,*******,100,1672,True,2022-06-05 13:53:51,R_1Qrpx1HbVqkxcFf,*******,*******,*******,*******,*******,*******,anonymous,EN,611d2be161ceef6c9d25af13,"I agree to participate and share my data, and I'm ready to start!",28,40,A rural area,United States,Nebraska,1.45,1.45,30.108,1,"turkey
+hawk
+peacock
+robin
+parrot
+",skylark,72,crow,81,skylark,67,,,,,,,hawk,40,colorbird,77,oriole,82,,,wagtail,65,water bird,23,pheasant,35,,,swallow,55,crane,54,,,skylark,65,,,bluejay,64,skylark,58,blackbird,65,pelican,63,,,,,pigeon,21,,,white bird,76,robin,69,black bird,13,blackbird,56,,,,,,,crane,54,,,pecker,51,,,starling,66,,,,,snow bird,71,crane,59,duck,100,yellow head bird,79,,,pelican,88,owl,100,,,,,robin,66,canary,67,skylark,66,,,bluebird,65,yellow bird,68,duck,100,,,swan,68,robin,78,leopard bird,62,big bird,64,,,duck,100,robin,71,,,hawk,69,,,blackbird,69,,,orangehead,74,,,waterbird,60,hawk,69,,,arctic bird,74,crow,56,pigeon,65,pecker,71,,,,,winter bird,67,,,skylark,69,hawk,76,canary,67,,,skylark,73,,,snow bird,17,,,myna,49,yellow bird,73,goldfinch,71,
+2022-06-05 13:22:52,2022-06-05 13:56:04,IP Address,*******,100,1991,True,2022-06-05 13:56:04,R_1C8deyjTFwTckOk,*******,*******,*******,*******,*******,*******,anonymous,EN,60928b55a027ee7893ed76e5,"I agree to participate and share my data, and I'm ready to start!",27,35,A suburb,United States,Georgia,0.585,0.585,30.122,1,"cardinal
+starling
+robin
+blue jay
+hawk
+eagle
+buzzard
+owl
+sparrow
+",mockingbird,48,raven,51,jay,0,falcon,39,songbird,29,robin,97,crane,19,,,,,eagle,98,swallow,63,fisher,4,,,songbird,10,sparrow,1,,,vulture,69,sparrow,29,finch,30,blue jay,93,finch,22,,,pelican,100,hawk,85,swallow,61,,,Canadian geese,100,songbird,4,,,starling,34,starling,45,duck,3,cardinal,5,,,heron,2,woodpecker,34,piper,45,,,,,,,,,,,egrit,3,duck,100,,,,,,,owl,100,,,,,swallow,32,finch,69,sparrow,79,,,,,,,duck,100,pigeon,9,,,cardinal,100,,,,,,,,,,,mockingbird,36,falcon,92,,,jay,2,sparrow,78,woodpecker,40,songbird,20,woodpecker,0,,,,,,,pheasant,95,pigeon,100,hummingbird,100,,,owl,97,finch,10,duck,75,sparrow,52,vulture,80,swallow,45,,,thrasher,52,,,dove,31,duck,30,songbird,8,songbird,0,finch,2,There were no kiwis or penguins :(
+2022-06-05 13:26:58,2022-06-05 13:56:08,IP Address,*******,100,1749,True,2022-06-05 13:56:08,R_3EGOaE1dAXyjWzc,*******,*******,*******,*******,*******,*******,anonymous,EN,610990eece0ecce804c746cc,"I agree to participate and share my data, and I'm ready to start!",10,92,A city,United States,Missouri,0.679,0.679,30.009,1,"Cardinal
+Blue Jay
+Crow
+Raven
+Woodpecker
+Hummingbird
+",Finch,0,,,,,Sparrow Hawk,0,orange winged sparrow,0,Robin,100,"Black Herring ",0,,,"Swallow tail ",0,Bald Eagle,100,Swallow,51,Spotted Mini Pelican,0,Mullet Bird,0,Red eyed finch,0,"Wren ",1,"Mini Flamingo ",0,,,,,Blue curve beak,0,Blue Jay,100,Starling,0,Black Bird,82,,,Hawk,100,,,,,Goose,100,"Mini pelican ",0,,,,,Starling,82,Spotted Goose,0,,,Phoebe,0,"Vulture ",0,Woodpecker,72,Long Nosed Stint,0,,,Blue Bird,100,,,,,Pelican,0,,,Duck,91,,,"Blue Herring ",100,White Herring,0,,,Finch,0,,,Lark,40,Red Phoebe,0,Sparrow,9,,,,,,,mallard duck,100,"Morning Dove ",0,Swan,0,,,"Spotted Dove ",0,Mocking Jay,0,Finch,20,Duck,0,,,,,"Falcon ",19,,,"Starling ",10,,,,,Red Eyed Finch,0,Long Nosed Duck,0,,,Orange winged black bird,0,,,"Pheasant ",0,"pigeon ",30,Hummingbird,100,,,Barn Owl,100,,,Ghost Goose,0,Phoebe,10,Turkey Vulture,100,Orange Finch,0,"Turkey tail fletching ",0,Spotted white bellied peep,0,,,"Chicken Dove ",0,,,,,Yellow Bird,0,Yellow spotted wren,0,
+2022-06-05 13:37:06,2022-06-05 13:58:44,IP Address,*******,100,1297,True,2022-06-05 13:58:44,R_1dt2juiOp1IAerg,*******,*******,*******,*******,*******,*******,anonymous,EN,"5e39068e0e532411b2adaa7b ","I agree to participate and share my data, and I'm ready to start!",28,46,A city,United States,"Michigan ",0.956,0.956,30.134,1,"Hummingbirds 
+Eagle 
+Owl
+Red Robin
+",Robin,0,"Raven ",72,"Canary ",0,,,,,,,"Duck ",0,Hummingbird,72,"Seagull ",0,,,"Blue Jay ",38,,,"Woodpecker ",64,"Robin ",2,"Canary ",0,"Stork ",0,"Buzzard ",4,,,"Canary ",29,"Blue Jay ",14,,,,,"Seagull ",32,,,,,"Peacock ",13,,,,,Hawk,0,Goose,0,"Blue Jay ",0,Swan,3,,,,,"Duck ",0,,,"Seagull ",2,"Duck ",0,"Canary ",0,,,"Blue Jay ",27,"Pelican ",41,"Swan ",11,"Duck ",100,,,"Pelican ",0,Stork,0,,,,,,,"Canary ",0,"Robin ",94,"Robin ",15,,,,,,,"Duck ",0,,,"Swan ",0,,,,,"Robin ",4,"Canary ",1,"Duck ",97,,,"Canary ",0,"Eagle ",61,Robin,98,Raven,67,"Canary ",3,Robin,0,"Canary ",0,Duck,99,"Eagle ",52,,,Pigeon,97,"Peacock ",79,,,Hummingbird,77,,,Owl,88,,,"Seagull ",100,Robin,0,,,,,"Canary ",0,"Robin ",0,"Woodpecker ",53,,,"Pelican ",0,"Canary ",0,"Canary ",1,"Canary ",0,
+2022-06-05 13:29:43,2022-06-05 14:04:42,IP Address,*******,100,2098,True,2022-06-05 14:04:42,R_2BteSVYbmafRO5W,*******,*******,*******,*******,*******,*******,anonymous,EN,5f32c470677f5a0457545995,"I agree to participate and share my data, and I'm ready to start!",3,25,A city,United States,north carolina,2.791,3.464,30.126,2,"cordnil 
+blue bird
+humming bird
+hawk
+red",finch,30,blue jay,57,,,"bluejay ",42,finch,42,,,,,humming bird,100,dove,61,bald eagle,55,blue jay,66,,,,,,,finch,25,,,,,,,,,blue bird,51,finch,45,starling,25,,,,,finvh,46,,,goose,100,,,,,swift,55,blue jay,44,,,finch,67,,,stork,53,,,kingfishers,23,duck,77,,,finch,45,,,seagul,85,swallow tail,16,duck,82,mallard,55,,,swan,37,owl,62,,,duck,73,finch,77,,,finch,49,,,,,finch,41,duck,86,dove,88,swan,79,cardinal,67,starling,7,,,bluebird,51,duck,80,finch,31,,,,,finch,50,starling,41,starling,56,robin,53,finch,58,duck,55,hawk,50,blackbird,62,seagul,78,finch,12,seagul,54,,,goldfinch,42,,,finch,54,seagul,84,kingfishbers,52,,,,,sparrow,37,,,robin,13,snowbird,72,duck,58,finch,8,finch,65,,,
+2022-06-05 13:22:20,2022-06-05 14:05:23,IP Address,*******,100,2583,True,2022-06-05 14:05:23,R_1kXmLpuYFeMMPmw,*******,*******,*******,*******,*******,*******,anonymous,EN,5ea1ee658a9acd0eff894ae2,"I agree to participate and share my data, and I'm ready to start!",0,20,A city,United States,Texas,0.923,0.923,30.01,1,"Crow
+Raven
+Blue Jay
+Robin
+Parrot
+",Wren,20,,,Striped Finch,0,Parakeet Falcon,30,,,Wren,0,Miniature Stork,0,,,,,,,Yellow Bellied Finch,0,Fish Sparrow,0,Grey Jay,0,Finch,0,Standard Sized Parakeet,0,Flamingo Stork,0,Vulture,0,Blue Breasted Sparrow,0,Wild Blue Parrot,0,,,,,Crow,50,Pelican,100,,,,,,,Goose,81,Miniature Stork,0,,,Exotic Pigeon,0,,,,,,,,,Black Stork,0,Skunk Sparrrow,0,Turtle Sparrow,0,Red Eyed Mallard,0,,,Wren,0,Rainbow Finch,0,Seagull,100,Pelican,0,Mallard Duck,100,,,,,,,Spotted Owl,80,,,Goose,30,,,Robin,5,,,Common Wren,20,Blue Sparrow,0,Yellow Tiger Parakeet,0,Mallard Duck,100,,,,,Cardinal,0,Spotted FInch,0,Common Grey Finch,0,Yellow Robin,0,Mallard DUck,0,Black Beak Finch,0,Quail,0,,,Forest Dove,0,Azure Finch,0,Zebra Finch,15,,,,,Duck,10,Falcon,15,Sunset Raven,0,Seagull,70,Spotted Quail,0,Pigeon,100,,,Long Tail Sparrow,0,Owl,100,,,Miniature Goose,0,Common Finch,80,,,,,Yellow Bellied FInch,30,Quail,50,,,,,,,Sparrow,20,Yellow Parakeet,10,Black and Yellow Parakeet,0,It was interesting. I knew more than I thought but most of the birds looked the same to me and where was the blue jay??
+2022-06-05 13:44:17,2022-06-05 14:10:52,IP Address,*******,100,1594,True,2022-06-05 14:10:52,R_1LvWa4st1PUIgoQ,*******,*******,*******,*******,*******,*******,anonymous,EN,60ff357cea60e63b94b72c6a,"I agree to participate and share my data, and I'm ready to start!",10,40,A suburb,United States,Kansas,1.093,1.093,30.013,1,"Robin
+Woodpecker
+Stork
+Crow
+Raven
+Humming
+Blue
+Cardinal
+",Finch,2,,,Canary,30,Hawk,60,,,Robin,100,Heron,0,,,,,,,,,,,Woodpecker,81,Cuckoo,60,Chickadee,100,,,Vulture,0,Roadrunner,0,Blue Finch,0,,,Chickadee,0,,,,,,,Blue,0,,,,,Crane,0,Finch,0,"Pheasant ",0,,,Loon,100,Redbird,0,Finch,10,,,Woodpecker,30,,,Duck,1,Bluebird,50,Brownbird,0,"Spotted ",0,Sea Gull,100,,,Duck,0,,,,,Egret,100,Horned Owl,51,"Grey ",0,Goose,100,"Burrow ",0,Finch,10,,,,,Bunting,60,,,,,Dove,100,Swan,100,,,,,Wren,50,Finch,0,Duck,0,Oriole,100,,,,,Robin,0,Finch,0,,,Woodpecker,70,Yellow Tail,0,,,Hawk,100,Blackbird,0,,,,,Pigeon,100,Humming Bird,100,Longtail,0,Owl,100,Bunting,80,Goose,30,,,Vulture,0,Golden,0,Warble,10,Burrow,0,Redbill,0,Pheasant,30,Duck,0,,,Finch,20,Warbler,40,
+2022-06-05 13:19:26,2022-06-05 14:10:58,IP Address,*******,100,3092,True,2022-06-05 14:10:59,R_1IZt3chYekd058x,*******,*******,*******,*******,*******,*******,anonymous,EN,5d773df22fa4bf001a045aa9,"I agree to participate and share my data, and I'm ready to start!",20,40,A city,United States,Ohio,1.58,1.58,30.112,1,"Crow
+Raven
+Wren
+Herring
+Blue Jay
+Blackbird
+",,,,,,,Hawk?,50,Warbler?,95,,,,,,,Unsure,0,Eagle,100,Unsure,0,Unsure,0,,,Unsure,10,,,Stilt,0,Vulture?,95,Bluethroat?,0,,,Blue Jay,100,Sparrow?,100,,,,,Hawk,100,Unsure,0,,,,,Unsure,0,Cardinal?,50,,,Grackle?,51,Loon,0,,,Sparrow?,50,Unsure,10,Warbler?,0,Unsure,0,,,,,Unsure,0,Unsure,75,Seagull,100,,,Mallard Duck,100,Unsure,0,Blue Herring,100,Great White Herring,100,Owl,100,,,Duck,90,Warbler?,3,Finch,100,Sparrow?,100,,,Bluebird?,0,Warbler?,20,Mallard Duck,100,Unsure,20,,,Red Cardinal,100,Thrush?,10,Sparrow?,50,Sparrow?,92,Bufflehead duck?,0,,,Starling?,10,Hawk,100,,,Grackle?,40,,,,,,,Unsure,0,,,Blackbird,75,Seagull?,50,Pheasant,50,Pigeon,52,,,Unsure,0,Barred Owl,100,Unsure,0,,,,,Turkey Vulture,100,,,Lark?,5,,,,,Pigeon?,0,Unsure,0,Unsure,0,Warbler?,0,,,
+2022-06-05 13:05:04,2022-06-05 14:11:10,IP Address,*******,100,3965,True,2022-06-05 14:11:10,R_31uwU6h3jgTKsL4,*******,*******,*******,*******,*******,*******,anonymous,EN,55b3120cfdf99b6ef6263a71,"I agree to participate and share my data, and I'm ready to start!",74,96,A suburb,United States,Florida,1.497,8.47,9.186,7,,,,blackbird,100,,,,,don't know,0,Robin,100,,,red throated hummingbird,96,seagull,100,eagle,0,swallow,29,Heron,38,kingfisher,0,don't know,100,,,not sure,17,,,thrush,0,bluebird,95,blue jay,100,don't know,6,black fnch,0,pelican,100,Hawk,100,,,wren,0,duck,97,not sure,12,don't know,0,,,,,duck,100,painted finch,0,don't know,0,not sure,89,woodpecker,100,sandpiper,88,,,,,,,thrasher,0,,,,,,,snippet,0,not sure,82,,,owl,100,grey finch,0,,,wren,36,,,red headed finch,0,"brown wren ",0,,,kingfish,88,,,quail,97,swan,100,cardinal,100,,,don't know,0,,,,,robin,99,quail,100,hawk,100,,,,,finch,0,,,kingpin,0,wood duck,100,osprey,100,blackbird,100,pigeon,100,,,pigeon,100,hummingbird,100,,,,,,,,,wren,0,vulture,100,thrush,0,kingbird,0,Thrasher,8,,,,,,,don't know,0,warbler,0,don't know,0,
+2022-06-05 14:01:57,2022-06-05 14:22:37,IP Address,*******,100,1240,True,2022-06-05 14:22:38,R_2zkxFtCczWeodo7,*******,*******,*******,*******,*******,*******,anonymous,EN,5fb0195bd0a22f3783170168,"I agree to participate and share my data, and I'm ready to start!",45,35,A suburb,United States,Nevada,1.701,1.701,30.015,1,"wren
+wood pecker
+mina bird
+eagle
+sparrow
+",,,starling,39,canary,73,hawk,85,mockingbird,56,,,no clue,12,,,tern,73,eagle,100,bluebird,22,,,kingfisher,97,mockingbird,31,titmouse,34,sandpiper,8,,,no clue,14,robin,43,,,don't know,20,crow,75,pelican,93,,,wren,24,,,Canadian goose,86,heron,44,"red-winged ",13,,,starling,17,loon,92,,,wren,20,egret,6,,,,,loon,54,,,,,sparrow,30,seagull,95,,,drake duck,66,chickadee,41,,,,,,,mockingbird,22,,,,,wren,9,chickadee,26,,,,,jay,17,mallard duck,100,passenger pigeon,39,swan,97,cardinal,17,woodpecker,98,titmouse,5,mountain bluebird,17,duck,97,robin,42,unknown,5,,,,,starling,13,bluebird,74,,,,,I don't know,17,hawk/falcon,94,,,seagull,90,,,rat with wings (pigeon),92,hummingbird,87,,,owl,99,tern,9,,,,,vulture,56,,,thrush,13,sandpiper,38,cardinal,12,partridge,81,egret,46,,,canary,22,,,
+2022-06-05 13:30:18,2022-06-05 14:43:35,IP Address,*******,100,4396,True,2022-06-05 14:43:36,R_xxhmqIstuF1lG2l,*******,*******,*******,*******,*******,*******,anonymous,EN,6111b867b4b771298a894af5,"I agree to participate and share my data, and I'm ready to start!",5,20,A rural area,United States,Alabama,0.957,0.957,30.013,1,"Robin
+Bluejay
+Finch
+Chicken
+Hawk
+Eagle
+Buzzard
+",,,Crow,100,"Yellow Chested Sparrow ",0,Sparrow Hawk,0,,,Robin,100,Dark Suited Crane,0,,,Ballpoint Finch (Not sure what the bird's name actually is so I gave it a new name),0,American Eagle,0,Swallow,0,Water Crow,0,,,,,Chickadee,5,Long Legged Suit,0,Buzzard,100,Blue Necked Finch,0,Tropic Crow,0,Blue Jay,100,Brown Crown Crow,0,,,Crowned Pelican,0,Hawk,32,Grey Finch,32,,,,,Teacup Pelican,0,,,,,Crow,100,,,Flushed Sparrow,0,Dark Sparrow,0,Crane,0,,,,,,,Blue Bird,51,,,Finch,60,"Seagull ",100,Red Crane,0,Mallard Duck,100,Crowned Warbler,0,Crane,0,White Crane,0,Horned Owl,29,,,Brown Chested Goose,0,,,Red Finch,0,Sparrow,64,Finch,60,,,"Tie-dyed Warbler ",0,,,Spotted Dove,0,King Swan,0,,,Flicker,30,,,,,,,,,,,Eastern Eagle,0,,,Teacup Crow,0,Suited Sparrow,70,Woodpecker,100,Yellow Suited Warbler,0,Long Billed Water Goose,8,Red Tailed Hawk,40,Orange Winged Finch,0,,,Pheasant,33,Pigeon,100,Humming Bird,100,,,Short Eared Owl,10,Dove,0,Goose,20,Sparrow,100,,,Thrush,5,,,,,,,,,Grey Goose,0,,,Yellow Warbler,0,Yellow Hammer Warbler,0,
+2022-06-05 14:45:27,2022-06-05 15:03:59,IP Address,*******,100,1111,True,2022-06-05 15:03:59,R_1F3WDrJniXpksPv,*******,*******,*******,*******,*******,*******,anonymous,EN,5c671f12a26a8500014431e7,"I agree to participate and share my data, and I'm ready to start!",24,32,A city,United States,Texas,0.598,0.598,30.012,1,"Robin
+Blue Jay
+Flamingo
+Mockingbird
+Cardinal
+Owl
+Eagle
+Hawk
+",,,Crow,100,Finch,99,FInch,91,Wren,97,,,Black Bird,83,,,Wren,88,,,Finch,95,,,Cardinal,87,Wren,95,Wren,96,,,,,Robin,96,,,,,Wren,94,Black Bird,100,Pelican,96,Hawk,100,Blue Jay,100,,,,,Finch,77,Cardinal,90,,,Crow,89,Duck,92,,,Wren,100,,,,,Pheasant,90,Duck,100,,,Mockingbird,77,,,Seagull,100,,,Duck,100,FInch,90,Heron,91,Heron,100,,,Mockingbird,92,,,,,Robin,100,FInch,100,Finch,100,Wren,94,,,Duck,100,,,Swan,100,Cardinal,100,Wren,95,Wren,89,,,,,,,Pheasant,90,Hawk,93,Finch,86,,,,,woodpecker,100,,,Duck,92,Hawk,97,FInch,75,Seagull,93,Pheasant,100,Pidgeon,100,Robin,95,Finch,99,,,Finch,97,,,Finch,95,Vulture,100,Finch,86,FInch,96,,,,,Dove,92,,,FInch,92,Finch,95,FInch,99,
+2022-06-05 14:38:26,2022-06-05 15:06:09,IP Address,*******,100,1662,True,2022-06-05 15:06:09,R_1CkJQKcvdF5lGd8,*******,*******,*******,*******,*******,*******,anonymous,EN,5bc9ff771760a8000115b8f7,"I agree to participate and share my data, and I'm ready to start!",39,69,A city,United States,Illinois,0.603,0.603,30.157,1,"Dove 
+Duck
+Inca
+Bluebird
+Cardinal
+Eagle",,,Blackbird,10,Finch,61,,,Finch,18,Orioles,5,Crane,7,Hummingbird,80,Heron,9,Eagle,70,Warbler,4,Falcon,11,,,,,,,Stilt,44,,,?,0,?,5,Woodpecker bluebird,12,Warbler,6,Brewers blackbird,17,Stork,19,,,Wren,6,,,,,,,Cedar waxwing,91,?,0,,,Duck,22,Wren,8,,,Heron,39,Woodpecker,93,Seagull,9,,,Bluebird,47,?,6,Wren,10,Seagull,26,No idea,5,,,,,Crane,20,Crane,21,Owl,90,,,Duck,7,,,,,Wren,60,,,,,Orioles,10,Mallard duck,80,Mourning doves,28,,,Cardinal,93,Wren,15,,,Finch,9,Goose,71,,,,,Falcon,78,Orioles,57,,,No idea,7,,,,,,,,,Blackbird,19,Egret,15,Pheasant,94,Pigeon,54,Hummingbird,70,,,,,No idea,12,No idea,6,,,,,Orioles,9,,,Grossbeak,17,Grossbeak,6,Not pretty,6,Coot,8,Wren,46,Finch,40,Finch,40,

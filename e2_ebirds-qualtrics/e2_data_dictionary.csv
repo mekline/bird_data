@@ -1,0 +1,220 @@
+column_name,question_text,qualtrics_string,bird_id,new_column_name
+StartDate,Start Date,"{""ImportId"":""startDate"",""timeZone"":""America/Denver""}",NA,StartDate
+EndDate,End Date,"{""ImportId"":""endDate"",""timeZone"":""America/Denver""}",NA,EndDate
+Status,Response Type,"{""ImportId"":""status""}",NA,Status
+IPAddress,IP Address,"{""ImportId"":""ipAddress""}",NA,IPAddress
+Progress,Progress,"{""ImportId"":""progress""}",NA,Progress
+Duration (in seconds),Duration (in seconds),"{""ImportId"":""duration""}",NA,Duration
+Finished,Finished,"{""ImportId"":""finished""}",NA,Finished
+RecordedDate,Recorded Date,"{""ImportId"":""recordedDate"",""timeZone"":""America/Denver""}",NA,RecordedDate
+ResponseId,Response ID,"{""ImportId"":""_recordId""}",NA,ResponseId
+RecipientLastName,Recipient Last Name,"{""ImportId"":""recipientLastName""}",NA,RecipientLastName
+RecipientFirstName,Recipient First Name,"{""ImportId"":""recipientFirstName""}",NA,RecipientFirstName
+RecipientEmail,Recipient Email,"{""ImportId"":""recipientEmail""}",NA,RecipientEmail
+ExternalReference,External Data Reference,"{""ImportId"":""externalDataReference""}",NA,ExternalReference
+LocationLatitude,Location Latitude,"{""ImportId"":""locationLatitude""}",NA,LocationLatitude
+LocationLongitude,Location Longitude,"{""ImportId"":""locationLongitude""}",NA,LocationLongitude
+DistributionChannel,Distribution Channel,"{""ImportId"":""distributionChannel""}",NA,DistributionChannel
+UserLanguage,User Language,"{""ImportId"":""userLanguage""}",NA,UserLanguage
+Q39,"Paste your unique Prolific ID code below and click ""Next"" to go on to the survey","{""ImportId"":""QID43_TEXT""}",NA,prolific_id
+Q16,"If you agree, please click the statement below, then hit next to move on.","{""ImportId"":""QID20""}",NA,Q16
+Q31_5,"To start, please tell us how much you think you know about wild birds: - .","{""ImportId"":""QID35_5""}",NA,self_rate_bird_knowledge
+Q40_5,How much do you pay attention to wild birds in your everyday life? - .,"{""ImportId"":""QID44_5""}",NA,attention_paid_to_birds
+Q22,"Do you live in a city, a suburb, or a rural area?","{""ImportId"":""QID26""}",NA,neighborhood_type
+Q41,What country do you live in?,"{""ImportId"":""QID45""}",NA,country
+Q32,What state or province do you live in?,"{""ImportId"":""QID36_TEXT""}",NA,state_province
+Q23_First Click,Timing - First Click,"{""ImportId"":""QID27_FIRST_CLICK""}",NA,Q23_First Click
+Q23_Last Click,Timing - Last Click,"{""ImportId"":""QID27_LAST_CLICK""}",NA,Q23_Last Click
+Q23_Page Submit,Timing - Page Submit,"{""ImportId"":""QID27_PAGE_SUBMIT""}",NA,Q23_Page Submit
+Q23_Click Count,Timing - Click Count,"{""ImportId"":""QID27_CLICK_COUNT""}",NA,Q23_Click Count
+Q21,"List as many wild bird names as you can in the next 30 seconds. Please list each bird on its own line, like this:
+Bird 1Bird 2Etc.","{""ImportId"":""QID25_TEXT""}",NA,generated_bird_list
+11_Q30,aldfly - What is the name of this bird?,"{""ImportId"":""11_QID34_TEXT""}",aldfly,bird_name_guess.aldfly
+11_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - aldfly - .,"{""ImportId"":""11_QID42_19""}",aldfly,bird_seen_before.aldfly
+12_Q30,amecro - What is the name of this bird?,"{""ImportId"":""12_QID34_TEXT""}",amecro,bird_name_guess.amecro
+12_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - amecro - .,"{""ImportId"":""12_QID42_19""}",amecro,bird_seen_before.amecro
+13_Q30,amegfi - What is the name of this bird?,"{""ImportId"":""13_QID34_TEXT""}",amegfi,bird_name_guess.amegfi
+13_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - amegfi - .,"{""ImportId"":""13_QID42_19""}",amegfi,bird_seen_before.amegfi
+14_Q30,amekes - What is the name of this bird?,"{""ImportId"":""14_QID34_TEXT""}",amekes,bird_name_guess.amekes
+14_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - amekes - .,"{""ImportId"":""14_QID42_19""}",amekes,bird_seen_before.amekes
+15_Q30,amered - What is the name of this bird?,"{""ImportId"":""15_QID34_TEXT""}",amered,bird_name_guess.amered
+15_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - amered - .,"{""ImportId"":""15_QID42_19""}",amered,bird_seen_before.amered
+16_Q30,amerob - What is the name of this bird?,"{""ImportId"":""16_QID34_TEXT""}",amerob,bird_name_guess.amerob
+16_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - amerob - .,"{""ImportId"":""16_QID42_19""}",amerob,bird_seen_before.amerob
+17_Q30,anhing - What is the name of this bird?,"{""ImportId"":""17_QID34_TEXT""}",anhing,bird_name_guess.anhing
+17_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - anhing - .,"{""ImportId"":""17_QID42_19""}",anhing,bird_seen_before.anhing
+18_Q30,annhum - What is the name of this bird?,"{""ImportId"":""18_QID34_TEXT""}",annhum,bird_name_guess.annhum
+18_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - annhum - .,"{""ImportId"":""18_QID42_19""}",annhum,bird_seen_before.annhum
+19_Q30,arcter - What is the name of this bird?,"{""ImportId"":""19_QID34_TEXT""}",arcter,bird_name_guess.arcter
+19_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - arcter - .,"{""ImportId"":""19_QID42_19""}",arcter,bird_seen_before.arcter
+20_Q30,baleag - What is the name of this bird?,"{""ImportId"":""20_QID34_TEXT""}",baleag,bird_name_guess.baleag
+20_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - baleag - .,"{""ImportId"":""20_QID42_19""}",baleag,bird_seen_before.baleag
+21_Q30,barswa - What is the name of this bird?,"{""ImportId"":""21_QID34_TEXT""}",barswa,bird_name_guess.barswa
+21_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - barswa - .,"{""ImportId"":""21_QID42_19""}",barswa,bird_seen_before.barswa
+22_Q30,bcnher - What is the name of this bird?,"{""ImportId"":""22_QID34_TEXT""}",bcnher,bird_name_guess.bcnher
+22_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - bcnher - .,"{""ImportId"":""22_QID42_19""}",bcnher,bird_seen_before.bcnher
+23_Q30,belkin1 - What is the name of this bird?,"{""ImportId"":""23_QID34_TEXT""}",belkin1,bird_name_guess.belkin1
+23_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - belkin1 - .,"{""ImportId"":""23_QID42_19""}",belkin1,bird_seen_before.belkin1
+24_Q30,bkbcuc - What is the name of this bird?,"{""ImportId"":""24_QID34_TEXT""}",bkbcuc,bird_name_guess.bkbcuc
+24_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - bkbcuc - .,"{""ImportId"":""24_QID42_19""}",bkbcuc,bird_seen_before.bkbcuc
+25_Q30,bkcchi - What is the name of this bird?,"{""ImportId"":""25_QID34_TEXT""}",bkcchi,bird_name_guess.bkcchi
+25_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - bkcchi - .,"{""ImportId"":""25_QID42_19""}",bkcchi,bird_seen_before.bkcchi
+26_Q30,bknsti - What is the name of this bird?,"{""ImportId"":""26_QID34_TEXT""}",bknsti,bird_name_guess.bknsti
+26_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - bknsti - .,"{""ImportId"":""26_QID42_19""}",bknsti,bird_seen_before.bknsti
+27_Q30,blkvul - What is the name of this bird?,"{""ImportId"":""27_QID34_TEXT""}",blkvul,bird_name_guess.blkvul
+27_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - blkvul - .,"{""ImportId"":""27_QID42_19""}",blkvul,bird_seen_before.blkvul
+28_Q30,blueth - What is the name of this bird?,"{""ImportId"":""28_QID34_TEXT""}",blueth,bird_name_guess.blueth
+28_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - blueth - .,"{""ImportId"":""28_QID42_19""}",blueth,bird_seen_before.blueth
+29_Q30,blugrb1 - What is the name of this bird?,"{""ImportId"":""29_QID34_TEXT""}",blugrb1,bird_name_guess.blugrb1
+29_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - blugrb1 - .,"{""ImportId"":""29_QID42_19""}",blugrb1,bird_seen_before.blugrb1
+30_Q30,blujay - What is the name of this bird?,"{""ImportId"":""30_QID34_TEXT""}",blujay,bird_name_guess.blujay
+30_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - blujay - .,"{""ImportId"":""30_QID42_19""}",blujay,bird_seen_before.blujay
+31_Q30,bnhcow - What is the name of this bird?,"{""ImportId"":""31_QID34_TEXT""}",bnhcow,bird_name_guess.bnhcow
+31_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - bnhcow - .,"{""ImportId"":""31_QID42_19""}",bnhcow,bird_seen_before.bnhcow
+32_Q30,brebla - What is the name of this bird?,"{""ImportId"":""32_QID34_TEXT""}",brebla,bird_name_guess.brebla
+32_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - brebla - .,"{""ImportId"":""32_QID42_19""}",brebla,bird_seen_before.brebla
+33_Q30,brnpel - What is the name of this bird?,"{""ImportId"":""33_QID34_TEXT""}",brnpel,bird_name_guess.brnpel
+33_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - brnpel - .,"{""ImportId"":""33_QID42_19""}",brnpel,bird_seen_before.brnpel
+34_Q30,brwhaw - What is the name of this bird?,"{""ImportId"":""34_QID34_TEXT""}",brwhaw,bird_name_guess.brwhaw
+34_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - brwhaw - .,"{""ImportId"":""34_QID42_19""}",brwhaw,bird_seen_before.brwhaw
+35_Q30,buggna - What is the name of this bird?,"{""ImportId"":""35_QID34_TEXT""}",buggna,bird_name_guess.buggna
+35_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - buggna - .,"{""ImportId"":""35_QID42_19""}",buggna,bird_seen_before.buggna
+36_Q30,calqua - What is the name of this bird?,"{""ImportId"":""36_QID34_TEXT""}",calqua,bird_name_guess.calqua
+36_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - calqua - .,"{""ImportId"":""36_QID42_19""}",calqua,bird_seen_before.calqua
+37_Q30,cangoo - What is the name of this bird?,"{""ImportId"":""37_QID34_TEXT""}",cangoo,bird_name_guess.cangoo
+37_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - cangoo - .,"{""ImportId"":""37_QID42_19""}",cangoo,bird_seen_before.cangoo
+38_Q30,categr - What is the name of this bird?,"{""ImportId"":""38_QID34_TEXT""}",categr,bird_name_guess.categr
+38_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - categr - .,"{""ImportId"":""38_QID42_19""}",categr,bird_seen_before.categr
+39_Q30,cedwax - What is the name of this bird?,"{""ImportId"":""39_QID34_TEXT""}",cedwax,bird_name_guess.cedwax
+39_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - cedwax - .,"{""ImportId"":""39_QID42_19""}",cedwax,bird_seen_before.cedwax
+40_Q30,comgal1 - What is the name of this bird?,"{""ImportId"":""40_QID34_TEXT""}",comgal1,bird_name_guess.comgal1
+40_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - comgal1 - .,"{""ImportId"":""40_QID42_19""}",comgal1,bird_seen_before.comgal1
+41_Q30,comgra - What is the name of this bird?,"{""ImportId"":""41_QID34_TEXT""}",comgra,bird_name_guess.comgra
+41_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - comgra - .,"{""ImportId"":""41_QID42_19""}",comgra,bird_seen_before.comgra
+42_Q30,comloo - What is the name of this bird?,"{""ImportId"":""42_QID34_TEXT""}",comloo,bird_name_guess.comloo
+42_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - comloo - .,"{""ImportId"":""42_QID42_19""}",comloo,bird_seen_before.comloo
+43_Q30,comred - What is the name of this bird?,"{""ImportId"":""43_QID34_TEXT""}",comred,bird_name_guess.comred
+43_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - comred - .,"{""ImportId"":""43_QID42_19""}",comred,bird_seen_before.comred
+44_Q30,daejun - What is the name of this bird?,"{""ImportId"":""44_QID34_TEXT""}",daejun,bird_name_guess.daejun
+44_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - daejun - .,"{""ImportId"":""44_QID42_19""}",daejun,bird_seen_before.daejun
+45_Q30,doccor - What is the name of this bird?,"{""ImportId"":""45_QID34_TEXT""}",doccor,bird_name_guess.doccor
+45_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - doccor - .,"{""ImportId"":""45_QID42_19""}",doccor,bird_seen_before.doccor
+46_Q30,dowwoo - What is the name of this bird?,"{""ImportId"":""46_QID34_TEXT""}",dowwoo,bird_name_guess.dowwoo
+46_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - dowwoo - .,"{""ImportId"":""46_QID42_19""}",dowwoo,bird_seen_before.dowwoo
+47_Q30,dunlin - What is the name of this bird?,"{""ImportId"":""47_QID34_TEXT""}",dunlin,bird_name_guess.dunlin
+47_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - dunlin - .,"{""ImportId"":""47_QID42_19""}",dunlin,bird_seen_before.dunlin
+48_Q30,eargre - What is the name of this bird?,"{""ImportId"":""48_QID34_TEXT""}",eargre,bird_name_guess.eargre
+48_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - eargre - .,"{""ImportId"":""48_QID42_19""}",eargre,bird_seen_before.eargre
+49_Q30,easblu - What is the name of this bird?,"{""ImportId"":""49_QID34_TEXT""}",easblu,bird_name_guess.easblu
+49_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - easblu - .,"{""ImportId"":""49_QID42_19""}",easblu,bird_seen_before.easblu
+50_Q30,easkin - What is the name of this bird?,"{""ImportId"":""50_QID34_TEXT""}",easkin,bird_name_guess.easkin
+50_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - easkin - .,"{""ImportId"":""50_QID42_19""}",easkin,bird_seen_before.easkin
+51_Q30,eursta - What is the name of this bird?,"{""ImportId"":""51_QID34_TEXT""}",eursta,bird_name_guess.eursta
+51_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - eursta - .,"{""ImportId"":""51_QID42_19""}",eursta,bird_seen_before.eursta
+52_Q30,glagul - What is the name of this bird?,"{""ImportId"":""52_QID34_TEXT""}",glagul,bird_name_guess.glagul
+52_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - glagul - .,"{""ImportId"":""52_QID42_19""}",glagul,bird_seen_before.glagul
+53_Q30,gloibi - What is the name of this bird?,"{""ImportId"":""53_QID34_TEXT""}",gloibi,bird_name_guess.gloibi
+53_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - gloibi - .,"{""ImportId"":""53_QID42_19""}",gloibi,bird_seen_before.gloibi
+54_Q30,gnwtea - What is the name of this bird?,"{""ImportId"":""54_QID34_TEXT""}",gnwtea,bird_name_guess.gnwtea
+54_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - gnwtea - .,"{""ImportId"":""54_QID42_19""}",gnwtea,bird_seen_before.gnwtea
+55_Q30,gockin - What is the name of this bird?,"{""ImportId"":""55_QID34_TEXT""}",gockin,bird_name_guess.gockin
+55_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - gockin - .,"{""ImportId"":""55_QID42_19""}",gockin,bird_seen_before.gockin
+56_Q30,grbher3 - What is the name of this bird?,"{""ImportId"":""56_QID34_TEXT""}",grbher3,bird_name_guess.grbher3
+56_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - grbher3 - .,"{""ImportId"":""56_QID42_19""}",grbher3,bird_seen_before.grbher3
+57_Q30,greegr - What is the name of this bird?,"{""ImportId"":""57_QID34_TEXT""}",greegr,bird_name_guess.greegr
+57_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - greegr - .,"{""ImportId"":""57_QID42_19""}",greegr,bird_seen_before.greegr
+58_Q30,grhowl - What is the name of this bird?,"{""ImportId"":""58_QID34_TEXT""}",grhowl,bird_name_guess.grhowl
+58_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - grhowl - .,"{""ImportId"":""58_QID42_19""}",grhowl,bird_seen_before.grhowl
+59_Q30,grycat - What is the name of this bird?,"{""ImportId"":""59_QID34_TEXT""}",grycat,bird_name_guess.grycat
+59_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - grycat - .,"{""ImportId"":""59_QID42_19""}",grycat,bird_seen_before.grycat
+60_Q30,gwfgoo - What is the name of this bird?,"{""ImportId"":""60_QID34_TEXT""}",gwfgoo,bird_name_guess.gwfgoo
+60_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - gwfgoo - .,"{""ImportId"":""60_QID42_19""}",gwfgoo,bird_seen_before.gwfgoo
+61_Q30,horlar - What is the name of this bird?,"{""ImportId"":""61_QID34_TEXT""}",horlar,bird_name_guess.horlar
+61_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - horlar - .,"{""ImportId"":""61_QID42_19""}",horlar,bird_seen_before.horlar
+62_Q30,houfin - What is the name of this bird?,"{""ImportId"":""62_QID34_TEXT""}",houfin,bird_name_guess.houfin
+62_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - houfin - .,"{""ImportId"":""62_QID42_19""}",houfin,bird_seen_before.houfin
+63_Q30,houspa - What is the name of this bird?,"{""ImportId"":""63_QID34_TEXT""}",houspa,bird_name_guess.houspa
+63_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - houspa - .,"{""ImportId"":""63_QID42_19""}",houspa,bird_seen_before.houspa
+64_Q30,houwre - What is the name of this bird?,"{""ImportId"":""64_QID34_TEXT""}",houwre,bird_name_guess.houwre
+64_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - houwre - .,"{""ImportId"":""64_QID42_19""}",houwre,bird_seen_before.houwre
+65_Q30,indbun - What is the name of this bird?,"{""ImportId"":""65_QID34_TEXT""}",indbun,bird_name_guess.indbun
+65_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - indbun - .,"{""ImportId"":""65_QID42_19""}",indbun,bird_seen_before.indbun
+66_Q30,magwar - What is the name of this bird?,"{""ImportId"":""66_QID34_TEXT""}",magwar,bird_name_guess.magwar
+66_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - magwar - .,"{""ImportId"":""66_QID42_19""}",magwar,bird_seen_before.magwar
+67_Q30,mallar3 - What is the name of this bird?,"{""ImportId"":""67_QID34_TEXT""}",mallar3,bird_name_guess.mallar3
+67_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - mallar3 - .,"{""ImportId"":""67_QID42_19""}",mallar3,bird_seen_before.mallar3
+68_Q30,moudov - What is the name of this bird?,"{""ImportId"":""68_QID34_TEXT""}",moudov,bird_name_guess.moudov
+68_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - moudov - .,"{""ImportId"":""68_QID42_19""}",moudov,bird_seen_before.moudov
+69_Q30,mutswa - What is the name of this bird?,"{""ImportId"":""69_QID34_TEXT""}",mutswa,bird_name_guess.mutswa
+69_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - mutswa - .,"{""ImportId"":""69_QID42_19""}",mutswa,bird_seen_before.mutswa
+70_Q30,norcar - What is the name of this bird?,"{""ImportId"":""70_QID34_TEXT""}",norcar,bird_name_guess.norcar
+70_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - norcar - .,"{""ImportId"":""70_QID42_19""}",norcar,bird_seen_before.norcar
+71_Q30,norfli - What is the name of this bird?,"{""ImportId"":""71_QID34_TEXT""}",norfli,bird_name_guess.norfli
+71_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - norfli - .,"{""ImportId"":""71_QID42_19""}",norfli,bird_seen_before.norfli
+72_Q30,normoc - What is the name of this bird?,"{""ImportId"":""72_QID34_TEXT""}",normoc,bird_name_guess.normoc
+72_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - normoc - .,"{""ImportId"":""72_QID42_19""}",normoc,bird_seen_before.normoc
+73_Q30,norpar - What is the name of this bird?,"{""ImportId"":""73_QID34_TEXT""}",norpar,bird_name_guess.norpar
+73_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - norpar - .,"{""ImportId"":""73_QID42_19""}",norpar,bird_seen_before.norpar
+74_Q30,norpin - What is the name of this bird?,"{""ImportId"":""74_QID34_TEXT""}",norpin,bird_name_guess.norpin
+74_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - norpin - .,"{""ImportId"":""74_QID42_19""}",norpin,bird_seen_before.norpin
+75_Q30,orcori - What is the name of this bird?,"{""ImportId"":""75_QID34_TEXT""}",orcori,bird_name_guess.orcori
+75_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - orcori - .,"{""ImportId"":""75_QID42_19""}",orcori,bird_seen_before.orcori
+76_Q30,pagplo - What is the name of this bird?,"{""ImportId"":""76_QID34_TEXT""}",pagplo,bird_name_guess.pagplo
+76_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - pagplo - .,"{""ImportId"":""76_QID42_19""}",pagplo,bird_seen_before.pagplo
+77_Q30,perfal - What is the name of this bird?,"{""ImportId"":""77_QID34_TEXT""}",perfal,bird_name_guess.perfal
+77_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - perfal - .,"{""ImportId"":""77_QID42_19""}",perfal,bird_seen_before.perfal
+78_Q30,pingro - What is the name of this bird?,"{""ImportId"":""78_QID34_TEXT""}",pingro,bird_name_guess.pingro
+78_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - pingro - .,"{""ImportId"":""78_QID42_19""}",pingro,bird_seen_before.pingro
+79_Q30,purmar - What is the name of this bird?,"{""ImportId"":""79_QID34_TEXT""}",purmar,bird_name_guess.purmar
+79_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - purmar - .,"{""ImportId"":""79_QID42_19""}",purmar,bird_seen_before.purmar
+80_Q30,rebnut - What is the name of this bird?,"{""ImportId"":""80_QID34_TEXT""}",rebnut,bird_name_guess.rebnut
+80_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rebnut - .,"{""ImportId"":""80_QID42_19""}",rebnut,bird_seen_before.rebnut
+81_Q30,rebwoo - What is the name of this bird?,"{""ImportId"":""81_QID34_TEXT""}",rebwoo,bird_name_guess.rebwoo
+81_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rebwoo - .,"{""ImportId"":""81_QID42_19""}",rebwoo,bird_seen_before.rebwoo
+82_Q30,reevir1 - What is the name of this bird?,"{""ImportId"":""82_QID34_TEXT""}",reevir1,bird_name_guess.reevir1
+82_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - reevir1 - .,"{""ImportId"":""82_QID42_19""}",reevir1,bird_seen_before.reevir1
+83_Q30,renpha - What is the name of this bird?,"{""ImportId"":""83_QID34_TEXT""}",renpha,bird_name_guess.renpha
+83_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - renpha - .,"{""ImportId"":""83_QID42_19""}",renpha,bird_seen_before.renpha
+84_Q30,rethaw - What is the name of this bird?,"{""ImportId"":""84_QID34_TEXT""}",rethaw,bird_name_guess.rethaw
+84_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rethaw - .,"{""ImportId"":""84_QID42_19""}",rethaw,bird_seen_before.rethaw
+85_Q30,rewbla - What is the name of this bird?,"{""ImportId"":""85_QID34_TEXT""}",rewbla,bird_name_guess.rewbla
+85_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rewbla - .,"{""ImportId"":""85_QID42_19""}",rewbla,bird_seen_before.rewbla
+86_Q30,ribgul - What is the name of this bird?,"{""ImportId"":""86_QID34_TEXT""}",ribgul,bird_name_guess.ribgul
+86_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - ribgul - .,"{""ImportId"":""86_QID42_19""}",ribgul,bird_seen_before.ribgul
+87_Q30,rinphe - What is the name of this bird?,"{""ImportId"":""87_QID34_TEXT""}",rinphe,bird_name_guess.rinphe
+87_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rinphe - .,"{""ImportId"":""87_QID42_19""}",rinphe,bird_seen_before.rinphe
+88_Q30,rocpig - What is the name of this bird?,"{""ImportId"":""88_QID34_TEXT""}",rocpig,bird_name_guess.rocpig
+88_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rocpig - .,"{""ImportId"":""88_QID42_19""}",rocpig,bird_seen_before.rocpig
+89_Q30,rthhum - What is the name of this bird?,"{""ImportId"":""89_QID34_TEXT""}",rthhum,bird_name_guess.rthhum
+89_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - rthhum - .,"{""ImportId"":""89_QID42_19""}",rthhum,bird_seen_before.rthhum
+90_Q30,sctfly - What is the name of this bird?,"{""ImportId"":""90_QID34_TEXT""}",sctfly,bird_name_guess.sctfly
+90_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - sctfly - .,"{""ImportId"":""90_QID42_19""}",sctfly,bird_seen_before.sctfly
+91_Q30,sheowl - What is the name of this bird?,"{""ImportId"":""91_QID34_TEXT""}",sheowl,bird_name_guess.sheowl
+91_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - sheowl - .,"{""ImportId"":""91_QID42_19""}",sheowl,bird_seen_before.sheowl
+92_Q30,snobun - What is the name of this bird?,"{""ImportId"":""92_QID34_TEXT""}",snobun,bird_name_guess.snobun
+92_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - snobun - .,"{""ImportId"":""92_QID42_19""}",snobun,bird_seen_before.snobun
+93_Q30,snogoo - What is the name of this bird?,"{""ImportId"":""93_QID34_TEXT""}",snogoo,bird_name_guess.snogoo
+93_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - snogoo - .,"{""ImportId"":""93_QID42_19""}",snogoo,bird_seen_before.snogoo
+94_Q30,sonspa - What is the name of this bird?,"{""ImportId"":""94_QID34_TEXT""}",sonspa,bird_name_guess.sonspa
+94_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - sonspa - .,"{""ImportId"":""94_QID42_19""}",sonspa,bird_seen_before.sonspa
+95_Q30,turvul - What is the name of this bird?,"{""ImportId"":""95_QID34_TEXT""}",turvul,bird_name_guess.turvul
+95_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - turvul - .,"{""ImportId"":""95_QID42_19""}",turvul,bird_seen_before.turvul
+96_Q30,varthr - What is the name of this bird?,"{""ImportId"":""96_QID34_TEXT""}",varthr,bird_name_guess.varthr
+96_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - varthr - .,"{""ImportId"":""96_QID42_19""}",varthr,bird_seen_before.varthr
+97_Q30,wesmea - What is the name of this bird?,"{""ImportId"":""97_QID34_TEXT""}",wesmea,bird_name_guess.wesmea
+97_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - wesmea - .,"{""ImportId"":""97_QID42_19""}",wesmea,bird_seen_before.wesmea
+98_Q30,whrsan - What is the name of this bird?,"{""ImportId"":""98_QID34_TEXT""}",whrsan,bird_name_guess.whrsan
+98_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - whrsan - .,"{""ImportId"":""98_QID42_19""}",whrsan,bird_seen_before.whrsan
+99_Q30,whwcro - What is the name of this bird?,"{""ImportId"":""99_QID34_TEXT""}",whwcro,bird_name_guess.whwcro
+99_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - whwcro - .,"{""ImportId"":""99_QID42_19""}",whwcro,bird_seen_before.whwcro
+100_Q30,wilpta - What is the name of this bird?,"{""ImportId"":""100_QID34_TEXT""}",wilpta,bird_name_guess.wilpta
+100_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - wilpta - .,"{""ImportId"":""100_QID42_19""}",wilpta,bird_seen_before.wilpta
+101_Q30,y00475 - What is the name of this bird?,"{""ImportId"":""101_QID34_TEXT""}",y00475,bird_name_guess.y00475
+101_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - y00475 - .,"{""ImportId"":""101_QID42_19""}",y00475,bird_seen_before.y00475
+102_Q30,yebcuc - What is the name of this bird?,"{""ImportId"":""102_QID34_TEXT""}",yebcuc,bird_name_guess.yebcuc
+102_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - yebcuc - .,"{""ImportId"":""102_QID42_19""}",yebcuc,bird_seen_before.yebcuc
+103_Q30,yelwar - What is the name of this bird?,"{""ImportId"":""103_QID34_TEXT""}",yelwar,bird_name_guess.yelwar
+103_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - yelwar - .,"{""ImportId"":""103_QID42_19""}",yelwar,bird_seen_before.yelwar
+104_Q30,yerwar - What is the name of this bird?,"{""ImportId"":""104_QID34_TEXT""}",yerwar,bird_name_guess.yerwar
+104_Q38_19,Have you ever seen a live bird of this kind outside of a zoo/museum? - yerwar - .,"{""ImportId"":""104_QID42_19""}",yerwar,bird_seen_before.yerwar
+Q24,Any comments or thoughts you'd like to share with us?,"{""ImportId"":""QID28_TEXT""}",NA,comments
