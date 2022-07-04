@@ -28,7 +28,7 @@ Load the original data, removing the preview entries and some Qualtrics formatti
 
 ```{r load_data}
 #Read in original data, with weird qualtrics column names...
-birds <- read_csv(paste0(here(), '/e2_ebirds-qualtrics/Ebirds Naming Experiment_June 5, 2022_16.34.csv')) %>%
+birds <- read_csv(paste0(here(), '/e2_ebirds-qualtrics/Ebirds Naming Experiment_June 12, 2022_16.43.csv')) %>%
   tail(-2) %>%
   filter(Status != "Survey Preview") #Immediately drop preview data!!
 ```
@@ -107,6 +107,9 @@ participant_level_birds <- birds %>%
   select(-starts_with("Location")) %>%
   select(-starts_with("Q23")) %>%
   select(-one_of("StartDate", "EndDate", "IPAddress", "ExternalReference","prolific_id", "UserLanguage","Q16"))
+
+participant_level_birds <- participant_level_birds %>%
+  mutate(Progress = as.numeric(Progress))
 ```
 
 Get some frequency tables to understand details about our participants
@@ -158,6 +161,20 @@ freq_rate <- participant_level_birds %>%
   summarize(n = n())
 ```
 
+
+```{r freqtable4}
+neighborhood<- participant_level_birds %>%
+  group_by(neighborhood_type) %>%
+  summarize(n = n())
+```
+
+```{r freqtable5}
+country<- participant_level_birds %>%
+  group_by(country, state_province) %>%
+  summarize(n = n())
+```
+
+
 Option to view the dataset to explore other columns
 
 ```{r viewtable}
@@ -168,9 +185,6 @@ Option to view the dataset to explore other columns
 
 Take the item-specific data, and reformat to get 1 response per row.  Add some calculations to make sure we don't unintentionally drop/modify data
 ```{r}
-participant_level_birds <- participant_level_birds %>%
-  mutate(Progress = as.numeric(Progress))
-
 nrow(participant_level_birds)
 ```
 
@@ -198,12 +212,47 @@ birds_responses <- birds_guessname %>%
 
 guesses_per_bird <- birds_responses %>%
   filter(!is.na(response)) %>%
+  group_by(bird_id) %>%
+  summarize(bird_n_guesses = n())
+
+guesses_per_participant <- birds_responses %>%
+  filter(participant_saw_bird) %>%
+  mutate(response_given = !is.na(response)) %>%
   group_by(ResponseId) %>%
-  summarize(n = n())
+  summarize(participant_n_seen = n(), participant_n_guesses = sum(response_given)) %>%
+  mutate(participant_proportion_named = participant_n_guesses/participant_n_seen)
 ```
 
 Total participants `r length(unique(birds$ResponseId))` (should see no change)
 
+
+Remove blank answers where the participant really didn't respond!
+
+```{r}
+birds_responses <- birds_responses %>%
+  filter(participant_saw_bird)
+```
+
+
+# Drop low-quality data!
+
+Drop participants if:
+
+- Progress listed is less than 72 (72 seems to be anywhere within the long block)
+- Duration < 500 (there's a big gap between 300ish (5min) and 500ish; finishing this study in 5min is unreasonable)
+- Birds seen < 30 (This participant, if not caught by the above criteria, still didn't see most of the study)
+
+```{r}
+participant_level_birds <- participant_level_birds %>%
+  left_join(guesses_per_participant) %>%
+  filter(Progress > 70) %>%
+  filter(Duration > 500) %>%
+  filter(participant_n_seen > 30) 
+
+birds_responses <- birds_responses %>%
+  filter(ResponseId %in% participant_level_birds$ResponseId)
+  
+```
 
 
 # Add correct answers
@@ -236,68 +285,117 @@ answer_key <- answer_key %>%
                                              normalized_short_correct == 'mallard' ~ 'duck',
                                              normalized_short_correct == 'goldfinch' ~ 'finch',
                                              normalized_short_correct == 'bluejay' ~ 'jay',
+                                             normalized_correct == 'bluejay' ~ 'jay',
+                                             normalized_correct == 'canadagoose' ~ 'canadiangoose',
                                              TRUE ~ ""))
 
 #normalize response data for matching!
-birds_guessname <- birds_guessname %>%
+birds_responses <- birds_responses %>%
   mutate(normalized_response = tolower(response)) %>%
   mutate(normalized_response = str_replace_all(normalized_response, regex("\\W+"), "")) %>%
   mutate(normalized_short_response = tolower(str_extract(response, '[A-z]+$')))
 ```
+
 Merge the tables...
 ```{r merge_answers}
-birds_guessname <- birds_guessname %>%
+birds_responses <- birds_responses %>%
   left_join(answer_key, by = c("bird_id" = "species_code")) 
 ```
-
 
 ... and calculate correctness!
 
 ```{r calc_answers}
 rightmost_columns = c("bird_id", "response", "normalized_response", "normalized_correct", "exact_correct", "normalized_short_correct", "relaxed_correct" )
 
-birds_guessname <- birds_guessname %>%
+birds_responses <- birds_responses %>%
   mutate(exact_correct = normalized_response == normalized_correct) %>%
   mutate(exact_correct = if_else(is.na(exact_correct), FALSE, exact_correct))%>% 
   mutate(relaxed_correct = str_detect(normalized_response, normalized_short_correct))%>% 
+  mutate(alternate_correct = str_detect(normalized_response, alternate_short_correct)) %>%
   mutate(relaxed_correct = if_else(is.na(relaxed_correct), FALSE, relaxed_correct))%>% 
-  mutate(relaxed_correct = if_else(str_detect(normalized_response, alternate_short_correct), TRUE, relaxed_correct)) %>%
+  mutate(alternate_correct = if_else(is.na(alternate_correct), FALSE, alternate_correct))%>%
+  mutate(relaxed_correct = relaxed_correct | alternate_correct) %>%
   select(-one_of(rightmost_columns), all_of(rightmost_columns ))
 ```
 
 
 Look at correct answers for sanity:
 ```{r}
-correct <- birds_guessname %>%
+correct <- birds_responses %>%
   filter(exact_correct)
-incorrect <- birds_guessname %>%
+
+incorrect <- birds_responses %>%
   filter(!exact_correct)
+
+freq_used <- birds_responses %>%
+  group_by(normalized_response) %>%
+  summarize(n = n())
 ```
 
 Look at additional 'relaxed' correct answers:
 
 ```{r}
-relaxed_correct <- birds_guessname %>%
-  filter(relaxed_correct != exact_correct)
+relaxed_correct <- birds_responses %>%
+  filter(relaxed_correct & !exact_correct)
 ```
 
-Some wrong answers defy categorization!
+(Another large category of wrong answers - just picking a different bird's name)
+
+
+Look at some wrong answers that defy categorization!
 
 ```{r check_wrong}
-wrong_answers <- birds_guessname %>%
+wrong_answers <- birds_responses %>%
   filter(!exact_correct) %>%
   filter(!relaxed_correct) %>%
-  select(one_of("normalized_correct", "response")) %>%
-  arrange(response)
-```
+  filter(!(normalized_response %in% c("","bird","dontknow","idontknow","idk","na","name","notsure","noidea","noclue","unknown","unsure"))) %>%
+  filter(!is.na(response)) %>%
+  select(one_of("order", "family", "bird_id", "ResponseId", "normalized_correct", "normalized_response", "common_name", "response")) %>%
+  arrange(normalized_response)
 
-Make sure all answers are categorized!
+freq_wrong <- wrong_answers %>%
+  group_by(order, family, common_name, bird_id, normalized_response) %>%
+  summarize(n = n())
+
+freq_all <- birds_responses %>%
+  group_by(order, family, common_name, bird_id, normalized_response, exact_correct, relaxed_correct) %>%
+  summarize(n = n())
+
+write_csv(wrong_answers, paste0(here::here(),'/e2_ebirds-qualtrics/wrong_answers.csv'))
+write_csv(freq_wrong, paste0(here::here(),'/e2_ebirds-qualtrics/wrong_answers_summarized.csv'))
+write_csv(birds_responses, paste0(here::here(),'/e2_ebirds-qualtrics/all_answers_long.csv'))
+write_csv(freq_all, paste0(here::here(),'/e2_ebirds-qualtrics/all_answers_summarized.csv'))
+```
+Reshape data again
 
 ```{r}
-nrow(wrong_answers) + nrow(relaxed_correct) + nrow(correct)
+birds_wide <- birds_responses %>%
+  select(one_of("ResponseId", "bird_id", "bird_seen_before", "participant_saw_bird",  "response", "exact_correct")) %>%
+  mutate(bird_seen_before = as.character(bird_seen_before),
+         participant_saw_bird = as.character(participant_saw_bird),
+         exact_correct = as.character(exact_correct)) %>%
+  pivot_wider(id_cols = ResponseId,names_from = bird_id, names_glue = "{bird_id}_{.value}", values_from = c(bird_seen_before,participant_saw_bird,response,exact_correct))
+
+birds_wide <- birds_wide %>%
+  select(sort(names(birds_wide))) %>%
+  select(ResponseId, everything())
+
+birds_all_wide <- participant_level_birds %>%
+  left_join(birds_wide)
+
+write_csv(birds_all_wide, paste0(here::here(),'/e2_ebirds-qualtrics/all_answers_wide.csv'))
 ```
 
-# Old code below!
+```{r}
+coded_answers <- read_csv(paste0(here(), '/e2_ebirds-qualtrics/all_answers_summarized_mod.csv'), guess_max = 10000)
+
+birds_responses_coded <- birds_responses %>%
+  left_join(coded_answers)
+  
+```
+
+
+# ZZZZZZZZZZZZZZZZZZZZOld code below!
 
 
 ## Results!
